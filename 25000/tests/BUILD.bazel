@@ -1,0 +1,8 @@
+cc_test(
+    name = "25304-receipt-test",
+    srcs = ["25304-receipt-test.cc"],
+    deps = [
+        "//25000/src:25304-receipt",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
