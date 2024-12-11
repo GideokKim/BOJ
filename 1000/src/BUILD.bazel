@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "1065-hansu",
+    srcs = ["1065-hansu.cc"],
+    hdrs = ["1065-hansu.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
