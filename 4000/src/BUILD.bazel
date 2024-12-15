@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "4673-self_number",
+    srcs = ["4673-self_number.cc"],
+    hdrs = ["4673-self_number.h"],
+    visibility = ["//4000/tests:__pkg__"],
+)

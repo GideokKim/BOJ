@@ -1,0 +1,8 @@
+cc_test(
+    name = "4673-self_number-test",
+    srcs = ["4673-self_number-test.cc"],
+    deps = [
+        "//4000/src:4673-self_number",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
