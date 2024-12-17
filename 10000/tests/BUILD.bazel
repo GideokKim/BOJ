@@ -1,0 +1,8 @@
+cc_test(
+    name = "10757-big_number_a_plus_b-test",
+    srcs = ["10757-big_number_a_plus_b-test.cc"],
+    deps = [
+        "//10000/src:10757-big_number_a_plus_b",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
