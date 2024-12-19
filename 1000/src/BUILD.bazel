@@ -6,3 +6,10 @@ cc_library(
     hdrs = ["1065-hansu.h"],
     visibility = ["//1000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "1541-lost_parenthesis",
+    srcs = ["1541-lost_parenthesis.cc"],
+    hdrs = ["1541-lost_parenthesis.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)

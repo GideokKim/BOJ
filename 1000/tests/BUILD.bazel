@@ -6,3 +6,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "1541-lost_parenthesis-test",
+    srcs = ["1541-lost_parenthesis-test.cc"],
+    deps = [
+        "//1000/src:1541-lost_parenthesis",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
