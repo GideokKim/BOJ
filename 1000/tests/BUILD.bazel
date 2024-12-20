@@ -1,4 +1,13 @@
 cc_test(
+    name = "1002-turret-test",
+    srcs = ["1002-turret-test.cc"],
+    deps = [
+        "//1000/src:1002-turret",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1065-hansu-test",
     srcs = ["1065-hansu-test.cc"],
     deps = [
