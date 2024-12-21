@@ -24,3 +24,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "1924-2007-test",
+    srcs = ["1924-2007-test.cc"],
+    deps = [
+        "//1000/src:1924-2007",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
