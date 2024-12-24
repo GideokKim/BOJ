@@ -6,3 +6,8 @@ cc_library(
     visibility = ["//2000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "2501_divisors",
+    hdrs = ["2501_divisors.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
