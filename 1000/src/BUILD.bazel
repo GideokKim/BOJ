@@ -22,6 +22,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1629_multiplication",
+    hdrs = ["1629_multiplication.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1924-2007",
     srcs = ["1924-2007.cc"],
     hdrs = ["1924-2007.h"],

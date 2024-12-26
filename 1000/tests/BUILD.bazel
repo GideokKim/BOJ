@@ -26,6 +26,15 @@ cc_test(
 )
 
 cc_test(
+    name = "1629_multiplication_test",
+    srcs = ["1629_multiplication_test.cc"],
+    deps = [
+        "//1000/src:1629_multiplication",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1924-2007-test",
     srcs = ["1924-2007-test.cc"],
     deps = [
