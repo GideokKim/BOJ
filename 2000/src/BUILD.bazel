@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["2501_divisors.h"],
     visibility = ["//2000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "2745_base_conversion",
+    hdrs = ["2745_base_conversion.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
