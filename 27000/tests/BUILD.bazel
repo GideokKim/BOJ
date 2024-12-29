@@ -1,0 +1,8 @@
+cc_test(
+    name = "27323_rectangle_test",
+    srcs = ["27323_rectangle_test.cc"],
+    deps = [
+        "//27000/src:27323_rectangle",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
