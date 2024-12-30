@@ -26,6 +26,15 @@ cc_test(
 )
 
 cc_test(
+    name = "2557_hello_world_test",
+    srcs = ["2557_hello_world_test.cc"],
+    deps = [
+        "//2000/src:2557_hello_world",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2745_base_conversion_test",
     srcs = ["2745_base_conversion_test.cc"],
     deps = [
