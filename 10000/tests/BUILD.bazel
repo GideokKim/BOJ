@@ -6,3 +6,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "10773_zero_test",
+    srcs = ["10773_zero_test.cc"],
+    deps = [
+        "//10000/src:10773_zero",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

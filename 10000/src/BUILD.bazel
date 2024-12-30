@@ -6,3 +6,10 @@ cc_library(
     hdrs = ["10757-big_number_a_plus_b.h"],
     visibility = ["//10000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "10773_zero",
+    hdrs = ["10773_zero.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
