@@ -1,0 +1,9 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "11651_sorting_coordinates_2",
+    hdrs = ["11651_sorting_coordinates_2.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+
