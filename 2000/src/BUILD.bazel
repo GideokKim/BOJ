@@ -25,6 +25,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2562_maximum_value",
+    hdrs = ["2562_maximum_value.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2745_base_conversion",
     hdrs = ["2745_base_conversion.h"],
     visibility = ["//2000/tests:__pkg__"],

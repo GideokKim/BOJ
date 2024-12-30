@@ -35,6 +35,15 @@ cc_test(
 )
 
 cc_test(
+    name = "2562_maximum_value_test",
+    srcs = ["2562_maximum_value_test.cc"],
+    deps = [
+        "//2000/src:2562_maximum_value",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2745_base_conversion_test",
     srcs = ["2745_base_conversion_test.cc"],
     deps = [
