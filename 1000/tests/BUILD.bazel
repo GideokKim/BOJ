@@ -17,6 +17,15 @@ cc_test(
 )
 
 cc_test(
+    name = "1436_film_director_shom_test",
+    srcs = ["1436_film_director_shom_test.cc"],
+    deps = [
+        "//1000/src:1436_film_director_shom",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1541-lost_parenthesis-test",
     srcs = ["1541-lost_parenthesis-test.cc"],
     deps = [

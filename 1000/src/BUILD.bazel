@@ -15,6 +15,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1436_film_director_shom",
+    hdrs = ["1436_film_director_shom.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1541-lost_parenthesis",
     srcs = ["1541-lost_parenthesis.cc"],
     hdrs = ["1541-lost_parenthesis.h"],
