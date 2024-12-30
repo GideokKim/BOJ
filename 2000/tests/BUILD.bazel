@@ -51,3 +51,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "2903_planina_test",
+    srcs = ["2903_planina_test.cc"],
+    deps = [
+        "//2000/src:2903_planina",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

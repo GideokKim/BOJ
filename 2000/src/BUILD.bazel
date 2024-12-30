@@ -35,3 +35,9 @@ cc_library(
     hdrs = ["2745_base_conversion.h"],
     visibility = ["//2000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "2903_planina",
+    hdrs = ["2903_planina.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
