@@ -1,0 +1,8 @@
+cc_test(
+    name = "28702_fizzbuzz_test",
+    srcs = ["28702_fizzbuzz_test.cc"],
+    deps = [
+        "//28000/src:28702_fizzbuzz",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

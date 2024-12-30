@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "28702_fizzbuzz",
+    hdrs = ["28702_fizzbuzz.h"],
+    visibility = ["//28000/tests:__pkg__"],
+)
+
