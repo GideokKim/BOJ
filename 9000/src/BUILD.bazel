@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "9375_incognito",
+    hdrs = ["9375_incognito.h"],
+    visibility = ["//9000/tests:__pkg__"],
+)
+
