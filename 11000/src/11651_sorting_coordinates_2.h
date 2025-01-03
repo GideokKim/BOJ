@@ -1,5 +1,5 @@
-#ifndef BOJ_27000_SRC_27323_RECTANGLE_H_
-#define BOJ_27000_SRC_27323_RECTANGLE_H_
+#ifndef BOJ_11000_SRC_11651_SORTING_COORDINATES_2_H_
+#define BOJ_11000_SRC_11651_SORTING_COORDINATES_2_H_
 
 #include <functional>
 #include <iostream>
@@ -55,4 +55,4 @@ int main() {
 }
 #endif  // BOJ_SUBMIT
 
-#endif  // BOJ_27000_SRC_27323_RECTANGLE_H_
+#endif  // BOJ_11000_SRC_11651_SORTING_COORDINATES_2_H_
