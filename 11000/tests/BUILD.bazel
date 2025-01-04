@@ -8,6 +8,15 @@ cc_test(
 )
 
 cc_test(
+    name = "11051_binomial_coefficient_2_test",
+    srcs = ["11051_binomial_coefficient_2_test.cc"],
+    deps = [
+        "//11000/src:11051_binomial_coefficient_2",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "11651_sorting_coordinates_2_test",
     srcs = ["11651_sorting_coordinates_2_test.cc"],
     deps = [
