@@ -1,0 +1,9 @@
+cc_test(
+    name = "24082_cube_test",
+    srcs = ["24082_cube_test.cc"],
+    deps = [
+        "//24000/src:24082_cube",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+

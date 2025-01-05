@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "24082_cube",
+    hdrs = ["24082_cube.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
+
