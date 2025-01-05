@@ -6,3 +6,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "27327_hour_test",
+    srcs = ["27327_hour_test.cc"],
+    deps = [
+        "//27000/src:27327_hour",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

@@ -6,3 +6,8 @@ cc_library(
     visibility = ["//27000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "27327_hour",
+    hdrs = ["27327_hour.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
