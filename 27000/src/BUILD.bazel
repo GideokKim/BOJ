@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["27327_hour.h"],
     visibility = ["//27000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "27331_two_digit_number",
+    hdrs = ["27331_two_digit_number.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)

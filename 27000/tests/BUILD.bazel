@@ -15,3 +15,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "27331_two_digit_number_test",
+    srcs = ["27331_two_digit_number_test.cc"],
+    deps = [
+        "//27000/src:27331_two_digit_number",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
