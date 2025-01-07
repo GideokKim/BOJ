@@ -6,3 +6,8 @@ cc_library(
     visibility = ["//6000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "6190_another_cow_number_game",
+    hdrs = ["6190_another_cow_number_game.h"],
+    visibility = ["//6000/tests:__pkg__"],
+)
