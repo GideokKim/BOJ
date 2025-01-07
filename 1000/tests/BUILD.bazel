@@ -17,6 +17,15 @@ cc_test(
 )
 
 cc_test(
+    name = "1259_palindrome_numbers_test",
+    srcs = ["1259_palindrome_numbers_test.cc"],
+    deps = [
+        "//1000/src:1259_palindrome_numbers",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1436_film_director_shom_test",
     srcs = ["1436_film_director_shom_test.cc"],
     deps = [
