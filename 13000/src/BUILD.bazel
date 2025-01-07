@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "13222_matches",
+    hdrs = ["13222_matches.h"],
+    visibility = ["//13000/tests:__pkg__"],
+)
+
