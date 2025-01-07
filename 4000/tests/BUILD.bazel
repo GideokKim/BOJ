@@ -6,3 +6,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "4597_parity_test",
+    srcs = ["4597_parity_test.cc"],
+    deps = [
+        "//4000/src:4597_parity",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

@@ -6,3 +6,9 @@ cc_library(
     hdrs = ["4673-self_number.h"],
     visibility = ["//4000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "4597_parity",
+    hdrs = ["4597_parity.h"],
+    visibility = ["//4000/tests:__pkg__"],
+)
