@@ -6,3 +6,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "30979_caring_for_kindergarten_test",
+    srcs = ["30979_caring_for_kindergarten_test.cc"],
+    deps = [
+        "//30000/src:30979_caring_for_kindergarten",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
