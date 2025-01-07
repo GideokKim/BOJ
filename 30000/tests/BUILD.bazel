@@ -1,0 +1,8 @@
+cc_test(
+    name = "30033_rust_study_test",
+    srcs = ["30033_rust_study_test.cc"],
+    deps = [
+        "//30000/src:30033_rust_study",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

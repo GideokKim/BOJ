@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "30033_rust_study",
+    hdrs = ["30033_rust_study.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
+
