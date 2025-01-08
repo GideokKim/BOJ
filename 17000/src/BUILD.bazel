@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "17224_why_did_apc_become_subtask_competition",
+    hdrs = ["17224_why_did_apc_become_subtask_competition.h"],
+    visibility = ["//17000/tests:__pkg__"],
+)
+
