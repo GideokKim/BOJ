@@ -1,4 +1,13 @@
 cc_test(
+    name = "2090_harmonic_mean_test",
+    srcs = ["2090_harmonic_mean_test.cc"],
+    deps = [
+        "//2000/src:2090_harmonic_mean",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2108_statistics_test",
     srcs = ["2108_statistics_test.cc"],
     deps = [
