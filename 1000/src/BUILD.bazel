@@ -34,6 +34,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1543_document_search",
+    hdrs = ["1543_document_search.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1629_multiplication",
     hdrs = ["1629_multiplication.h"],
     visibility = ["//1000/tests:__pkg__"],
