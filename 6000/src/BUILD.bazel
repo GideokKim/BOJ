@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["6190_another_cow_number_game.h"],
     visibility = ["//6000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "6840_who_is_in_the_middle",
+    hdrs = ["6840_who_is_in_the_middle.h"],
+    visibility = ["//6000/tests:__pkg__"],
+)
