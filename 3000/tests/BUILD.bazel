@@ -1,0 +1,9 @@
+cc_test(
+    name = "3276_icons_test",
+    srcs = ["3276_icons_test.cc"],
+    deps = [
+        "//3000/src:3276_icons",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+

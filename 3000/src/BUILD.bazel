@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "3276_icons",
+    hdrs = ["3276_icons.h"],
+    visibility = ["//3000/tests:__pkg__"],
+)
