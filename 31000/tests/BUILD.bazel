@@ -1,0 +1,8 @@
+cc_test(
+    name = "31064_minutes_test",
+    srcs = ["31064_minutes_test.cc"],
+    deps = [
+        "//31000/src:31064_minutes",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
