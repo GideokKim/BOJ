@@ -5,3 +5,9 @@ cc_library(
     hdrs = ["3276_icons.h"],
     visibility = ["//3000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "3622_halloween_holidays",
+    hdrs = ["3622_halloween_holidays.h"],
+    visibility = ["//3000/tests:__pkg__"],
+)

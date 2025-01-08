@@ -7,3 +7,11 @@ cc_test(
     ],
 )
 
+cc_test(
+    name = "3622_halloween_holidays_test",
+    srcs = ["3622_halloween_holidays_test.cc"],
+    deps = [
+        "//3000/src:3622_halloween_holidays",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
