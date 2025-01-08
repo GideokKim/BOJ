@@ -17,6 +17,15 @@ cc_test(
 )
 
 cc_test(
+    name = "2355_sigma_test",
+    srcs = ["2355_sigma_test.cc"],
+    deps = [
+        "//2000/src:2355_sigma",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2438_get_a_star_1_test",
     srcs = ["2438_get_a_star_1_test.cc"],
     deps = [
