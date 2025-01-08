@@ -1,0 +1,9 @@
+cc_test(
+    name = "5598_caesar_cipher_test",
+    srcs = ["5598_caesar_cipher_test.cc"],
+    deps = [
+        "//5000/src:5598_caesar_cipher",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+

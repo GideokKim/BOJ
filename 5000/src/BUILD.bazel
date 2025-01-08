@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "5598_caesar_cipher",
+    hdrs = ["5598_caesar_cipher.h"],
+    visibility = ["//5000/tests:__pkg__"],
+)
+
