@@ -55,4 +55,4 @@ int main() {
 }
 #endif  // BOJ_SUBMIT
 
-#endif  // BOJ_6000_SRC_6190_ANOTHER_COW_NUMBER_GAME_H_
+#endif  // BOJ_3000_SRC_3276_ICONS_H_
