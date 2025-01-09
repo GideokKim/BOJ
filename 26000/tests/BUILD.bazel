@@ -1,0 +1,8 @@
+cc_test(
+    name = "26562_presidents_test",
+    srcs = ["26562_presidents_test.cc"],
+    deps = [
+        "//26000/src:26562_presidents",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
