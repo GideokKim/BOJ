@@ -78,3 +78,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "1932_integer_triangle_test",
+    srcs = ["1932_integer_triangle_test.cc"],
+    deps = [
+        "//1000/src:1932_integer_triangle",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
