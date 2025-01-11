@@ -6,3 +6,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "9506_sum_of_divisors_test",
+    srcs = ["9506_sum_of_divisors_test.cc"],
+    deps = [
+        "//9000/src:9506_sum_of_divisors",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
