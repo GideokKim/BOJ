@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "33161_pencils_2",
+    hdrs = ["33161_pencils_2.h"],
+    visibility = ["//33000/tests:__pkg__"],
+)
