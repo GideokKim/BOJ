@@ -1,0 +1,8 @@
+cc_test(
+    name = "33161_pencils_2_test",
+    srcs = ["33161_pencils_2_test.cc"],
+    deps = [
+        "//33000/src:33161_pencils_2",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
