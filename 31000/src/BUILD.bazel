@@ -5,3 +5,9 @@ cc_library(
     hdrs = ["31064_minutes.h"],
     visibility = ["//31000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "31606_fruit",
+    hdrs = ["31606_fruit.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
