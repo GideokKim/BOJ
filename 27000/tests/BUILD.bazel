@@ -24,3 +24,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "27866_words_and_strings_test",
+    srcs = ["27866_words_and_strings_test.cc"],
+    deps = [
+        "//27000/src:27866_words_and_strings",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
