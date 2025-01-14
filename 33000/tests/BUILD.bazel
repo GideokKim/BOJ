@@ -6,3 +6,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "33165_footrace_test",
+    srcs = ["33165_footrace_test.cc"],
+    deps = [
+        "//33000/src:33165_footrace",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
