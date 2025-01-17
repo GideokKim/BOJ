@@ -13,3 +13,8 @@ cc_library(
     visibility = ["//10000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "10807_counting",
+    hdrs = ["10807_counting.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
