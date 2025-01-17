@@ -49,6 +49,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2563_confetti",
+    hdrs = ["2563_confetti.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2566_maximum_value",
     hdrs = ["2566_maximum_value.h"],
     visibility = ["//2000/tests:__pkg__"],
