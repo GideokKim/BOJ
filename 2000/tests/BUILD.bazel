@@ -71,6 +71,15 @@ cc_test(
 )
 
 cc_test(
+    name = "2563_confetti_test",
+    srcs = ["2563_confetti_test.cc"],
+    deps = [
+        "//2000/src:2563_confetti",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2566_maximum_value_test",
     srcs = ["2566_maximum_value_test.cc"],
     deps = [
