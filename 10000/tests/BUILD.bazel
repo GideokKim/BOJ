@@ -24,3 +24,12 @@ cc_test(
         "@com_google_googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "10810_put_ball_in_test",
+    srcs = ["10810_put_ball_in_test.cc"],
+    deps = [
+        "//10000/src:10810_put_ball_in",
+        "@com_google_googletest//:gtest_main",
+    ],
+)

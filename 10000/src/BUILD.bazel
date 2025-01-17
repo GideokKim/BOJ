@@ -18,3 +18,9 @@ cc_library(
     hdrs = ["10807_counting.h"],
     visibility = ["//10000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "10810_put_ball_in",
+    hdrs = ["10810_put_ball_in.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
