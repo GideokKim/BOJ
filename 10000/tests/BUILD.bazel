@@ -17,6 +17,15 @@ cc_test(
 )
 
 cc_test(
+    name = "10798_vertical_reading_test",
+    srcs = ["10798_vertical_reading_test.cc"],
+    deps = [
+        "//10000/src:10798_vertical_reading",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "10807_counting_test",
     srcs = ["10807_counting_test.cc"],
     deps = [
