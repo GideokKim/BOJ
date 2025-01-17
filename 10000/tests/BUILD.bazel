@@ -35,6 +35,15 @@ cc_test(
 )
 
 cc_test(
+    name = "10811_reverse_bucket_test",
+    srcs = ["10811_reverse_bucket_test.cc"],
+    deps = [
+        "//10000/src:10811_reverse_buckets",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "10813_change_ball_test",
     srcs = ["10813_change_ball_test.cc"],
     deps = [
