@@ -1,4 +1,13 @@
 cc_test(
+    name = "5597_who_didnt_turn_in_report_test",
+    srcs = ["5597_who_didnt_turn_in_report_test.cc"],
+    deps = [
+        "//5000/src:5597_who_didnt_turn_in_report",
+        "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "5598_caesar_cipher_test",
     srcs = ["5598_caesar_cipher_test.cc"],
     deps = [
