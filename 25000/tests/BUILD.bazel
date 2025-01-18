@@ -3,7 +3,7 @@ cc_test(
     srcs = ["25206_your_rating_is_test.cc"],
     deps = [
         "//25000/src:25206_your_rating_is",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,6 +12,6 @@ cc_test(
     srcs = ["25304-receipt-test.cc"],
     deps = [
         "//25000/src:25304-receipt",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

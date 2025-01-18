@@ -3,7 +3,7 @@ cc_test(
     srcs = ["3276_icons_test.cc"],
     deps = [
         "//3000/src:3276_icons",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,6 +12,6 @@ cc_test(
     srcs = ["3622_halloween_holidays_test.cc"],
     deps = [
         "//3000/src:3622_halloween_holidays",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

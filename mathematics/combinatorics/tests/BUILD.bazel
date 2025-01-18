@@ -3,6 +3,6 @@ cc_test(
     srcs = ["combination_test.cc"],
     deps = [
         "//mathematics/combinatorics/src:combination",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

@@ -3,7 +3,7 @@ cc_test(
     srcs = ["28295_physical_education_is_coding_subject_test.cc"],
     deps = [
         "//28000/src:28295_physical_education_is_coding_subject",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,6 +12,6 @@ cc_test(
     srcs = ["28702_fizzbuzz_test.cc"],
     deps = [
         "//28000/src:28702_fizzbuzz",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

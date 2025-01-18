@@ -3,7 +3,7 @@ cc_test(
     srcs = ["6603_lotto_test.cc"],
     deps = [
         "//6000/src:6603_lotto",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,7 +12,7 @@ cc_test(
     srcs = ["6190_another_cow_number_game_test.cc"],
     deps = [
         "//6000/src:6190_another_cow_number_game",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -21,6 +21,6 @@ cc_test(
     srcs = ["6840_who_is_in_the_middle_test.cc"],
     deps = [
         "//6000/src:6840_who_is_in_the_middle",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

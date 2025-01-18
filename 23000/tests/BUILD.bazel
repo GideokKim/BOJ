@@ -3,7 +3,7 @@ cc_test(
     srcs = ["23048_coloring_natural_numbers_test.cc"],
     deps = [
         "//23000/src:23048_coloring_natural_numbers",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 

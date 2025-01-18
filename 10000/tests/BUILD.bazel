@@ -3,7 +3,7 @@ cc_test(
     srcs = ["10757-big_number_a_plus_b-test.cc"],
     deps = [
         "//10000/src:10757-big_number_a_plus_b",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,7 +12,7 @@ cc_test(
     srcs = ["10773_zero_test.cc"],
     deps = [
         "//10000/src:10773_zero",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -21,7 +21,7 @@ cc_test(
     srcs = ["10798_vertical_reading_test.cc"],
     deps = [
         "//10000/src:10798_vertical_reading",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -30,7 +30,7 @@ cc_test(
     srcs = ["10807_counting_test.cc"],
     deps = [
         "//10000/src:10807_counting",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -39,7 +39,7 @@ cc_test(
     srcs = ["10810_put_ball_in_test.cc"],
     deps = [
         "//10000/src:10810_put_ball_in",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -48,7 +48,7 @@ cc_test(
     srcs = ["10811_reverse_bucket_test.cc"],
     deps = [
         "//10000/src:10811_reverse_buckets",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -57,6 +57,6 @@ cc_test(
     srcs = ["10813_change_ball_test.cc"],
     deps = [
         "//10000/src:10813_change_ball",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

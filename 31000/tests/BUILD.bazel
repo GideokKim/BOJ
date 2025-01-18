@@ -3,7 +3,7 @@ cc_test(
     srcs = ["31064_minutes_test.cc"],
     deps = [
         "//31000/src:31064_minutes",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,6 +12,6 @@ cc_test(
     srcs = ["31606_fruit_test.cc"],
     deps = [
         "//31000/src:31606_fruit",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
