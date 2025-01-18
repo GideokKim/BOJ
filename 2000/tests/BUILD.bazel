@@ -105,3 +105,12 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "2960_sieve_of_eratosthenes_test",
+    srcs = ["2960_sieve_of_eratosthenes_test.cc"],
+    deps = [
+        "//2000/src:2960_sieve_of_eratosthenes",
+        "@googletest//:gtest_main",
+    ],
+)
