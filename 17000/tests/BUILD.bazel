@@ -3,6 +3,6 @@ cc_test(
     srcs = ["17224_why_did_apc_become_subtask_competition_test.cc"],
     deps = [
         "//17000/src:17224_why_did_apc_become_subtask_competition",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

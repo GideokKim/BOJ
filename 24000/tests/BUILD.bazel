@@ -3,7 +3,7 @@ cc_test(
     srcs = ["24078_remainder_test.cc"],
     deps = [
         "//24000/src:24078_remainder",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,7 +12,7 @@ cc_test(
     srcs = ["24082_cube_test.cc"],
     deps = [
         "//24000/src:24082_cube",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 

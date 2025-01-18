@@ -3,7 +3,7 @@ cc_test(
     srcs = ["9375_incognito_test.cc"],
     deps = [
         "//9000/src:9375_incognito",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,6 +12,6 @@ cc_test(
     srcs = ["9506_sum_of_divisors_test.cc"],
     deps = [
         "//9000/src:9506_sum_of_divisors",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

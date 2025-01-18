@@ -3,7 +3,7 @@ cc_test(
     srcs = ["27323_rectangle_test.cc"],
     deps = [
         "//27000/src:27323_rectangle",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,7 +12,7 @@ cc_test(
     srcs = ["27327_hour_test.cc"],
     deps = [
         "//27000/src:27327_hour",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -21,7 +21,7 @@ cc_test(
     srcs = ["27331_two_digit_number_test.cc"],
     deps = [
         "//27000/src:27331_two_digit_number",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -30,6 +30,6 @@ cc_test(
     srcs = ["27866_words_and_strings_test.cc"],
     deps = [
         "//27000/src:27866_words_and_strings",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

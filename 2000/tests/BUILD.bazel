@@ -3,7 +3,7 @@ cc_test(
     srcs = ["2090_harmonic_mean_test.cc"],
     deps = [
         "//2000/src:2090_harmonic_mean",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -12,7 +12,7 @@ cc_test(
     srcs = ["2108_statistics_test.cc"],
     deps = [
         "//2000/src:2108_statistics",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -21,7 +21,7 @@ cc_test(
     srcs = ["2217_rope_test.cc"],
     deps = [
         "//2000/src:2217_rope",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -30,7 +30,7 @@ cc_test(
     srcs = ["2355_sigma_test.cc"],
     deps = [
         "//2000/src:2355_sigma",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -39,7 +39,7 @@ cc_test(
     srcs = ["2438_get_a_star_1_test.cc"],
     deps = [
         "//2000/src:2438_get_a_star_1",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -48,7 +48,7 @@ cc_test(
     srcs = ["2501_divisors_test.cc"],
     deps = [
         "//2000/src:2501_divisors",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -57,7 +57,7 @@ cc_test(
     srcs = ["2557_hello_world_test.cc"],
     deps = [
         "//2000/src:2557_hello_world",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -66,7 +66,7 @@ cc_test(
     srcs = ["2562_maximum_value_test.cc"],
     deps = [
         "//2000/src:2562_maximum_value",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -75,7 +75,7 @@ cc_test(
     srcs = ["2563_confetti_test.cc"],
     deps = [
         "//2000/src:2563_confetti",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -84,7 +84,7 @@ cc_test(
     srcs = ["2566_maximum_value_test.cc"],
     deps = [
         "//2000/src:2566_maximum_value",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -93,7 +93,7 @@ cc_test(
     srcs = ["2745_base_conversion_test.cc"],
     deps = [
         "//2000/src:2745_base_conversion",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
 
@@ -102,6 +102,6 @@ cc_test(
     srcs = ["2903_planina_test.cc"],
     deps = [
         "//2000/src:2903_planina",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )

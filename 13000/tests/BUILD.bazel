@@ -3,6 +3,6 @@ cc_test(
     srcs = ["13222_matches_test.cc"],
     deps = [
         "//13000/src:13222_matches",
-        "@com_google_googletest//:gtest_main",
+        "@googletest//:gtest_main",
     ],
 )
