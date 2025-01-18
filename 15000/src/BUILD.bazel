@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "15666_n_and_m_12",
+    hdrs = ["15666_n_and_m_12.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
+
+cc_library(
     name = "15740_a_plus_b_9",
     hdrs = ["15740_a_plus_b_9.h"],
     visibility = ["//15000/tests:__pkg__"],

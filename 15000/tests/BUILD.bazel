@@ -1,6 +1,15 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "15666_n_and_m_12_test",
+    srcs = ["15666_n_and_m_12_test.cc"],
+    deps = [
+        "//15000/src:15666_n_and_m_12",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "15740_a_plus_b_9_test",
     srcs = ["15740_a_plus_b_9_test.cc"],
     deps = [
