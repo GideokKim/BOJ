@@ -6,3 +6,12 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "13698_hawk_eyes_test",
+    srcs = ["13698_hawk_eyes_test.cc"],
+    deps = [
+        "//13000/src:13698_hawk_eyes",
+        "@googletest//:gtest_main",
+    ],
+)

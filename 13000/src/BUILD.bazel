@@ -6,3 +6,8 @@ cc_library(
     visibility = ["//13000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "13698_hawk_eyes",
+    hdrs = ["13698_hawk_eyes.h"],
+    visibility = ["//13000/tests:__pkg__"],
+)
