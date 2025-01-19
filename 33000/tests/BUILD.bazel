@@ -17,6 +17,15 @@ cc_test(
 )
 
 cc_test(
+    name = "33169_money_on_me_test",
+    srcs = ["33169_money_on_me_test.cc"],
+    deps = [
+        "//33000/src:33169_money_on_me",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "33179_hezardastans_annual_report_test",
     srcs = ["33179_hezardastans_annual_report_test.cc"],
     deps = [
