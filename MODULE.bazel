@@ -1,4 +1,4 @@
 module(name = "baekjoon_algorithm_practice")
 
-bazel_dep(name = "rules_cc", version = "0.0.9")
-bazel_dep(name = "googletest", version = "1.14.0")
+bazel_dep(name = "rules_cc", version = "0.0.16")
+bazel_dep(name = "googletest", version = "1.15.0")
