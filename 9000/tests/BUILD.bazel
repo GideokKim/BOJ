@@ -8,6 +8,15 @@ cc_test(
 )
 
 cc_test(
+    name = "9498_test_score_test",
+    srcs = ["9498_test_score_test.cc"],
+    deps = [
+        "//9000/src:9498_test_scores",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "9506_sum_of_divisors_test",
     srcs = ["9506_sum_of_divisors_test.cc"],
     deps = [
