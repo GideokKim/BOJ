@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["31606_fruit.h"],
     visibility = ["//31000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "31615_digit",
+    hdrs = ["31615_digit.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
