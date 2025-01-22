@@ -1,0 +1,8 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "19602_dog_treats",
+    hdrs = ["19602_dog_treats.h"],
+    visibility = ["//19000/tests:__pkg__"],
+)
+
