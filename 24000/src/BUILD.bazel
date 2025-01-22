@@ -12,3 +12,8 @@ cc_library(
     visibility = ["//24000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "24086_height",
+    hdrs = ["24086_height.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
