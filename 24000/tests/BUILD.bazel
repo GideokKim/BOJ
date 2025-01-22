@@ -16,3 +16,11 @@ cc_test(
     ],
 )
 
+cc_test(
+    name = "24086_height_test",
+    srcs = ["24086_height_test.cc"],
+    deps = [
+        "//24000/src:24086_height",
+        "@googletest//:gtest_main",
+    ],
+)
