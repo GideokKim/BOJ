@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["30979_caring_for_kindergarten.h"],
     visibility = ["//30000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "30987_haru_dermatologist",
+    hdrs = ["30987_haru_dermatologist.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
