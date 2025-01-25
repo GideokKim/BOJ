@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "28224_final_price",
+    hdrs = ["28224_final_price.h"],
+    visibility = ["//28000/tests:__pkg__"],
+)
+
+cc_library(
     name = "28295_physical_education_is_coding_subject",
     hdrs = ["28295_physical_education_is_coding_subject.h"],
     visibility = ["//28000/tests:__pkg__"],
