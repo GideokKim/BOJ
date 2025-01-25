@@ -1,0 +1,8 @@
+cc_test(
+    name = "14730_small_test",
+    srcs = ["14730_small_test.cc"],
+    deps = [
+        "//14000/src:14730_small",
+        "@googletest//:gtest_main",
+    ],
+)
