@@ -1,0 +1,9 @@
+cc_test(
+    name = "21955_split_test",
+    srcs = ["21955_split_test.cc"],
+    deps = [
+        "//21000/src:21955_split",
+        "@googletest//:gtest_main",
+    ],
+)
+
