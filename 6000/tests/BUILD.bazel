@@ -24,3 +24,12 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "6889_smile_with_similes_test",
+    srcs = ["6889_smile_with_similes_test.cc"],
+    deps = [
+        "//6000/src:6889_smile_with_similes",
+        "@googletest//:gtest_main",
+    ],
+)

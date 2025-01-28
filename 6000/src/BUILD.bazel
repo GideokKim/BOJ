@@ -17,3 +17,9 @@ cc_library(
     hdrs = ["6840_who_is_in_the_middle.h"],
     visibility = ["//6000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "6889_smile_with_similes",
+    hdrs = ["6889_smile_with_similes.h"],
+    visibility = ["//6000/tests:__pkg__"],
+)
