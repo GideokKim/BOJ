@@ -1,4 +1,13 @@
 cc_test(
+    name = "9012_parenthesis_test",
+    srcs = ["9012_parenthesis_test.cc"],
+    deps = [
+        "//9000/src:9012_parenthesis",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "9375_incognito_test",
     srcs = ["9375_incognito_test.cc"],
     deps = [
