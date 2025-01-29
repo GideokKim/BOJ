@@ -2,6 +2,7 @@ cc_test(
     name = "17224_why_did_apc_become_subtask_competition_test",
     srcs = ["17224_why_did_apc_become_subtask_competition_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//17000/src:17224_why_did_apc_become_subtask_competition",
         "@googletest//:gtest_main",
     ],
@@ -10,5 +11,9 @@ cc_test(
 cc_test(
     name = "17608_bar_test",
     srcs = ["17608_bar_test.cc"],
-    deps = ["//17000/src:17608_bar", "@googletest//:gtest_main"],
+    deps = [
+        "//test_headers:test_helper",
+        "//17000/src:17608_bar",
+        "@googletest//:gtest_main",
+    ],
 )
