@@ -6,3 +6,9 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "17608_bar_test",
+    srcs = ["17608_bar_test.cc"],
+    deps = ["//17000/src:17608_bar", "@googletest//:gtest_main"],
+)
