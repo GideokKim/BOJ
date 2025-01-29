@@ -22,7 +22,7 @@ class Bar {
     int max_height = 0;
     count = 0;
 
-    for (size_t i = 0; i < stack_size; ++i) {
+    for (int i = 0; i < stack_size; ++i) {
       if (bar_stack.top() > max_height) {
         count++;
         max_height = bar_stack.top();
