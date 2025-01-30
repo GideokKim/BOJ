@@ -26,9 +26,9 @@ class FizzBuzz {
     }
   }
 
-  std::string Calculate() {
+  void Calculate() {
     int result = numbers[number_index] + 3 - number_index;
-    std::string result_string = "";
+    result_string = "";
     if (result % 3 == 0) {
       result_string += "Fizz";
     }
@@ -36,21 +36,24 @@ class FizzBuzz {
       result_string += "Buzz";
     }
     if (result_string.empty()) {
-      return std::to_string(result);
+      result_string = std::to_string(result);
     }
-    return result_string;
   }
+
+  void PrintResult() { std::cout << result_string; }
 
  private:
   std::vector<int> numbers;
   int number_index;
+  std::string result_string;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   FizzBuzz fizzbuzz;
   fizzbuzz.SetInputs();
-  std::cout << fizzbuzz.Calculate() << '\n';
+  fizzbuzz.Calculate();
+  fizzbuzz.PrintResult();
 
   return 0;
 }
