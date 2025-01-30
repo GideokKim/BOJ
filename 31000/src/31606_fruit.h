@@ -3,22 +3,25 @@
 
 #include <iostream>
 
-class Minutes {
+class Fruit {
  public:
   void SetInputs() { std::cin >> x >> y; }
 
-  int Calculate() { return x + y + 3; }
+  void Calculate() { result = x + y + 3; }
+
+  void PrintResult() { std::cout << result; }
 
  private:
-  int x;
-  int y;
+  int x, y;
+  int result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
-  Minutes minutes;
-  minutes.SetInputs();
-  std::cout << minutes.Calculate();
+  Fruit fruit;
+  fruit.SetInputs();
+  fruit.Calculate();
+  fruit.PrintResult();
 
   return 0;
 }

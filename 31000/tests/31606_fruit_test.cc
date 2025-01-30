@@ -1,54 +1,11 @@
 #include "31000/src/31606_fruit.h"
 
-#include <gtest/gtest.h>
+#include "test_headers/test_helper.h"
 
-TEST(FruitTest, SampleCase) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
+class FruitTest : public IOTestFixture<Fruit> {};
 
-  std::string input = "2\n4";
+TEST_F(FruitTest, SampleCase) { RunTest("2\n4", "9"); }
 
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
+TEST_F(FruitTest, SampleCase2) { RunTest("15\n30", "48"); }
 
-  Minutes minutes;
-  minutes.SetInputs();
-  int result = minutes.Calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 9);
-}
-
-TEST(MinutesTest, SampleCase2) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
-
-  std::string input = "15\n30";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  Minutes minutes;
-  minutes.SetInputs();
-  int result = minutes.Calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 48);
-}
-
-TEST(MinutesTest, SampleCase3) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
-
-  std::string input = "0\n0";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  Minutes minutes;
-  minutes.SetInputs();
-  int result = minutes.Calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 3);
-}
+TEST_F(FruitTest, SampleCase3) { RunTest("0\n0", "3"); }

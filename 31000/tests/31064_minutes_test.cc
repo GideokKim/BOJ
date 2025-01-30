@@ -1,71 +1,13 @@
 #include "31000/src/31064_minutes.h"
 
-#include <gtest/gtest.h>
+#include "test_headers/test_helper.h"
 
-TEST(MinutesTest, SampleCase) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
+class MinutesTest : public IOTestFixture<Minutes> {};
 
-  std::string input = "8\n30";
+TEST_F(MinutesTest, SampleCase) { RunTest("8\n30", "510"); }
 
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
+TEST_F(MinutesTest, SampleCase2) { RunTest("14\n0", "840"); }
 
-  Minutes minutes;
-  minutes.SetInputs();
-  int result = minutes.Calculate();
+TEST_F(MinutesTest, SampleCase3) { RunTest("0\n29", "29"); }
 
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 510);
-}
-
-TEST(MinutesTest, SampleCase2) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
-
-  std::string input = "14\n0";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  Minutes minutes;
-  minutes.SetInputs();
-  int result = minutes.Calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 840);
-}
-
-TEST(MinutesTest, SampleCase3) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
-
-  std::string input = "0\n29";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  Minutes minutes;
-  minutes.SetInputs();
-  int result = minutes.Calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 29);
-}
-
-TEST(MinutesTest, SampleCase4) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
-
-  std::string input = "23\n59";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  Minutes minutes;
-  minutes.SetInputs();
-  int result = minutes.Calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 1439);
-}
+TEST_F(MinutesTest, SampleCase4) { RunTest("23\n59", "1439"); }

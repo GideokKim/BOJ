@@ -8,17 +8,20 @@ class Digit {
  public:
   void SetInputs() { std::cin >> a >> b; }
 
-  void PrintResult() { std::cout << std::to_string(a + b).size(); }
+  void Calculate() { result = std::to_string(a + b).size(); }
+
+  void PrintResult() { std::cout << result; }
 
  private:
-  int a;
-  int b;
+  int a, b;
+  size_t result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Digit digit;
   digit.SetInputs();
+  digit.Calculate();
   digit.PrintResult();
 
   return 0;
