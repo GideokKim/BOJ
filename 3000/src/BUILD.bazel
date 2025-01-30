@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["3622_halloween_holidays.h"],
     visibility = ["//3000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "3986_good_words",
+    hdrs = ["3986_good_words.h"],
+    visibility = ["//3000/tests:__pkg__"],
+)

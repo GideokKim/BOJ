@@ -15,3 +15,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "3986_good_words_test",
+    srcs = ["3986_good_words_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//3000/src:3986_good_words",
+        "@googletest//:gtest_main",
+    ],
+)
