@@ -16,3 +16,12 @@ cc_test(
     ],
 )
 
+cc_test(
+    name = "5789_do_it_do_it_not_test",
+    srcs = ["5789_do_it_do_it_not_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//5000/src:5789_do_it_do_it_not",
+        "@googletest//:gtest_main",
+    ],
+)

@@ -12,3 +12,8 @@ cc_library(
     visibility = ["//5000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "5789_do_it_do_it_not",
+    hdrs = ["5789_do_it_do_it_not.h"],
+    visibility = ["//5000/tests:__pkg__"],
+)
