@@ -17,3 +17,9 @@ cc_library(
     hdrs = ["31615_digit.h"],
     visibility = ["//31000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "31922_this_competition_is_mine_now",
+    hdrs = ["31922_this_competition_is_mine_now.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
