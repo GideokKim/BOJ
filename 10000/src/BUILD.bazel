@@ -42,3 +42,9 @@ cc_library(
     hdrs = ["10813_change_ball.h"],
     visibility = ["//10000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "10988_check_palindrome",
+    hdrs = ["10988_check_palindrome.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
