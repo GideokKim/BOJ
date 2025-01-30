@@ -56,6 +56,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10828_stack",
+    hdrs = ["10828_stack.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10988_check_palindrome",
     hdrs = ["10988_check_palindrome.h"],
     visibility = ["//10000/tests:__pkg__"],
