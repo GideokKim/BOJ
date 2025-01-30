@@ -34,7 +34,7 @@ class HalloweenHolidays {
     }
   }
 
-  void PrintResult() { std::cout << result << "\n"; }
+  void PrintResult() { std::cout << result; }
 
  private:
   int outter_a;
