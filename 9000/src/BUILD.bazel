@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "9306_practice_roll_call",
+    hdrs = ["9306_practice_roll_call.h"],
+    visibility = ["//9000/tests:__pkg__"],
+)
+
+cc_library(
     name = "9375_incognito",
     hdrs = ["9375_incognito.h"],
     visibility = ["//9000/tests:__pkg__"],
