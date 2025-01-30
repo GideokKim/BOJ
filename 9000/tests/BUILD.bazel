@@ -8,6 +8,17 @@ cc_test(
 )
 
 cc_test(
+    name = "9306_practice_roll_call_test",
+    srcs = ["9306_practice_roll_call_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//9000/src:9306_practice_roll_call",
+        "@googletest//:gtest_main",
+    ],
+)
+
+
+cc_test(
     name = "9375_incognito_test",
     srcs = ["9375_incognito_test.cc"],
     deps = [
