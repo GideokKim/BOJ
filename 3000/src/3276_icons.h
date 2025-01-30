@@ -35,9 +35,7 @@ class Icons {
     }
   }
 
-  void PrintOptimizedRowAndColumn() {
-    std::cout << optimized_row << " " << optimized_column << "\n";
-  }
+  void PrintResult() { std::cout << optimized_row << " " << optimized_column; }
 
  private:
   int number;
@@ -50,7 +48,7 @@ int main() {
   Icons icons;
   icons.SetInputs();
   icons.Calculate();
-  icons.PrintOptimizedRowAndColumn();
+  icons.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT
