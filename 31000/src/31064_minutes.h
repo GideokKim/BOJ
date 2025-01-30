@@ -7,18 +7,21 @@ class Minutes {
  public:
   void SetInputs() { std::cin >> h >> m; }
 
-  int Calculate() { return h * 60 + m; }
+  void Calculate() { result = h * 60 + m; }
+
+  void PrintResult() { std::cout << result; }
 
  private:
-  int h;
-  int m;
+  int h, m;
+  int result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Minutes minutes;
   minutes.SetInputs();
-  std::cout << minutes.Calculate() << '\n';
+  minutes.Calculate();
+  minutes.PrintResult();
 
   return 0;
 }
