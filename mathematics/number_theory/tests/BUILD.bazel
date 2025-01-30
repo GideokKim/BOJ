@@ -1,0 +1,9 @@
+cc_test(
+    name = "euclidean_algorithm_test",
+    srcs = ["euclidean_algorithm_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//mathematics/number_theory/src:euclidean_algorithm",
+        "@googletest//:gtest_main",
+    ],
+)
