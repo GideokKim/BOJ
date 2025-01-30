@@ -15,28 +15,32 @@ class PhysicalEducationIsCodingSubject {
     }
   }
 
-  std::string Calculate() {
+  void Calculate() {
     int final_direction_number = direction_number % 4;
     if (final_direction_number == 0) {
-      return "N";
+      result = "N";
     } else if (final_direction_number == 1) {
-      return "E";
+      result = "E";
     } else if (final_direction_number == 2) {
-      return "S";
+      result = "S";
     } else {
-      return "W";
+      result = "W";
     }
   }
 
+  void PrintResult() { std::cout << result; }
+
  private:
   int direction_number;
+  std::string result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   PhysicalEducationIsCodingSubject physical_education_is_coding_subject;
   physical_education_is_coding_subject.SetInputs();
-  std::cout << physical_education_is_coding_subject.Calculate() << '\n';
+  physical_education_is_coding_subject.Calculate();
+  physical_education_is_coding_subject.PrintResult();
 
   return 0;
 }

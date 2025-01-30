@@ -2,6 +2,7 @@ cc_test(
     name = "28224_final_price_test",
     srcs = ["28224_final_price_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//28000/src:28224_final_price",
         "@googletest//:gtest_main",
     ],
@@ -21,6 +22,7 @@ cc_test(
     name = "28295_physical_education_is_coding_subject_test",
     srcs = ["28295_physical_education_is_coding_subject_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//28000/src:28295_physical_education_is_coding_subject",
         "@googletest//:gtest_main",
     ],
@@ -30,6 +32,7 @@ cc_test(
     name = "28702_fizzbuzz_test",
     srcs = ["28702_fizzbuzz_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//28000/src:28702_fizzbuzz",
         "@googletest//:gtest_main",
     ],
