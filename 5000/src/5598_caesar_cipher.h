@@ -8,29 +8,29 @@ class CaesarCipher {
  public:
   void SetInputs() { std::cin >> input; }
 
-  void Decode() {
-    output = input;
+  void Calculate() {
+    result = input;
     for (size_t index = 0; index < input.size(); ++index) {
       if (input[index] <= 'C') {
-        output[index] += 26;
+        result[index] += 26;
       }
-      output[index] -= 3;
+      result[index] -= 3;
     }
   }
 
-  void PrintOutput() { std::cout << output << "\n"; }
+  void PrintResult() { std::cout << result; }
 
  private:
   std::string input;
-  std::string output;
+  std::string result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   CaesarCipher caesar_cipher;
   caesar_cipher.SetInputs();
-  caesar_cipher.Decode();
-  caesar_cipher.PrintOutput();
+  caesar_cipher.Calculate();
+  caesar_cipher.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

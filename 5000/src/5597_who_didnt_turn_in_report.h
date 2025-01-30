@@ -11,7 +11,9 @@ class WhoDidntTurnInReport {
     for (size_t index = 0; index < 30; ++index) {
       student_numbers.insert(index + 1);
     }
+  }
 
+  void Calculate() {
     size_t number;
     for (size_t index = 0; index < 28; ++index) {
       std::cin >> number;
@@ -19,7 +21,7 @@ class WhoDidntTurnInReport {
     }
   }
 
-  void PrintOutput() {
+  void PrintResult() {
     for (size_t number : student_numbers) {
       std::cout << number << "\n";
     }
@@ -33,7 +35,8 @@ class WhoDidntTurnInReport {
 int main() {
   WhoDidntTurnInReport who_didnt_turn_in_report;
   who_didnt_turn_in_report.SetInputs();
-  who_didnt_turn_in_report.PrintOutput();
+  who_didnt_turn_in_report.Calculate();
+  who_didnt_turn_in_report.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT
