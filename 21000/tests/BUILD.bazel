@@ -12,6 +12,7 @@ cc_test(
     name = "21955_split_test",
     srcs = ["21955_split_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//21000/src:21955_split",
         "@googletest//:gtest_main",
     ],
