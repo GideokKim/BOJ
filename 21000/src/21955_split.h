@@ -8,18 +8,24 @@ class Split {
  public:
   void SetInputs() { std::cin >> n; }
 
-  void PrintResult() {
-    std::cout << n.substr(0, n.size() / 2) << ' ' << n.substr(n.size() / 2);
+  void Calculate() {
+    first_half = n.substr(0, n.size() / 2);
+    second_half = n.substr(n.size() / 2);
   }
+
+  void PrintResult() { std::cout << first_half << ' ' << second_half; }
 
  private:
   std::string n;
+  std::string first_half;
+  std::string second_half;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Split split;
   split.SetInputs();
+  split.Calculate();
   split.PrintResult();
 
   return 0;
