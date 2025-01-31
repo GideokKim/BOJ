@@ -77,3 +77,9 @@ cc_library(
     hdrs = ["2960_sieve_of_eratosthenes.h"],
     visibility = ["//2000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "2981_inspection",
+    hdrs = ["2981_inspection.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
