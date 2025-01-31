@@ -9,6 +9,16 @@ cc_test(
 )
 
 cc_test(
+    name = "5347_lcm_test",
+    srcs = ["5347_lcm_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//5000/src:5347_lcm",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "5597_who_didnt_turn_in_report_test",
     srcs = ["5597_who_didnt_turn_in_report_test.cc"],
     deps = [
