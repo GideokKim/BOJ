@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "5347_lcm",
+    hdrs = ["5347_lcm.h"],
+    visibility = ["//5000/tests:__pkg__"],
+)
+
+cc_library(
     name = "5597_who_didnt_turn_in_report",
     hdrs = ["5597_who_didnt_turn_in_report.h"],
     visibility = ["//5000/tests:__pkg__"],
