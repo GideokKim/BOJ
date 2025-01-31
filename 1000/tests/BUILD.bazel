@@ -90,6 +90,16 @@ cc_test(
 )
 
 cc_test(
+    name = "1850_gcd_test",
+    srcs = ["1850_gcd_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//1000/src:1850_gcd",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1924-2007-test",
     srcs = ["1924-2007-test.cc"],
     deps = [
