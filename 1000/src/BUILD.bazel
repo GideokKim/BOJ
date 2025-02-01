@@ -64,6 +64,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1764_no_hear_and_no_see",
+    hdrs = ["1764_no_hear_and_no_see.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1850_gcd",
     hdrs = ["1850_gcd.h"],
     visibility = ["//1000/tests:__pkg__"],
