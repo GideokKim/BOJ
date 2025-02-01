@@ -6,6 +6,8 @@
 
 class SumOfDivisors {
  public:
+  void SetInputs() {}
+
   void Calculate() {
     int target_number;
     std::cin >> target_number;
@@ -39,12 +41,16 @@ class SumOfDivisors {
       std::cin >> target_number;
     }
   }
+
+  void PrintResult() {}
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   SumOfDivisors sum_of_divisors;
+  sum_of_divisors.SetInputs();
   sum_of_divisors.Calculate();
+  sum_of_divisors.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

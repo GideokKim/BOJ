@@ -12,11 +12,27 @@ class Parenthesis {
     size_t t;
     std::cin >> t;
     result.resize(t, true);
+  }
 
+  void Calculate() {
     std::string input;
-    for (size_t i = 0; i < t; i++) {
+    for (size_t i = 0; i < result.size(); i++) {
       std::cin >> input;
-      CheckParenthesis(input, i);
+      std::stack<char> parenthesis_stack;
+      for (const auto& c : input) {
+        if (c == '(') {
+          parenthesis_stack.push(c);
+        } else if (c == ')') {
+          if (parenthesis_stack.empty()) {
+            result[i] = false;
+            break;
+          }
+          parenthesis_stack.pop();
+        }
+      }
+      if (!parenthesis_stack.empty()) {
+        result[i] = false;
+      }
     }
   }
 
@@ -27,23 +43,6 @@ class Parenthesis {
   }
 
  private:
-  void CheckParenthesis(const std::string& input, size_t i) {
-    std::stack<char> parenthesis_stack;
-    for (const auto& c : input) {
-      if (c == '(') {
-        parenthesis_stack.push(c);
-      } else if (c == ')') {
-        if (parenthesis_stack.empty()) {
-          result[i] = false;
-          break;
-        }
-        parenthesis_stack.pop();
-      }
-    }
-    if (!parenthesis_stack.empty()) {
-      result[i] = false;
-    }
-  }
   std::vector<bool> result;
 };
 
@@ -51,6 +50,7 @@ class Parenthesis {
 int main() {
   Parenthesis parenthesis;
   parenthesis.SetInputs();
+  parenthesis.Calculate();
   parenthesis.PrintResult();
 
   return 0;
