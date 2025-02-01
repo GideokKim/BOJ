@@ -56,6 +56,16 @@ cc_test(
 )
 
 cc_test(
+    name = "9884_euclid_test",
+    srcs = ["9884_euclid_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//9000/src:9884_euclid",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "9924_the_euclidean_algorithm_test",
     srcs = ["9924_the_euclidean_algorithm_test.cc"],
     deps = [

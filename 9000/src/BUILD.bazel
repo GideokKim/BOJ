@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "9884_euclid",
+    hdrs = ["9884_euclid.h"],
+    visibility = ["//9000/tests:__pkg__"],
+)
+
+cc_library(
     name = "9924_the_euclidean_algorithm",
     hdrs = ["9924_the_euclidean_algorithm.h"],
     visibility = ["//9000/tests:__pkg__"],
