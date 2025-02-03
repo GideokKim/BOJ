@@ -7,3 +7,12 @@ cc_test(
     ],
 )
 
+cc_test(
+    name = "23795_gambling_should_be_fun_test",
+    srcs = ["23795_gambling_should_be_fun_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//23000/src:23795_gambling_should_be_fun",
+        "@googletest//:gtest_main",
+    ],
+)
