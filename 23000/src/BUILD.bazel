@@ -5,3 +5,9 @@ cc_library(
     hdrs = ["23048_coloring_natural_numbers.h"],
     visibility = ["//23000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "23795_gambling_should_be_fun",
+    hdrs = ["23795_gambling_should_be_fun.h"],
+    visibility = ["//23000/tests:__pkg__"],
+)
