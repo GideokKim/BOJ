@@ -23,3 +23,9 @@ cc_library(
     hdrs = ["11651_sorting_coordinates_2.h"],
     visibility = ["//11000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "11866_Josephus_problem_0",
+    hdrs = ["11866_Josephus_problem_0.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
