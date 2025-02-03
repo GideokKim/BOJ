@@ -1,0 +1,9 @@
+cc_test(
+    name = "32979_apartment_test",
+    srcs = ["32979_apartment_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//32000/src:32979_apartment",
+        "@googletest//:gtest_main",
+    ],
+)
