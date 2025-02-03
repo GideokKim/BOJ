@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "32979_apartment",
+    hdrs = ["32979_apartment.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
