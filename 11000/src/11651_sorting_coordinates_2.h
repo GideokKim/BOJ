@@ -28,10 +28,13 @@ class SortingCoordinates2 {
     }
   }
 
-  std::priority_queue<Coordinate, std::vector<Coordinate>,
-                      std::greater<Coordinate>>
-  GetPQ() {
-    return pq;
+  void Calculate() {}
+
+  void PrintResult() {
+    while (!pq.empty()) {
+      std::cout << pq.top().x << ' ' << pq.top().y << '\n';
+      pq.pop();
+    }
   }
 
  private:
@@ -45,11 +48,8 @@ class SortingCoordinates2 {
 int main() {
   SortingCoordinates2 sorting_coordinates_2;
   sorting_coordinates_2.SetInputs();
-  auto pq = sorting_coordinates_2.GetPQ();
-  while (!pq.empty()) {
-    std::cout << pq.top().x << ' ' << pq.top().y << '\n';
-    pq.pop();
-  }
+  sorting_coordinates_2.Calculate();
+  sorting_coordinates_2.PrintResult();
 
   return 0;
 }

@@ -2,6 +2,7 @@ cc_test(
     name = "11005_base_conversion_2_test",
     srcs = ["11005_base_conversion_2_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//11000/src:11005_base_conversion_2",
         "@googletest//:gtest_main",
     ],
@@ -11,6 +12,7 @@ cc_test(
     name = "11051_binomial_coefficient_2_test",
     srcs = ["11051_binomial_coefficient_2_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//11000/src:11051_binomial_coefficient_2",
         "@googletest//:gtest_main",
     ],
@@ -30,6 +32,7 @@ cc_test(
     name = "11651_sorting_coordinates_2_test",
     srcs = ["11651_sorting_coordinates_2_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//11000/src:11651_sorting_coordinates_2",
         "@googletest//:gtest_main",
     ],
