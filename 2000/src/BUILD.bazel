@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2161_card1",
+    hdrs = ["2161_card1.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2164_card2",
     hdrs = ["2164_card2.h"],
     visibility = ["//2000/tests:__pkg__"],
