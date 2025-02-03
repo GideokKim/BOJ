@@ -1,0 +1,9 @@
+cc_test(
+    name = "18258_queue2_test",
+    srcs = ["18258_queue2_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//18000/src:18258_queue2",
+        "@googletest//:gtest_main",
+    ],
+)
