@@ -9,6 +9,19 @@ class ColoringNaturalNumbers {
  public:
   void SetInputs() { std::cin >> N; }
 
+  void Calculate() {
+    GeneratePrimeNumbers();
+    SetColors();
+  }
+
+  void PrintResult() {
+    std::cout << K << '\n';
+    for (const auto& color : colors_) {
+      std::cout << color << ' ';
+    }
+  }
+
+ private:
   void GeneratePrimeNumbers() {
     prime_numbers_.clear();
     int color = 2;
@@ -27,10 +40,6 @@ class ColoringNaturalNumbers {
       }
     }
   }
-
-  int GetK() const { return K; }
-
-  const std::vector<unsigned long>& GetColors() const { return colors_; }
 
   void SetColors() {
     colors_.clear();
@@ -65,7 +74,6 @@ class ColoringNaturalNumbers {
     K = last_color;
   }
 
- private:
   size_t N;
   int K;
   std::vector<unsigned long> colors_;
@@ -76,12 +84,8 @@ class ColoringNaturalNumbers {
 int main() {
   ColoringNaturalNumbers coloring_natural_numbers;
   coloring_natural_numbers.SetInputs();
-  coloring_natural_numbers.GeneratePrimeNumbers();
-  coloring_natural_numbers.SetColors();
-  std::cout << coloring_natural_numbers.GetK() << '\n';
-  for (const auto& color : coloring_natural_numbers.GetColors()) {
-    std::cout << color << ' ';
-  }
+  coloring_natural_numbers.Calculate();
+  coloring_natural_numbers.PrintResult();
 
   return 0;
 }

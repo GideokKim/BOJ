@@ -2,6 +2,7 @@ cc_test(
     name = "23048_coloring_natural_numbers_test",
     srcs = ["23048_coloring_natural_numbers_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//23000/src:23048_coloring_natural_numbers",
         "@googletest//:gtest_main",
     ],
