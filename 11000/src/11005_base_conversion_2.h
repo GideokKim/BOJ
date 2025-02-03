@@ -6,26 +6,25 @@
 
 class BaseConversion2 {
  public:
-  void SetInputs() { std::cin >> N >> B; };
+  void SetInputs() { std::cin >> n >> b; };
 
-  void Convert() {
-    while (N > 0) {
-      char ch = N % B;
+  void Calculate() {
+    while (n > 0) {
+      char ch = n % b;
       if (ch >= 10) {
         ch = 'A' + (ch - 10);
       } else {
         ch = '0' + ch;
       }
       result = ch + result;
-      N /= B;
+      n /= b;
     }
   }
 
-  std::string GetResult() { return result; };
+  void PrintResult() { std::cout << result; };
 
  private:
-  int N;
-  int B;
+  int n, b;
   std::string result;
 };
 
@@ -33,8 +32,8 @@ class BaseConversion2 {
 int main() {
   BaseConversion2 base_conversion_2;
   base_conversion_2.SetInputs();
-  base_conversion_2.Convert();
-  std::cout << base_conversion_2.GetResult();
+  base_conversion_2.Calculate();
+  base_conversion_2.PrintResult();
 
   return 0;
 }

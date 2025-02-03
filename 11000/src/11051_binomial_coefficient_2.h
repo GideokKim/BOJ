@@ -21,7 +21,7 @@ class BinomialCoefficient2 {
     result = dp[N][K];
   }
 
-  int GetResult() { return result; };
+  void PrintResult() { std::cout << result; };
 
  private:
   int N;
@@ -35,7 +35,7 @@ int main() {
   BinomialCoefficient2 binomial_coefficient_2;
   binomial_coefficient_2.SetInputs();
   binomial_coefficient_2.Calculate();
-  std::cout << binomial_coefficient_2.GetResult();
+  binomial_coefficient_2.PrintResult();
 
   return 0;
 }
