@@ -2,6 +2,7 @@ cc_test(
     name = "24078_remainder_test",
     srcs = ["24078_remainder_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//24000/src:24078_remainder",
         "@googletest//:gtest_main",
     ],
@@ -11,6 +12,7 @@ cc_test(
     name = "24082_cube_test",
     srcs = ["24082_cube_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//24000/src:24082_cube",
         "@googletest//:gtest_main",
     ],
@@ -20,6 +22,7 @@ cc_test(
     name = "24086_height_test",
     srcs = ["24086_height_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//24000/src:24086_height",
         "@googletest//:gtest_main",
     ],

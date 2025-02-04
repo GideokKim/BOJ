@@ -7,7 +7,9 @@ class Remainder {
  public:
   void SetInputs() { std::cin >> x; }
 
-  void PrintRemainder() const { std::cout << x % 21; }
+  void Calculate() {}
+
+  void PrintResult() const { std::cout << x % 21; }
 
  private:
   size_t x;
@@ -17,7 +19,8 @@ class Remainder {
 int main() {
   Remainder remainder;
   remainder.SetInputs();
-  remainder.PrintRemainder();
+  remainder.Calculate();
+  remainder.PrintResult();
 
   return 0;
 }
