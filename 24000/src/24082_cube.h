@@ -7,9 +7,9 @@ class Cube {
  public:
   void SetInputs() { std::cin >> X; }
 
-  void CalculateCube() { cube_number = X * X * X; }
+  void Calculate() { cube_number = X * X * X; }
 
-  size_t GetCube() const { return cube_number; }
+  void PrintResult() { std::cout << cube_number; }
 
  private:
   size_t X;
@@ -20,8 +20,8 @@ class Cube {
 int main() {
   Cube cube;
   cube.SetInputs();
-  cube.CalculateCube();
-  std::cout << cube.GetCube() << '\n';
+  cube.Calculate();
+  cube.PrintResult();
 
   return 0;
 }

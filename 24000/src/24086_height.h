@@ -7,9 +7,9 @@ class Height {
  public:
   void SetInputs() { std::cin >> a >> b; }
 
-  void CalculateHeight() { height = b - a; }
+  void Calculate() { height = b - a; }
 
-  void PrintHeight() const { std::cout << height; }
+  void PrintResult() const { std::cout << height; }
 
  private:
   int a;
@@ -21,8 +21,8 @@ class Height {
 int main() {
   Height height;
   height.SetInputs();
-  height.CalculateHeight();
-  height.PrintHeight();
+  height.Calculate();
+  height.PrintResult();
 
   return 0;
 }
