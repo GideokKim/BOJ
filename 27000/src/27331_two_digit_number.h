@@ -5,20 +5,23 @@
 
 class TwoDigitNumber {
  public:
-  void SetInputs() { std::cin >> A >> B; }
+  void SetInputs() { std::cin >> a >> b; }
 
-  int Calculate() { return A * 10 + B; }
+  void Calculate() { result = a * 10 + b; }
+
+  void PrintResult() const { std::cout << result; }
 
  private:
-  int A;
-  int B;
+  int a, b;
+  int result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   TwoDigitNumber two_digit_number;
   two_digit_number.SetInputs();
-  std::cout << two_digit_number.Calculate() << '\n';
+  two_digit_number.Calculate();
+  two_digit_number.PrintResult();
 
   return 0;
 }

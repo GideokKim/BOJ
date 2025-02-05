@@ -7,20 +7,24 @@ class Hour {
  public:
   void SetInputs() { std::cin >> x; }
 
-  int Calculate() { return x * 24; }
+  void Calculate() { result = x * 24; }
+
+  void PrintResult() const { std::cout << result; }
 
  private:
   int x;
+  int result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Hour hour;
   hour.SetInputs();
-  std::cout << hour.Calculate() << '\n';
+  hour.Calculate();
+  hour.PrintResult();
 
   return 0;
 }
 #endif  // BOJ_SUBMIT
 
-#endif  // BOJ_27000_SRC_27323_RECTANGLE_H_
+#endif  // BOJ_27000_SRC_27327_HOUR_H_

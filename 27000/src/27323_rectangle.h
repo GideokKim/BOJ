@@ -5,20 +5,23 @@
 
 class Rectangle {
  public:
-  void SetInputs() { std::cin >> A >> B; }
+  void SetInputs() { std::cin >> a >> b; }
 
-  int Calculate() { return A * B; }
+  void Calculate() { result = a * b; }
+
+  void PrintResult() const { std::cout << result; }
 
  private:
-  int A;
-  int B;
+  int a, b;
+  int result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Rectangle rectangle;
   rectangle.SetInputs();
-  std::cout << rectangle.Calculate() << '\n';
+  rectangle.Calculate();
+  rectangle.PrintResult();
 
   return 0;
 }
