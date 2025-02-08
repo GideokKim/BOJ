@@ -1,0 +1,9 @@
+cc_test(
+    name = "7891_can_you_add_this_test",
+    srcs = ["7891_can_you_add_this_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//7000/src:7891_can_you_add_this",
+        "@googletest//:gtest_main",
+    ],
+)
