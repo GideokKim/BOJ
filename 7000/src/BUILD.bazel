@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "7891_can_you_add_this",
+    hdrs = ["7891_can_you_add_this.h"],
+    visibility = ["//7000/tests:__pkg__"],
+)
