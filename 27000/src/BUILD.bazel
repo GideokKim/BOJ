@@ -29,3 +29,9 @@ cc_library(
     hdrs = ["27866_words_and_strings.h"],
     visibility = ["//27000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "27959_choco_bar",
+    hdrs = ["27959_choco_bar.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
