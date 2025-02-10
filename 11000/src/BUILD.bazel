@@ -31,6 +31,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11654_ascii_code",
+    hdrs = ["11654_ascii_code.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11866_Josephus_problem_0",
     hdrs = ["11866_Josephus_problem_0.h"],
     visibility = ["//11000/tests:__pkg__"],
