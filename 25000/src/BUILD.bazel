@@ -12,3 +12,9 @@ cc_library(
     hdrs = ["25304-receipt.h"],
     visibility = ["//25000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "25591_puang_and_jongyun",
+    hdrs = ["25591_puang_and_jongyun.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
