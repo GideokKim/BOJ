@@ -29,6 +29,16 @@ cc_test(
 )
 
 cc_test(
+    name = "28701_sum_of_cube_test",
+    srcs = ["28701_sum_of_cube_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//28000/src:28701_sum_of_cube",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "28702_fizzbuzz_test",
     srcs = ["28702_fizzbuzz_test.cc"],
     deps = [
