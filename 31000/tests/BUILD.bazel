@@ -39,6 +39,15 @@ cc_test(
 )
 
 cc_test(
+    name = "31712_pinkbean_raid_test",
+    srcs = ["31712_pinkbean_raid_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//31000/src:31712_pinkbean_raid",
+        "@googletest//:gtest_main",
+    ],
+)
+cc_test(
     name = "31922_this_competition_is_mine_now_test",
     srcs = ["31922_this_competition_is_mine_now_test.cc"],
     deps = [
