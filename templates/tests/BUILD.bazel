@@ -1,0 +1,9 @@
+cc_test(
+    name = "src_template_test",
+    srcs = ["src_template_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//templates/src:src_template",
+        "@googletest//:gtest_main",
+    ],
+)
