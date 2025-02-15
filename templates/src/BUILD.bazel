@@ -1,0 +1,5 @@
+cc_library(
+    name = "src_template",
+    hdrs = ["src_template.h"],
+    visibility = ["//templates/tests:__pkg__"],
+)
