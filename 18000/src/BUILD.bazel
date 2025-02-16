@@ -5,3 +5,9 @@ cc_library(
     hdrs = ["18258_queue2.h"],
     visibility = ["//18000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "18411_exam",
+    hdrs = ["18411_exam.h"],
+    visibility = ["//18000/tests:__pkg__"],
+)
