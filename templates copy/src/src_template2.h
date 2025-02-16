@@ -12,7 +12,7 @@ class SrcTemplate {
     a_vec.resize(m, 0);
     b_vec.resize(m, 0);
 
-    for (size_t index = 0; index < static_cast<size_t>(m); ++index) {
+    for (size_t index = 0; index < m; ++index) {
       std::cin >> a_vec[index] >> b_vec[index];
     }
     is_possible = true;
@@ -23,7 +23,7 @@ class SrcTemplate {
   void Calculate() {
     int sum = 0;
     size_t next_changable_index = 0;
-    for (size_t index = 0; index < static_cast<size_t>(m); ++index) {
+    for (size_t index = 0; index < m; ++index) {
       if (a_vec[index] + b_vec[index] > n) {
         is_possible = false;
         return;
@@ -35,21 +35,17 @@ class SrcTemplate {
       return;
     }
 
-    for (size_t index = 0; index < static_cast<size_t>(m); ++index) {
+    for (size_t index = 0; index < m; ++index) {
       auto& target = result[index];
+      target[0] = '+';
       target.replace(0, a_vec[index], std::string(a_vec[index], '+'));
       target.replace(a_vec[index], b_vec[index],
                      std::string(b_vec[index], '-'));
-      for (size_t target_index = 0; target_index < static_cast<size_t>(n);
-           ++target_index) {
+      for (size_t target_index = 0; target_index < n; ++target_index) {
         if (target[target_index] == 'X') {
           if (x_used[target_index]) {
-            if (next_changable_index >= static_cast<size_t>(n)) {
+            if (next_changable_index >= n) {
               target[target_index] = '-';
-              continue;
-            }
-            if (n == 1) {
-              target[target_index] = '+';
               continue;
             }
             auto temp = target[target_index];
@@ -73,9 +69,8 @@ class SrcTemplate {
       std::cout << "NO\n";
     } else {
       std::cout << "YES\n";
-      for (size_t index = 0; index < static_cast<size_t>(n); ++index) {
-        for (size_t target_index = 0; target_index < static_cast<size_t>(m);
-             ++target_index) {
+      for (size_t index = 0; index < n; ++index) {
+        for (size_t target_index = 0; target_index < m; ++target_index) {
           std::cout << result[target_index][index];
         }
         std::cout << "\n";
