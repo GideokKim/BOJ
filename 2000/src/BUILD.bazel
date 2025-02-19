@@ -91,6 +91,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2754_calculate_score",
+    hdrs = ["2754_calculate_score.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2903_planina",
     hdrs = ["2903_planina.h"],
     visibility = ["//2000/tests:__pkg__"],
