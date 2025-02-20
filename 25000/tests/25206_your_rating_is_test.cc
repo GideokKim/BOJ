@@ -1,11 +1,11 @@
 #include "25000/src/25206_your_rating_is.h"
 
-#include <gtest/gtest.h>
+#include "test_headers/test_helper.h"
 
-TEST(YourRatingIsTest, SampleCase) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
+class YourRatingIsTest : public IOTestFixture<YourRatingIs> {};
 
-  std::string input =
+TEST_F(YourRatingIsTest, SampleCase) {
+  RunTest(
       "ObjectOrientedProgramming1 3.0 A+\n"
       "IntroductiontoComputerEngineering 3.0 A+\n"
       "ObjectOrientedProgramming2 3.0 A0\n"
@@ -25,25 +25,12 @@ TEST(YourRatingIsTest, SampleCase) {
       "Algorithm 3.0 B0\n"
       "CapstoneDesigninCSE 3.0 B+\n"
       "CompilerDesign 3.0 D0\n"
-      "ProblemSolving 4.0 P\n";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  YourRatingIs your_rating;
-  your_rating.set_inputs();
-  your_rating.set_grade_scores();
-  double result = your_rating.calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_NEAR(result, 3.284483, 0.000001);
+      "ProblemSolving 4.0 P\n",
+      "3.284483");
 }
 
-TEST(YourRatingIsTest, AllFCase) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
-
-  std::string input =
+TEST_F(YourRatingIsTest, AllFCase) {
+  RunTest(
       "BruteForce 3.0 F\n"
       "Greedy 1.0 F\n"
       "DivideandConquer 2.0 F\n"
@@ -63,17 +50,6 @@ TEST(YourRatingIsTest, AllFCase) {
       "SuffixArray 1.0 F\n"
       "HeavyLightDecomposition 4.0 F\n"
       "CentroidDecomposition 3.0 F\n"
-      "SplayTree 1.0 F\n";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  YourRatingIs your_rating;
-  your_rating.set_inputs();
-  your_rating.set_grade_scores();
-  double result = your_rating.calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_NEAR(result, 0.000000, 0.000001);
+      "SplayTree 1.0 F\n",
+      "0.000000");
 }
