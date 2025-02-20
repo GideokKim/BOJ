@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "5341_pyramids",
+    hdrs = ["5341_pyramids.h"],
+    visibility = ["//5000/tests:__pkg__"],
+)
+
+cc_library(
     name = "5344_gcd",
     hdrs = ["5344_gcd.h"],
     visibility = ["//5000/tests:__pkg__"],
