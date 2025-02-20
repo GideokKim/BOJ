@@ -7,9 +7,8 @@ cc_library(
 )
 
 cc_library(
-    name = "25304-receipt",
-    srcs = ["25304-receipt.cc"],
-    hdrs = ["25304-receipt.h"],
+    name = "25304_receipt",
+    hdrs = ["25304_receipt.h"],
     visibility = ["//25000/tests:__pkg__"],
 )
 
