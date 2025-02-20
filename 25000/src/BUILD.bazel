@@ -14,6 +14,12 @@ cc_library(
 )
 
 cc_library(
+    name = "25494_simple_problem_small",
+    hdrs = ["25494_simple_problem_small.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
+
+cc_library(
     name = "25591_puang_and_jongyun",
     hdrs = ["25591_puang_and_jongyun.h"],
     visibility = ["//25000/tests:__pkg__"],
