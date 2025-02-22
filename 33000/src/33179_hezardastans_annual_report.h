@@ -5,12 +5,12 @@
 
 class HezardastansAnnualReport {
  public:
-  void SetInputs() {
-    int n;
-    std::cin >> n;
-    int pages = 0;
+  void SetInputs() { std::cin >> n; }
+
+  void Calculate() {
     result = 0;
-    for (int i = 0; i < n; ++i) {
+    int pages;
+    for (size_t i = 0; i < n; ++i) {
       std::cin >> pages;
       pages = pages / 2 + pages % 2;
       result += pages;
@@ -20,6 +20,7 @@ class HezardastansAnnualReport {
   void PrintResult() { std::cout << result; }
 
  private:
+  size_t n;
   int result;
 };
 
@@ -27,6 +28,7 @@ class HezardastansAnnualReport {
 int main() {
   HezardastansAnnualReport hezardastans_annual_report;
   hezardastans_annual_report.SetInputs();
+  hezardastans_annual_report.Calculate();
   hezardastans_annual_report.PrintResult();
 
   return 0;

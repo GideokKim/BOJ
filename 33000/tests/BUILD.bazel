@@ -2,6 +2,7 @@ cc_test(
     name = "33161_pencils_2_test",
     srcs = ["33161_pencils_2_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//33000/src:33161_pencils_2",
         "@googletest//:gtest_main",
     ],
@@ -11,6 +12,7 @@ cc_test(
     name = "33165_footrace_test",
     srcs = ["33165_footrace_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//33000/src:33165_footrace",
         "@googletest//:gtest_main",
     ],
@@ -20,6 +22,7 @@ cc_test(
     name = "33169_money_on_me_test",
     srcs = ["33169_money_on_me_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//33000/src:33169_money_on_me",
         "@googletest//:gtest_main",
     ],
@@ -29,6 +32,7 @@ cc_test(
     name = "33179_hezardastans_annual_report_test",
     srcs = ["33179_hezardastans_annual_report_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//33000/src:33179_hezardastans_annual_report",
         "@googletest//:gtest_main",
     ],
