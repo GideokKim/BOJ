@@ -7,17 +7,21 @@ class Pencils2 {
  public:
   void SetInputs() { std::cin >> a; }
 
-  int Calculate() { return a / 5; }
+  void Calculate() { result = a / 5; }
+
+  void PrintResult() { std::cout << result; }
 
  private:
   int a;
+  int result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Pencils2 pencils2;
   pencils2.SetInputs();
-  std::cout << pencils2.Calculate() << '\n';
+  pencils2.Calculate();
+  pencils2.PrintResult();
 
   return 0;
 }

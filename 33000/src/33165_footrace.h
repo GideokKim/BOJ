@@ -7,18 +7,22 @@ class Footrace {
  public:
   void SetInputs() { std::cin >> t >> v; }
 
-  int Calculate() { return t * v; }
+  void Calculate() { result = t * v; }
+
+  void PrintResult() { std::cout << result; }
 
  private:
   int t;
   int v;
+  int result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Footrace footrace;
   footrace.SetInputs();
-  std::cout << footrace.Calculate() << '\n';
+  footrace.Calculate();
+  footrace.PrintResult();
 
   return 0;
 }

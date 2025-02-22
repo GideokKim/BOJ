@@ -7,17 +7,21 @@ class MoneyOnMe {
  public:
   void SetInputs() { std::cin >> a >> b; }
 
-  void PrintResult() { std::cout << a * 1000 + b * 10000; }
+  void Calculate() { result = a * 1000 + b * 10000; }
+
+  void PrintResult() { std::cout << result; }
 
  private:
   int a;
   int b;
+  int result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   MoneyOnMe money_on_me;
   money_on_me.SetInputs();
+  money_on_me.Calculate();
   money_on_me.PrintResult();
 
   return 0;
