@@ -5,3 +5,9 @@ cc_library(
     hdrs = ["euclidean_algorithm.h"],
     visibility = ["//mathematics/number_theory/tests:__pkg__"],
 )
+
+cc_library(
+    name = "get_divisors",
+    hdrs = ["get_divisors.h"],
+    visibility = ["//mathematics/number_theory/tests:__pkg__"],
+)
