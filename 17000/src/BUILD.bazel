@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "17427_sum_of_divisors_2",
+    hdrs = ["17427_sum_of_divisors_2.h"],
+    visibility = ["//17000/tests:__pkg__"],
+)
+
+cc_library(
     name = "17608_bar",
     hdrs = ["17608_bar.h"],
     visibility = ["//17000/tests:__pkg__"],
