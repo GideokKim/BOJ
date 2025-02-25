@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "27324_same_numbers",
+    hdrs = ["27324_same_numbers.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
+cc_library(
     name = "27327_hour",
     hdrs = ["27327_hour.h"],
     visibility = ["//27000/tests:__pkg__"],
