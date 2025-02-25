@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "27328_three_way_comparison",
+    hdrs = ["27328_three_way_comparison.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
+cc_library(
     name = "27331_two_digit_number",
     hdrs = ["27331_two_digit_number.h"],
     visibility = ["//27000/tests:__pkg__"],
