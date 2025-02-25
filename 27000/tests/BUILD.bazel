@@ -9,6 +9,16 @@ cc_test(
 )
 
 cc_test(
+    name = "27324_same_numbers_test",
+    srcs = ["27324_same_numbers_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//27000/src:27324_same_numbers",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "27327_hour_test",
     srcs = ["27327_hour_test.cc"],
     deps = [
