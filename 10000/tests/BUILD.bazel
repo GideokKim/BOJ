@@ -19,6 +19,16 @@ cc_test(
 )
 
 cc_test(
+    name = "10718_we_love_kriii_test",
+    srcs = ["10718_we_love_kriii_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//10000/src:10718_we_love_kriii",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "10757-big_number_a_plus_b-test",
     srcs = ["10757-big_number_a_plus_b-test.cc"],
     deps = [
