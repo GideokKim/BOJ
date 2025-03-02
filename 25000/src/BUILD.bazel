@@ -23,3 +23,9 @@ cc_library(
     hdrs = ["25591_puang_and_jongyun.h"],
     visibility = ["//25000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "25883_sprout",
+    hdrs = ["25883_sprout.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
