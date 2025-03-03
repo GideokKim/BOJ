@@ -122,6 +122,16 @@ cc_test(
 )
 
 cc_test(
+    name = "10926_surprise_test",
+    srcs = ["10926_surprise_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//10000/src:10926_surprise",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "10988_check_palindrome_test",
     srcs = ["10988_check_palindrome_test.cc"],
     deps = [
