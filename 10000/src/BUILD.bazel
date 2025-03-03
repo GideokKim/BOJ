@@ -80,6 +80,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10926_surprise",
+    hdrs = ["10926_surprise.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10988_check_palindrome",
     hdrs = ["10988_check_palindrome.h"],
     visibility = ["//10000/tests:__pkg__"],
