@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "32154_suapc_2024_winter",
+    hdrs = ["32154_suapc_2024_winter.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
+
+cc_library(
     name = "32979_apartment",
     hdrs = ["32979_apartment.h"],
     visibility = ["//32000/tests:__pkg__"],
