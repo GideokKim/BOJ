@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "23080_scytale_cipher",
+    hdrs = ["23080_scytale_cipher.h"],
+    visibility = ["//23000/tests:__pkg__"],
+)
+
+cc_library(
     name = "23795_gambling_should_be_fun",
     hdrs = ["23795_gambling_should_be_fun.h"],
     visibility = ["//23000/tests:__pkg__"],
