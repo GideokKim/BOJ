@@ -29,10 +29,11 @@ cc_test(
 )
 
 cc_test(
-    name = "10757-big_number_a_plus_b-test",
-    srcs = ["10757-big_number_a_plus_b-test.cc"],
+    name = "10757_big_number_a_plus_b_test",
+    srcs = ["10757_big_number_a_plus_b_test.cc"],
     deps = [
-        "//10000/src:10757-big_number_a_plus_b",
+        "//test_headers:test_helper",
+        "//10000/src:10757_big_number_a_plus_b",
         "@googletest//:gtest_main",
     ],
 )
