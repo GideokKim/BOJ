@@ -19,9 +19,8 @@ cc_library(
 )
 
 cc_library(
-    name = "10757-big_number_a_plus_b",
-    srcs = ["10757-big_number_a_plus_b.cc"],
-    hdrs = ["10757-big_number_a_plus_b.h"],
+    name = "10757_big_number_a_plus_b",
+    hdrs = ["10757_big_number_a_plus_b.h"],
     visibility = ["//10000/tests:__pkg__"],
 )
 
