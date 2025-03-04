@@ -1,7 +1,10 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "14730_small_test",
     srcs = ["14730_small_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//14000/src:14730_small",
         "@googletest//:gtest_main",
     ],
