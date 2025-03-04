@@ -6,6 +6,8 @@
 
 class CaringForKindergarten {
  public:
+  void SetInputs() {}
+
   void Calculate() {
     t = -1;
     int n, input;
@@ -23,7 +25,7 @@ class CaringForKindergarten {
     }
   }
 
-  std::string GetResult() { return result; }
+  void PrintResult() { std::cout << result; }
 
  private:
   int t;
@@ -33,8 +35,9 @@ class CaringForKindergarten {
 #ifdef BOJ_SUBMIT
 int main() {
   CaringForKindergarten caring_for_kindergarten;
+  caring_for_kindergarten.SetInputs();
   caring_for_kindergarten.Calculate();
-  std::cout << caring_for_kindergarten.GetResult();
+  caring_for_kindergarten.PrintResult();
 
   return 0;
 }

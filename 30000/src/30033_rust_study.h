@@ -6,6 +6,8 @@
 
 class RustStudy {
  public:
+  void SetInputs() {}
+
   void Calculate() {
     size_t days;
     int input;
@@ -24,7 +26,7 @@ class RustStudy {
     }
   }
 
-  size_t GetResult() { return result; }
+  void PrintResult() { std::cout << result; }
 
  private:
   std::vector<int> plans;
@@ -34,8 +36,9 @@ class RustStudy {
 #ifdef BOJ_SUBMIT
 int main() {
   RustStudy rust_study;
+  rust_study.SetInput();
   rust_study.Calculate();
-  std::cout << rust_study.GetResult() << '\n';
+  rust_study.PrintResult();
 
   return 0;
 }
