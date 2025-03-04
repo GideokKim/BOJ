@@ -1,7 +1,10 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "30033_rust_study_test",
     srcs = ["30033_rust_study_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//30000/src:30033_rust_study",
         "@googletest//:gtest_main",
     ],
@@ -21,6 +24,7 @@ cc_test(
     name = "30979_caring_for_kindergarten_test",
     srcs = ["30979_caring_for_kindergarten_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//30000/src:30979_caring_for_kindergarten",
         "@googletest//:gtest_main",
     ],
@@ -30,6 +34,7 @@ cc_test(
     name = "30987_haru_dermatologist_test",
     srcs = ["30987_haru_dermatologist_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//30000/src:30987_haru_dermatologist",
         "@googletest//:gtest_main",
     ],
