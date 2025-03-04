@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "14002_longest_increasing_subsequence_4",
+    hdrs = ["14002_longest_increasing_subsequence_4.h"],
+    visibility = ["//14000/tests:__pkg__"],
+)
+
+cc_library(
     name = "14730_small",
     hdrs = ["14730_small.h"],
     visibility = ["//14000/tests:__pkg__"],
