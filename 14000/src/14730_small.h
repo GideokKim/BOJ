@@ -18,6 +18,8 @@ class Small {
     }
   }
 
+  void Calculate() {}
+
   void PrintResult() { std::cout << result; }
 
  private:
@@ -28,6 +30,7 @@ class Small {
 int main() {
   Small small;
   small.SetInputs();
+  small.Calculate();
   small.PrintResult();
   return 0;
 }
