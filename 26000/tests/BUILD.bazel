@@ -1,7 +1,10 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "26517_continuous_test",
     srcs = ["26517_continuous_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//26000/src:26517_continuous",
         "@googletest//:gtest_main",
     ],
@@ -11,6 +14,7 @@ cc_test(
     name = "26562_presidents_test",
     srcs = ["26562_presidents_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//26000/src:26562_presidents",
         "@googletest//:gtest_main",
     ],
