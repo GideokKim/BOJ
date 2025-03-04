@@ -81,6 +81,16 @@ cc_test(
 )
 
 cc_test(
+    name = "11722_longest_decreasing_subsequence_test",
+    srcs = ["11722_longest_decreasing_subsequence_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//11000/src:11722_longest_decreasing_subsequence",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "11866_Josephus_problem_0_test",
     srcs = ["11866_Josephus_problem_0_test.cc"],
     deps = [
