@@ -40,7 +40,9 @@ class Presidents {
     }
   }
 
-  void PrintPrices() {
+  void Calculate() {}
+
+  void PrintResult() {
     for (size_t index = 0; index < prices.size(); ++index) {
       std::cout << prices[index] << std::endl;
     }
@@ -54,7 +56,8 @@ class Presidents {
 int main() {
   Presidents presidents;
   presidents.SetInputs();
-  presidents.PrintPrices();
+  presidents.Calculate();
+  presidents.PrintResult();
 
   return 0;
 }
