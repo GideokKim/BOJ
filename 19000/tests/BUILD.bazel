@@ -2,6 +2,7 @@ cc_test(
     name = "19602_dog_treats_test",
     srcs = ["19602_dog_treats_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//19000/src:19602_dog_treats",
         "@googletest//:gtest_main",
     ],
