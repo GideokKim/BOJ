@@ -19,6 +19,12 @@ cc_library(
 )
 
 cc_library(
+    name = "24228_chopsticks",
+    hdrs = ["24228_chopsticks.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
+
+cc_library(
     name = "24313_algorithm_class_big_o_notation_1",
     hdrs = ["24313_algorithm_class_big_o_notation_1.h"],
     visibility = ["//24000/tests:__pkg__"],
