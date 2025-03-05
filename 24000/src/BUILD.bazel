@@ -23,3 +23,9 @@ cc_library(
     hdrs = ["24313_algorithm_class_big_o_notation_1.h"],
     visibility = ["//24000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "24416_algorithm_lesson_fibonacci_1",
+    hdrs = ["24416_algorithm_lesson_fibonacci_1.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
