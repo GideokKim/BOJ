@@ -1,3 +1,15 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
+cc_test(
+    name = "27294_how_many_test",
+    srcs = ["27294_how_many_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//27000/src:27294_how_many",
+        "@googletest//:gtest_main",
+    ],
+)
+
 cc_test(
     name = "27323_rectangle_test",
     srcs = ["27323_rectangle_test.cc"],
