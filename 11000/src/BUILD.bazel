@@ -59,3 +59,9 @@ cc_library(
     hdrs = ["11866_Josephus_problem_0.h"],
     visibility = ["//11000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "11948_subject_selection",
+    hdrs = ["11948_subject_selection.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
