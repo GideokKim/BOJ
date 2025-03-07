@@ -8,6 +8,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1003_fibonacci_function",
+    hdrs = ["1003_fibonacci_function.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1065-hansu",
     srcs = ["1065-hansu.cc"],
     hdrs = ["1065-hansu.h"],
