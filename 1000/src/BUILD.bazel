@@ -94,6 +94,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1904_zero_one_tile",
+    hdrs = ["1904_zero_one_tile.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1924-2007",
     srcs = ["1924-2007.cc"],
     hdrs = ["1924-2007.h"],
