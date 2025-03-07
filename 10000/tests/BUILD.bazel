@@ -1,3 +1,5 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "10171_cat_test",
     srcs = ["10171_cat_test.cc"],
@@ -108,6 +110,16 @@ cc_test(
     deps = [
         "//test_headers:test_helper",
         "//10000/src:10828_stack",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "10844_easy_stair_numbers_test",
+    srcs = ["10844_easy_stair_numbers_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//10000/src:10844_easy_stair_numbers",
         "@googletest//:gtest_main",
     ],
 )
