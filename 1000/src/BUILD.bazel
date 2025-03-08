@@ -20,6 +20,12 @@ cc_library(
     visibility = ["//1000/tests:__pkg__"],
 )
 
+cc_library( 
+    name = "1149_rgb_street",
+    hdrs = ["1149_rgb_street.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
 cc_library(
     name = "1158_Josephus_problem",
     hdrs = ["1158_Josephus_problem.h"],
