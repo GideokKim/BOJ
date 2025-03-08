@@ -1,7 +1,10 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "13222_matches_test",
     srcs = ["13222_matches_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//13000/src:13222_matches",
         "@googletest//:gtest_main",
     ],
@@ -21,6 +24,7 @@ cc_test(
     name = "13698_hawk_eyes_test",
     srcs = ["13698_hawk_eyes_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//13000/src:13698_hawk_eyes",
         "@googletest//:gtest_main",
     ],

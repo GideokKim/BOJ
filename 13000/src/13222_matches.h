@@ -8,9 +8,9 @@
 
 class Matches {
  public:
-  void SetInputs() {
-    int n, w, h;
-    std::cin >> n >> w >> h;
+  void SetInputs() { std::cin >> n >> w >> h; }
+
+  void Calculate() {
     int length = static_cast<int>(std::sqrt(w * w + h * h));
     matches.resize(n);
 
@@ -25,9 +25,18 @@ class Matches {
     }
   }
 
-  std::vector<bool> GetMatches() { return matches; }
+  void PrintResult() {
+    for (bool match : matches) {
+      if (match) {
+        std::cout << "YES\n";
+      } else {
+        std::cout << "NO\n";
+      }
+    }
+  }
 
  private:
+  int n, w, h;
   std::vector<bool> matches;
 };
 
@@ -35,14 +44,8 @@ class Matches {
 int main() {
   Matches matches;
   matches.SetInputs();
-  std::vector<bool> result = matches.GetMatches();
-  for (bool match : result) {
-    if (match) {
-      std::cout << "YES\n";
-    } else {
-      std::cout << "NO\n";
-    }
-  }
+  matches.Calculate();
+  matches.PrintResult();
 
   return 0;
 }
