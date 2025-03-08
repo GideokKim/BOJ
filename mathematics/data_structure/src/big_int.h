@@ -1,6 +1,7 @@
 #ifndef BOJ_MATHEMATICS_DATA_STRUCTURE_SRC_BIG_INT_H_
 #define BOJ_MATHEMATICS_DATA_STRUCTURE_SRC_BIG_INT_H_
 
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <vector>
@@ -15,8 +16,7 @@ class BigInt {
     big_int_number.push_back(0);
   }
 
-  BigInt(const std::string& number)
-      : unit_number(100000000), is_negative(false) {
+  BigInt(const std::string& number) : unit_number(100000000) {
     SetBigIntNumber(number);
   }
 
@@ -42,13 +42,9 @@ class BigInt {
       result.is_negative = is_negative;
       result.big_int_number = AddAbsoluteValues(other);
       return result;
-    } else {
-      if (is_negative) {
-        return other - AbsoluteValue();
-      } else {
-        return *this - other.AbsoluteValue();
-      }
     }
+    return is_negative ? other - AbsoluteValue()
+                       : *this - other.AbsoluteValue();
   }
 
   BigInt operator-(const BigInt& other) const {
@@ -65,7 +61,6 @@ class BigInt {
       result.is_negative = !is_negative;
       return result;
     }
-
     return SubtractAbsoluteValues(other);
   }
 
@@ -79,8 +74,8 @@ class BigInt {
     if (big_int_number.empty()) {
       return "0";
     }
-    std::string result = (is_negative ? "-" : "");
-    result += std::to_string(big_int_number.back());
+    std::string result =
+        (is_negative ? "-" : "") + std::to_string(big_int_number.back());
     for (int i = big_int_number.size() - 2; i >= 0; --i) {
       result +=
           std::string(8 - std::to_string(big_int_number[i]).length(), '0') +
