@@ -1,3 +1,5 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "2090_harmonic_mean_test",
     srcs = ["2090_harmonic_mean_test.cc"],
@@ -59,6 +61,16 @@ cc_test(
     srcs = ["2438_get_a_star_1_test.cc"],
     deps = [
         "//2000/src:2438_get_a_star_1",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "2439_print_stars_2_test",
+    srcs = ["2439_print_stars_2_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2439_print_stars_2",
         "@googletest//:gtest_main",
     ],
 )
