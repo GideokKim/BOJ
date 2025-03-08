@@ -18,3 +18,8 @@ cc_library(
     visibility = ["//26000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "26711_a_plus_b",
+    hdrs = ["26711_a_plus_b.h"],
+    visibility = ["//26000/tests:__pkg__"],
+)
