@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "26082_warboy",
+    hdrs = ["26082_warboy.h"],
+    visibility = ["//26000/tests:__pkg__"],
+)
+
+cc_library(
     name = "26517_continuous",
     hdrs = ["26517_continuous.h"],
     visibility = ["//26000/tests:__pkg__"],
