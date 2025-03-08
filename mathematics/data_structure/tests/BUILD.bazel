@@ -1,0 +1,11 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
+cc_test(
+    name = "big_int_test",
+    srcs = ["big_int_test.cc"],
+    deps = [
+        "//mathematics/data_structure/src:big_int",
+        "@googletest//:gtest",
+        "@googletest//:gtest_main",
+    ],
+)
