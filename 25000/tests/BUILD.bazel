@@ -1,3 +1,5 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "25206_your_rating_is_test",
     srcs = ["25206_your_rating_is_test.cc"],
@@ -14,6 +16,16 @@ cc_test(
     deps = [
         "//test_headers:test_helper",
         "//25000/src:25304_receipt",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "25314_coding_is_physical_education_test",
+    srcs = ["25314_coding_is_physical_education_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//25000/src:25314_coding_is_physical_education",
         "@googletest//:gtest_main",
     ],
 )

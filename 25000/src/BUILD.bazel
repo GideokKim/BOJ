@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "25314_coding_is_physical_education",
+    hdrs = ["25314_coding_is_physical_education.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
+
+cc_library(
     name = "25494_simple_problem_small",
     hdrs = ["25494_simple_problem_small.h"],
     visibility = ["//25000/tests:__pkg__"],
