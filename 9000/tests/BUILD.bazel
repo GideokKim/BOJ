@@ -51,6 +51,16 @@ cc_test(
 )
 
 cc_test(
+    name = "9251_lcs_test",
+    srcs = ["9251_lcs_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//9000/src:9251_lcs",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "9306_practice_roll_call_test",
     srcs = ["9306_practice_roll_call_test.cc"],
     deps = [
