@@ -1,9 +1,22 @@
+
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "17224_why_did_apc_become_subtask_competition_test",
     srcs = ["17224_why_did_apc_become_subtask_competition_test.cc"],
     deps = [
         "//test_headers:test_helper",
         "//17000/src:17224_why_did_apc_become_subtask_competition",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "17356_wook_jae_test",
+    srcs = ["17356_wook_jae_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//17000/src:17356_wook_jae",
         "@googletest//:gtest_main",
     ],
 )
