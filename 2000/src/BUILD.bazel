@@ -79,6 +79,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2579_stair_climbing",
+    hdrs = ["2579_stair_climbing.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2675_string_repeatation",
     hdrs = ["2675_string_repeatation.h"],
     visibility = ["//2000/tests:__pkg__"],
