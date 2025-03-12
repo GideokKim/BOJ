@@ -5,3 +5,9 @@ cc_library(
     hdrs = ["12605_words_order_flip_over.h"],
     visibility = ["//12000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "12865_ordinary_knapsack",
+    hdrs = ["12865_ordinary_knapsack.h"],
+    visibility = ["//12000/tests:__pkg__"],
+)

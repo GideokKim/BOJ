@@ -1,9 +1,21 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "12605_words_order_flip_over_test",
     srcs = ["12605_words_order_flip_over_test.cc"],
     deps = [
         "//test_headers:test_helper",
         "//12000/src:12605_words_order_flip_over",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "12865_ordinary_knapsack_test",
+    srcs = ["12865_ordinary_knapsack_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//12000/src:12865_ordinary_knapsack",
         "@googletest//:gtest_main",
     ],
 )
