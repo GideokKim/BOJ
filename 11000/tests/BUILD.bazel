@@ -111,6 +111,16 @@ cc_test(
 )
 
 cc_test(
+    name = "11727_2_by_n_tiling_2_test",
+    srcs = ["11727_2_by_n_tiling_2_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//11000/src:11727_2_by_n_tiling_2",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "11866_Josephus_problem_0_test",
     srcs = ["11866_Josephus_problem_0_test.cc"],
     deps = [
