@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10480_oddities",
+    hdrs = ["10480_oddities.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10718_we_love_kriii",
     hdrs = ["10718_we_love_kriii.h"],
     visibility = ["//10000/tests:__pkg__"],
