@@ -1,0 +1,11 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
+cc_test(
+    name = "29766_finding_dksh_test",
+    srcs = ["29766_finding_dksh_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//29000/src:29766_finding_dksh",
+        "@googletest//:gtest_main",
+    ],
+)

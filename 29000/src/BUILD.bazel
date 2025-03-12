@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "29766_finding_dksh",
+    hdrs = ["29766_finding_dksh.h"],
+    visibility = ["//29000/tests:__pkg__"],
+)
