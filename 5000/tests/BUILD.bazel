@@ -1,3 +1,5 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "5341_pyramids_test",
     srcs = ["5341_pyramids_test.cc"],
@@ -44,6 +46,16 @@ cc_test(
     deps = [
         "//test_headers:test_helper",
         "//5000/src:5598_caesar_cipher",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "5691_mean_median_problem_test",
+    srcs = ["5691_mean_median_problem_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//5000/src:5691_mean_median_problem",
         "@googletest//:gtest_main",
     ],
 )
