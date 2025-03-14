@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["15740_a_plus_b_9.h"],
     visibility = ["//15000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "15841_virus_outbreak",
+    hdrs = ["15841_virus_outbreak.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
