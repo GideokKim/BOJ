@@ -73,6 +73,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10826_fibonacci_number_4",
+    hdrs = ["10826_fibonacci_number_4.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10828_stack",
     hdrs = ["10828_stack.h"],
     visibility = ["//10000/tests:__pkg__"],
