@@ -79,3 +79,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "5800_grade_statistics_test",
+    srcs = ["5800_grade_statistics_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//5000/src:5800_grade_statistics",
+        "@googletest//:gtest_main",
+    ],
+)
