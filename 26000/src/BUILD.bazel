@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "26529_bunnies",
+    hdrs = ["26529_bunnies.h"],
+    visibility = ["//26000/tests:__pkg__"],
+)
+
+cc_library(
     name = "26545_mathematics",
     hdrs = ["26545_mathematics.h"],
     visibility = ["//26000/tests:__pkg__"],
