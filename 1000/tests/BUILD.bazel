@@ -1,10 +1,11 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
-    name = "1002-turret-test",
-    srcs = ["1002-turret-test.cc"],
+    name = "1002_turret_test",
+    srcs = ["1002_turret_test.cc"],
     deps = [
-        "//1000/src:1002-turret",
+        "//test_headers:test_helper",
+        "//1000/src:1002_turret",
         "@googletest//:gtest_main",
     ],
 )
@@ -20,10 +21,11 @@ cc_test(
 )
 
 cc_test(
-    name = "1065-hansu-test",
-    srcs = ["1065-hansu-test.cc"],
+    name = "1065_hansu_test",
+    srcs = ["1065_hansu_test.cc"],
     deps = [
-        "//1000/src:1065-hansu",
+        "//test_headers:test_helper",
+        "//1000/src:1065_hansu",
         "@googletest//:gtest_main",
     ],
 )
@@ -52,6 +54,7 @@ cc_test(
     name = "1259_palindrome_numbers_test",
     srcs = ["1259_palindrome_numbers_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//1000/src:1259_palindrome_numbers",
         "@googletest//:gtest_main",
     ],
@@ -61,6 +64,7 @@ cc_test(
     name = "1436_film_director_shom_test",
     srcs = ["1436_film_director_shom_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//1000/src:1436_film_director_shom",
         "@googletest//:gtest_main",
     ],
@@ -87,10 +91,11 @@ cc_test(
 )
 
 cc_test(
-    name = "1541-lost_parenthesis-test",
-    srcs = ["1541-lost_parenthesis-test.cc"],
+    name = "1541_lost_parenthesis_test",
+    srcs = ["1541_lost_parenthesis_test.cc"],
     deps = [
-        "//1000/src:1541-lost_parenthesis",
+        "//test_headers:test_helper",
+        "//1000/src:1541_lost_parenthesis",
         "@googletest//:gtest_main",
     ],
 )
@@ -99,6 +104,7 @@ cc_test(
     name = "1543_document_search_test",
     srcs = ["1543_document_search_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//1000/src:1543_document_search",
         "@googletest//:gtest_main",
     ],
@@ -108,6 +114,7 @@ cc_test(
     name = "1629_multiplication_test",
     srcs = ["1629_multiplication_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//1000/src:1629_multiplication",
         "@googletest//:gtest_main",
     ],
@@ -127,6 +134,7 @@ cc_test(
     name = "1747_prime_and_palindrome_test",
     srcs = ["1747_prime_and_palindrome_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//1000/src:1747_prime_and_palindrome",
         "@googletest//:gtest_main",
     ],
@@ -136,6 +144,7 @@ cc_test(
     name = "1759_create_password_test",
     srcs = ["1759_create_password_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//1000/src:1759_create_password",
         "@googletest//:gtest_main",
     ],
@@ -182,10 +191,11 @@ cc_test(
 )
 
 cc_test(
-    name = "1924-2007-test",
-    srcs = ["1924-2007-test.cc"],
+    name = "1924_2007_test",
+    srcs = ["1924_2007_test.cc"],
     deps = [
-        "//1000/src:1924-2007",
+        "//test_headers:test_helper",
+        "//1000/src:1924_2007",
         "@googletest//:gtest_main",
     ],
 )
@@ -194,6 +204,7 @@ cc_test(
     name = "1932_integer_triangle_test",
     srcs = ["1932_integer_triangle_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//1000/src:1932_integer_triangle",
         "@googletest//:gtest_main",
     ],

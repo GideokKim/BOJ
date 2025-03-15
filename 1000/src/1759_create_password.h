@@ -17,6 +17,17 @@ class CreatePassword {
     password.resize(L);
   }
 
+  void Calculate() { GeneratePasswords(0, 0); }
+
+  void PrintResult() {
+    for (const auto& password : result) {
+      std::cout << password << '\n';
+    }
+  }
+
+  std::vector<std::string> GetResult() { return result; }
+
+ private:
   void GeneratePasswords(int index, int depth) {
     if (depth == L) {
       if (IsValidPassword(password)) {
@@ -30,15 +41,6 @@ class CreatePassword {
     }
   }
 
-  void PrintResult() {
-    for (const auto& password : result) {
-      std::cout << password << '\n';
-    }
-  }
-
-  std::vector<std::string> GetResult() { return result; }
-
- private:
   bool IsValidPassword(const std::string& password) {
     int vowels = 0;
     int consonants = 0;
@@ -63,7 +65,7 @@ class CreatePassword {
 int main() {
   CreatePassword create_password;
   create_password.SetInputs();
-  create_password.GeneratePasswords(0, 0);
+  create_password.Calculate();
   create_password.PrintResult();
   return 0;
 }

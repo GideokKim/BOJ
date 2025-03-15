@@ -8,10 +8,11 @@
 
 class PrimeAndPalindrome {
  public:
-  void SetInput() { std::cin >> n; }
+  void SetInputs() { std::cin >> n; }
+
+  void Calculate() { GeneratePrimeNumbers(); }
 
   void PrintResult() {
-    GeneratePrimeNumbers();
     for (int number = n; number <= 1004000; ++number) {
       if (!IsPalindrome(number) || number == 1) {
         continue;
@@ -70,7 +71,8 @@ class PrimeAndPalindrome {
 #ifdef BOJ_SUBMIT
 int main() {
   PrimeAndPalindrome prime_and_palindrome;
-  prime_and_palindrome.SetInput();
+  prime_and_palindrome.SetInputs();
+  prime_and_palindrome.Calculate();
   prime_and_palindrome.PrintResult();
   return 0;
 }

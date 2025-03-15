@@ -1,44 +1,41 @@
 #ifndef BOJ_1000_SRC_1629_MULTIPLICATION_H_
 #define BOJ_1000_SRC_1629_MULTIPLICATION_H_
 
+#include <iostream>
 class Multiplication {
  public:
-  Multiplication(unsigned long long input_A, unsigned long long input_B,
-                 unsigned long long input_C)
-      : A(input_A), B(input_B), C(input_C) {}
+  void SetInputs() { std::cin >> a >> b >> c; }
 
-  unsigned long long Calculate() {
-    unsigned long long result = 1;
-    while (B > 0) {
-      if (B % 2 == 1) {
-        result = (result * A) % C;
+  void Calculate() {
+    result = 1;
+    while (b > 0) {
+      if (b % 2 == 1) {
+        result = (result * a) % c;
       }
-      A = (A * A) % C;
-      B /= 2;
+      a = (a * a) % c;
+      b /= 2;
     }
-    return result;
+    result = result % c;
   }
 
+  void PrintResult() { std::cout << result; }
+
  private:
-  unsigned long long A;
-  unsigned long long B;
-  unsigned long long C;
+  unsigned long long a, b, c;
+  unsigned long long result;
 };
 
 #ifdef BOJ_SUBMIT
-#include <iostream>
 
 int main() {
-  unsigned long long A, B, C;
-  std::cin >> A >> B >> C;
-
-  Multiplication multiplication(A, B, C);
-
-  unsigned long long result = multiplication.Calculate();
-  std::cout << result << '\n';
+  Multiplication multiplication;
+  multiplication.SetInputs();
+  multiplication.Calculate();
+  multiplication.PrintResult();
 
   return 0;
 }
+
 #endif  // BOJ_SUBMIT
 
 #endif  // BOJ_1000_SRC_1629_MULTIPLICATION_H_

@@ -7,6 +7,8 @@
 
 class PalindromeNumbers {
  public:
+  void SetInputs() {}
+
   void Calculate() {
     std::string number;
     std::cin >> number;
@@ -22,12 +24,16 @@ class PalindromeNumbers {
       std::cin >> number;
     }
   }
+
+  void PrintResult() {}
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   PalindromeNumbers palindrome_numbers;
+  palindrome_numbers.SetInputs();
   palindrome_numbers.Calculate();
+  palindrome_numbers.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

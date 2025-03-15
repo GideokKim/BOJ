@@ -6,7 +6,7 @@
 
 class DocumentSearch {
  public:
-  void SetInput() {
+  void SetInputs() {
     std::getline(std::cin, document);
     std::getline(std::cin, word);
   }
@@ -32,7 +32,7 @@ class DocumentSearch {
 #ifdef BOJ_SUBMIT
 int main() {
   DocumentSearch document_search;
-  document_search.SetInput();
+  document_search.SetInputs();
   document_search.Calculate();
   document_search.PrintResult();
   return 0;

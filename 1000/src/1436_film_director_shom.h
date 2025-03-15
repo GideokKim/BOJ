@@ -9,7 +9,7 @@ class FilmDirectorShom {
  public:
   void SetInputs() { std::cin >> N; }
 
-  void GenerateNumbers() {
+  void Calculate() {
     for (int i = 0; i < 10; ++i) {
       for (int j = 0; j < 10; ++j) {
         for (int k = 0; k < 10; ++k) {
@@ -46,15 +46,15 @@ class FilmDirectorShom {
     }
   }
 
-  int GetResult() {
+  void PrintResult() {
     int index = 1;
     for (auto iter = all_numbers.begin(); iter != all_numbers.end(); ++iter) {
       if (index == N) {
-        return *iter;
+        std::cout << *iter;
+        break;
       }
       ++index;
     }
-    return -1;
   }
 
  private:
@@ -66,9 +66,8 @@ class FilmDirectorShom {
 int main() {
   FilmDirectorShom film_director_shom;
   film_director_shom.SetInputs();
-  film_director_shom.GenerateNumbers();
-  int result = film_director_shom.GetResult();
-  std::cout << result << '\n';
+  film_director_shom.Calculate();
+  film_director_shom.PrintResult();
 
   return 0;
 }

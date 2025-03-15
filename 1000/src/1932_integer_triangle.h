@@ -35,7 +35,7 @@ class IntegerTriangle {
     max_result = *std::max_element(results.begin(), results.end());
   }
 
-  void PrintMaxResult() { std::cout << max_result; }
+  void PrintResult() { std::cout << max_result; }
 
  private:
   int n;
@@ -48,7 +48,7 @@ int main() {
   IntegerTriangle integer_triangle;
   integer_triangle.SetInputs();
   integer_triangle.Calculate();
-  integer_triangle.PrintMaxResult();
+  integer_triangle.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

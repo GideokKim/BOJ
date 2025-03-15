@@ -1,9 +1,8 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
-    name = "1002-turret",
-    srcs = ["1002-turret.cc"],
-    hdrs = ["1002-turret.h"],
+    name = "1002_turret",
+    hdrs = ["1002_turret.h"],
     visibility = ["//1000/tests:__pkg__"],
 )
 
@@ -14,9 +13,8 @@ cc_library(
 )
 
 cc_library(
-    name = "1065-hansu",
-    srcs = ["1065-hansu.cc"],
-    hdrs = ["1065-hansu.h"],
+    name = "1065_hansu",
+    hdrs = ["1065_hansu.h"],
     visibility = ["//1000/tests:__pkg__"],
 )
 
@@ -57,9 +55,8 @@ cc_library(
 )
 
 cc_library(
-    name = "1541-lost_parenthesis",
-    srcs = ["1541-lost_parenthesis.cc"],
-    hdrs = ["1541-lost_parenthesis.h"],
+    name = "1541_lost_parenthesis",
+    hdrs = ["1541_lost_parenthesis.h"],
     visibility = ["//1000/tests:__pkg__"],
 )
 
@@ -118,9 +115,8 @@ cc_library(
 )
 
 cc_library(
-    name = "1924-2007",
-    srcs = ["1924-2007.cc"],
-    hdrs = ["1924-2007.h"],
+    name = "1924_2007",
+    hdrs = ["1924_2007.h"],
     visibility = ["//1000/tests:__pkg__"],
 )
 
