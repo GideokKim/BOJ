@@ -20,10 +20,12 @@ class Lotto {
       }
       current_combination.clear();
       current_combination.resize(6);
-      GenerateCombinations(0, 0);
-      std::cout << "\n";
     }
   }
+
+  void Calculate() { GenerateCombinations(0, 0); }
+
+  void PrintResult() { std::cout << "\n"; }
 
  private:
   void GenerateCombinations(int index, int depth) {
@@ -52,6 +54,8 @@ class Lotto {
 int main() {
   Lotto lotto;
   lotto.SetInputs();
+  lotto.Calculate();
+  lotto.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

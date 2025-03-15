@@ -14,7 +14,9 @@ class WhoIsInTheMiddle {
     }
   }
 
-  void PrintMiddle() {
+  void Calculate() {}
+
+  void PrintResult() {
     auto it = numbers.begin();
     std::advance(it, 1);
     std::cout << *it << '\n';
@@ -28,7 +30,8 @@ class WhoIsInTheMiddle {
 int main() {
   WhoIsInTheMiddle who_is_in_the_middle;
   who_is_in_the_middle.SetInputs();
-  who_is_in_the_middle.PrintMiddle();
+  who_is_in_the_middle.Calculate();
+  who_is_in_the_middle.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

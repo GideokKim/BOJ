@@ -1,25 +1,31 @@
-cc_test(
-    name = "6603_lotto_test",
-    srcs = ["6603_lotto_test.cc"],
-    deps = [
-        "//6000/src:6603_lotto",
-        "@googletest//:gtest_main",
-    ],
-)
+load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
     name = "6190_another_cow_number_game_test",
     srcs = ["6190_another_cow_number_game_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//6000/src:6190_another_cow_number_game",
         "@googletest//:gtest_main",
     ],
 )
 
 cc_test(
+    name = "6603_lotto_test",
+    srcs = ["6603_lotto_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//6000/src:6603_lotto",
+        "@googletest//:gtest_main",
+    ],
+)
+
+
+cc_test(
     name = "6840_who_is_in_the_middle_test",
     srcs = ["6840_who_is_in_the_middle_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//6000/src:6840_who_is_in_the_middle",
         "@googletest//:gtest_main",
     ],
@@ -29,6 +35,7 @@ cc_test(
     name = "6889_smile_with_similes_test",
     srcs = ["6889_smile_with_similes_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//6000/src:6889_smile_with_similes",
         "@googletest//:gtest_main",
     ],

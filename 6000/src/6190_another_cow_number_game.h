@@ -20,7 +20,7 @@ class AnotherCowNumberGame {
     }
   }
 
-  void PrintScore() { std::cout << score << "\n"; }
+  void PrintResult() { std::cout << score; }
 
  private:
   int number;
@@ -32,7 +32,7 @@ int main() {
   AnotherCowNumberGame another_cow_number_game;
   another_cow_number_game.SetInputs();
   another_cow_number_game.Calculate();
-  another_cow_number_game.PrintScore();
+  another_cow_number_game.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

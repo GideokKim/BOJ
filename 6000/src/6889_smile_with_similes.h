@@ -2,13 +2,13 @@
 #define BOJ_6000_SRC_6889_SMILE_WITH_SIMILES_H_
 
 #include <iostream>
-#include <vector>
 #include <string>
+#include <vector>
 
 class SmileWithSimiles {
  public:
   void SetInputs() {
-    int n, m;
+    size_t n, m;
     std::cin >> n >> m;
     adjectives.resize(n);
     nouns.resize(m);
@@ -19,6 +19,8 @@ class SmileWithSimiles {
       std::cin >> nouns[index];
     }
   }
+
+  void Calculate() {}
 
   void PrintResult() {
     for (auto adjective : adjectives) {
@@ -37,6 +39,7 @@ class SmileWithSimiles {
 int main() {
   SmileWithSimiles smile_with_similes;
   smile_with_similes.SetInputs();
+  smile_with_similes.Calculate();
   smile_with_similes.PrintResult();
   return 0;
 }
