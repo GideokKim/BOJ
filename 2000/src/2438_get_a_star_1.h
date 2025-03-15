@@ -8,7 +8,7 @@ class GetStar1 {
  public:
   void SetInputs() { std::cin >> N; }
 
-  void GenerateStar1() {
+  void Calculate() {
     for (int i = 0; i < N; i++) {
       for (int j = 0; j < i + 1; j++) {
         star += '*';
@@ -17,9 +17,7 @@ class GetStar1 {
     }
   }
 
-  void PrintStar1() { std::cout << star; }
-
-  std::string GetStar() { return star; }
+  void PrintResult() { std::cout << star; }
 
  private:
   int N;
@@ -30,8 +28,8 @@ class GetStar1 {
 int main() {
   GetStar1 get_star_1;
   get_star_1.SetInputs();
-  get_star_1.GenerateStar1();
-  get_star_1.PrintStar1();
+  get_star_1.Calculate();
+  get_star_1.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

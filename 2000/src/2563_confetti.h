@@ -21,7 +21,7 @@ class Confetti {
     }
   }
 
-  void CalculateArea() {
+  void Calculate() {
     area = 0;
     for (int i = 0; i < 100; i++) {
       for (int j = 0; j < 100; j++) {
@@ -32,7 +32,7 @@ class Confetti {
     }
   }
 
-  void PrintArea() { std::cout << area; }
+  void PrintResult() { std::cout << area; }
 
  private:
   std::vector<std::vector<int>> drawing_paper;
@@ -43,8 +43,8 @@ class Confetti {
 int main() {
   Confetti confetti;
   confetti.SetInputs();
-  confetti.CalculateArea();
-  confetti.PrintArea();
+  confetti.Calculate();
+  confetti.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

@@ -8,25 +8,29 @@ class Planina {
  public:
   void SetInputs() { std::cin >> N; }
 
-  int Calculate() {
+  void Calculate() {
     int power_of_2 = pow(2, N - 1);
     int base_number = 2;
     for (int i = 0; i < N; i++) {
       base_number += power_of_2;
       power_of_2 >>= 1;
     }
-    return base_number * base_number;
+    result = base_number * base_number;
   }
+
+  void PrintResult() { std::cout << result; }
 
  private:
   int N;
+  int result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Planina planina;
   planina.SetInputs();
-  std::cout << planina.Calculate() << '\n';
+  planina.Calculate();
+  planina.PrintResult();
 
   return 0;
 }

@@ -14,7 +14,7 @@ class MaximumValue {
     }
   }
 
-  void SearchMaximumValue() {
+  void Calculate() {
     maximum_value = numbers[0];
     maximum_index = 1;
     for (size_t i = 0; i < numbers.size(); i++) {
@@ -25,13 +25,7 @@ class MaximumValue {
     }
   }
 
-  void PrintMaximumValue() {
-    std::cout << maximum_value << '\n' << maximum_index;
-  }
-
-  int GetMaximumValue() { return maximum_value; }
-
-  size_t GetMaximumIndex() { return maximum_index; }
+  void PrintResult() { std::cout << maximum_value << '\n' << maximum_index; }
 
  private:
   std::vector<int> numbers;
@@ -43,8 +37,8 @@ class MaximumValue {
 int main() {
   MaximumValue maximum_value;
   maximum_value.SetInputs();
-  maximum_value.SearchMaximumValue();
-  maximum_value.PrintMaximumValue();
+  maximum_value.Calculate();
+  maximum_value.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

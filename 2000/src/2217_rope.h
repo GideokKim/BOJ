@@ -23,7 +23,7 @@ class Rope {
     }
   }
 
-  int GetMaxWeight() const { return max_weight; }
+  void PrintResult() { std::cout << max_weight; }
 
  private:
   int N;
@@ -36,7 +36,7 @@ int main() {
   Rope rope;
   rope.SetInputs();
   rope.Calculate();
-  std::cout << rope.GetMaxWeight() << '\n';
+  rope.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

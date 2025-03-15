@@ -7,7 +7,7 @@
 
 class HarmonicMean {
  public:
-  void SetInput() {
+  void SetInputs() {
     int n;
     mul = 1;
     std::cin >> n;
@@ -62,7 +62,7 @@ class HarmonicMean {
 #ifdef BOJ_SUBMIT
 int main() {
   HarmonicMean harmonic_mean;
-  harmonic_mean.SetInput();
+  harmonic_mean.SetInputs();
   harmonic_mean.Calculate();
   harmonic_mean.PrintResult();
   return 0;

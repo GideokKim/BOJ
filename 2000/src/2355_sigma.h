@@ -5,20 +5,23 @@
 
 class Sigma {
  public:
-  void SetInput() { std::cin >> a >> b; }
+  void SetInputs() { std::cin >> a >> b; }
 
-  void PrintSigma() { std::cout << b * (b + 1) / 2 - a * (a - 1) / 2; }
+  void Calculate() { result = b * (b + 1) / 2 - a * (a - 1) / 2; }
+
+  void PrintResult() { std::cout << result; }
 
  private:
-  int a;
-  int b;
+  long long a, b;
+  long long result;
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Sigma sigma;
-  sigma.SetInput();
-  sigma.PrintSigma();
+  sigma.SetInputs();
+  sigma.Calculate();
+  sigma.PrintResult();
   return 0;
 }
 

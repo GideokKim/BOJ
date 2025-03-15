@@ -20,7 +20,9 @@ class MaximumValue {
     }
   }
 
-  void PrintOutput() {
+  void Calculate() {}
+
+  void PrintResult() {
     std::cout << maximum_value << "\n";
     std::cout << maximum_value_row << " " << maximum_value_column << "\n";
   }
@@ -35,7 +37,8 @@ class MaximumValue {
 int main() {
   MaximumValue maximum_value;
   maximum_value.SetInputs();
-  maximum_value.PrintOutput();
+  maximum_value.Calculate();
+  maximum_value.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

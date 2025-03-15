@@ -1,54 +1,11 @@
 #include "2000/src/2745_base_conversion.h"
 
-#include <gtest/gtest.h>
+#include "test_headers/test_helper.h"
 
-TEST(BaseConversionTest, SampleCase) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
+class BaseConversionTest : public IOTestFixture<BaseConversion> {};
 
-  std::string input = "ZZZZZ 36\n";
+TEST_F(BaseConversionTest, SampleCase) { RunTest("ZZZZZ 36", "60466175"); }
 
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
+TEST_F(BaseConversionTest, SampleCase2) { RunTest("1234 10", "1234"); }
 
-  BaseConversion base_conversion;
-  base_conversion.SetInputs();
-  int result = base_conversion.Calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 60466175);
-}
-
-TEST(BaseConversionTest, Base10Case) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
-
-  std::string input = "1234 10\n";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  BaseConversion base_conversion;
-  base_conversion.SetInputs();
-  int result = base_conversion.Calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 1234);
-}
-
-TEST(BaseConversionTest, Base16Case) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
-
-  std::string input = "FF 16\n";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  BaseConversion base_conversion;
-  base_conversion.SetInputs();
-  int result = base_conversion.Calculate();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(result, 255);
-}
+TEST_F(BaseConversionTest, Base16Case) { RunTest("FF 16", "255"); }

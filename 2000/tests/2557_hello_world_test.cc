@@ -1,9 +1,7 @@
 #include "2000/src/2557_hello_world.h"
 
-#include <gtest/gtest.h>
+#include "test_headers/test_helper.h"
 
-TEST(HelloWorldTest, SampleCase) {
-  HelloWorld hello_world;
+class HelloWorldTest : public IOTestFixture<HelloWorld> {};
 
-  EXPECT_EQ(hello_world.GetHelloWorld(), "Hello World!");
-}
+TEST_F(HelloWorldTest, SampleCase) { RunTest("", "Hello World!"); }

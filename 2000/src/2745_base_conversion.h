@@ -24,6 +24,8 @@ class BaseConversion {
     return result;
   }
 
+  void PrintResult() { std::cout << Calculate(); }
+
  private:
   std::string N;
   int B;
@@ -33,7 +35,8 @@ class BaseConversion {
 int main() {
   BaseConversion base_conversion;
   base_conversion.SetInputs();
-  std::cout << base_conversion.Calculate() << '\n';
+  base_conversion.Calculate();
+  base_conversion.PrintResult();
 
   return 0;
 }

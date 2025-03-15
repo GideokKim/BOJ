@@ -4,6 +4,7 @@ cc_test(
     name = "2090_harmonic_mean_test",
     srcs = ["2090_harmonic_mean_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2090_harmonic_mean",
         "@googletest//:gtest_main",
     ],
@@ -13,6 +14,7 @@ cc_test(
     name = "2108_statistics_test",
     srcs = ["2108_statistics_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2108_statistics",
         "@googletest//:gtest_main",
     ],
@@ -52,6 +54,7 @@ cc_test(
     name = "2217_rope_test",
     srcs = ["2217_rope_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2217_rope",
         "@googletest//:gtest_main",
     ],
@@ -61,6 +64,7 @@ cc_test(
     name = "2355_sigma_test",
     srcs = ["2355_sigma_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2355_sigma",
         "@googletest//:gtest_main",
     ],
@@ -70,6 +74,7 @@ cc_test(
     name = "2438_get_a_star_1_test",
     srcs = ["2438_get_a_star_1_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2438_get_a_star_1",
         "@googletest//:gtest_main",
     ],
@@ -89,6 +94,7 @@ cc_test(
     name = "2501_divisors_test",
     srcs = ["2501_divisors_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2501_divisors",
         "@googletest//:gtest_main",
     ],
@@ -98,6 +104,7 @@ cc_test(
     name = "2557_hello_world_test",
     srcs = ["2557_hello_world_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2557_hello_world",
         "@googletest//:gtest_main",
     ],
@@ -107,6 +114,7 @@ cc_test(
     name = "2562_maximum_value_test",
     srcs = ["2562_maximum_value_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2562_maximum_value",
         "@googletest//:gtest_main",
     ],
@@ -116,6 +124,7 @@ cc_test(
     name = "2563_confetti_test",
     srcs = ["2563_confetti_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2563_confetti",
         "@googletest//:gtest_main",
     ],
@@ -125,6 +134,7 @@ cc_test(
     name = "2566_maximum_value_test",
     srcs = ["2566_maximum_value_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2566_maximum_value",
         "@googletest//:gtest_main",
     ],
@@ -184,6 +194,7 @@ cc_test(
     name = "2745_base_conversion_test",
     srcs = ["2745_base_conversion_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2745_base_conversion",
         "@googletest//:gtest_main",
     ],
@@ -203,6 +214,7 @@ cc_test(
     name = "2903_planina_test",
     srcs = ["2903_planina_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2903_planina",
         "@googletest//:gtest_main",
     ],
@@ -212,6 +224,7 @@ cc_test(
     name = "2960_sieve_of_eratosthenes_test",
     srcs = ["2960_sieve_of_eratosthenes_test.cc"],
     deps = [
+        "//test_headers:test_helper",
         "//2000/src:2960_sieve_of_eratosthenes",
         "@googletest//:gtest_main",
     ],

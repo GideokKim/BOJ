@@ -2,24 +2,21 @@
 #define BOJ_2000_SRC_2557_HELLO_WORLD_H_
 
 #include <iostream>
-#include <string>
 
 class HelloWorld {
  public:
-  HelloWorld() : hello_world("Hello World!") {}
+  void SetInputs() {}
 
-  void PrintHelloWorld() { std::cout << hello_world; }
-
-  std::string GetHelloWorld() { return hello_world; }
-
- private:
-  std::string hello_world;
+  void Calculate() {}
+  void PrintResult() { std::cout << "Hello World!"; }
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   HelloWorld hello_world;
-  hello_world.PrintHelloWorld();
+  hello_world.SetInputs();
+  hello_world.Calculate();
+  hello_world.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

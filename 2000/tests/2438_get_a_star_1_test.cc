@@ -1,20 +1,7 @@
 #include "2000/src/2438_get_a_star_1.h"
 
-#include <gtest/gtest.h>
+#include "test_headers/test_helper.h"
 
-TEST(GetStar1Test, SampleCase) {
-  std::streambuf* orig_cin = std::cin.rdbuf();
+class GetStar1Test : public IOTestFixture<GetStar1> {};
 
-  std::string input = "5\n";
-
-  std::istringstream iss(input);
-  std::cin.rdbuf(iss.rdbuf());
-
-  GetStar1 get_star_1;
-  get_star_1.SetInputs();
-  get_star_1.GenerateStar1();
-
-  std::cin.rdbuf(orig_cin);
-
-  EXPECT_EQ(get_star_1.GetStar(), "*\n**\n***\n****\n*****\n");
-}
+TEST_F(GetStar1Test, SampleCase) { RunTest("5", "*\n**\n***\n****\n*****\n"); }

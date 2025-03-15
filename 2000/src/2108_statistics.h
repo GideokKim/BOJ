@@ -3,6 +3,7 @@
 
 #include <algorithm>
 #include <cmath>
+#include <iostream>
 #include <vector>
 
 class Statistics {
@@ -14,12 +15,31 @@ class Statistics {
     int range;
   };
 
-  static Result Calculate(const std::vector<int>& numbers) {
-    return {CalculateAverage(numbers), CalculateMedian(numbers),
-            CalculateMode(numbers), CalculateRange(numbers)};
+  void SetInputs() {
+    std::cin >> n;
+    numbers.resize(n);
+    for (size_t i = 0; i < n; i++) {
+      std::cin >> numbers[i];
+    }
+  }
+
+  void Calculate() {
+    result = {CalculateAverage(numbers), CalculateMedian(numbers),
+              CalculateMode(numbers), CalculateRange(numbers)};
+  }
+
+  void PrintResult() {
+    std::cout << result.average << '\n'
+              << result.median << '\n'
+              << result.mode << '\n'
+              << result.range << '\n';
   }
 
  private:
+  size_t n;
+  std::vector<int> numbers;
+  Result result;
+
   static int CalculateAverage(const std::vector<int>& numbers) {
     double sum = 0;
     for (int number : numbers) {
@@ -61,25 +81,12 @@ class Statistics {
 };
 
 #ifdef BOJ_SUBMIT
-#include <iostream>
 
 int main() {
-  int N;
-  std::cin >> N;
-
-  std::vector<int> numbers;
-  for (int i = 0; i < N; i++) {
-    int number;
-    std::cin >> number;
-    numbers.push_back(number);
-  }
-
-  auto result = Statistics::Calculate(numbers);
-
-  std::cout << result.average << '\n'
-            << result.median << '\n'
-            << result.mode << '\n'
-            << result.range << '\n';
+  Statistics statistics;
+  statistics.SetInputs();
+  statistics.Calculate();
+  statistics.PrintResult();
 
   return 0;
 }
