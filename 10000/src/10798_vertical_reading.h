@@ -18,7 +18,9 @@ class VerticalReading {
     }
   }
 
-  void PrintWords() {
+  void Calculate() {}
+
+  void PrintResult() {
     for (const auto& word : words) {
       std::cout << word;
     }
@@ -32,7 +34,8 @@ class VerticalReading {
 int main() {
   VerticalReading vertical_reading;
   vertical_reading.SetInputs();
-  vertical_reading.PrintWords();
+  vertical_reading.Calculate();
+  vertical_reading.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

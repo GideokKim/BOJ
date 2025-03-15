@@ -16,7 +16,7 @@ class ReverseBuckets {
     }
   }
 
-  void CalculateBucketNumbers() {
+  void Calculate() {
     for (size_t i = 0; i < m; ++i) {
       size_t left, right;
       std::cin >> left >> right;
@@ -25,7 +25,7 @@ class ReverseBuckets {
     }
   }
 
-  void PrintBucketNumbers() {
+  void PrintResult() {
     for (size_t number : bucket_numbers) {
       std::cout << number << " ";
     }
@@ -40,8 +40,8 @@ class ReverseBuckets {
 int main() {
   ReverseBuckets reverse_buckets;
   reverse_buckets.SetInputs();
-  reverse_buckets.CalculateBucketNumbers();
-  reverse_buckets.PrintBucketNumbers();
+  reverse_buckets.Calculate();
+  reverse_buckets.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

@@ -16,7 +16,7 @@ class ChangeBall {
     }
   }
 
-  void CalculateBallNumbers() {
+  void Calculate() {
     for (size_t i = 0; i < m; ++i) {
       size_t left, right;
       std::cin >> left >> right;
@@ -24,7 +24,7 @@ class ChangeBall {
     }
   }
 
-  void PrintBallNumbers() {
+  void PrintResult() {
     for (size_t number : ball_numbers) {
       std::cout << number << " ";
     }
@@ -39,8 +39,8 @@ class ChangeBall {
 int main() {
   ChangeBall change_ball;
   change_ball.SetInputs();
-  change_ball.CalculateBallNumbers();
-  change_ball.PrintBallNumbers();
+  change_ball.Calculate();
+  change_ball.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

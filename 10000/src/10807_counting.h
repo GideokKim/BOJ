@@ -17,7 +17,7 @@ class Counting {
     std::cin >> target_number;
   }
 
-  void CalculateCount() {
+  void Calculate() {
     count = 0;
     for (int number : numbers) {
       if (number == target_number) {
@@ -26,7 +26,7 @@ class Counting {
     }
   }
 
-  void PrintCount() { std::cout << count; }
+  void PrintResult() { std::cout << count; }
 
  private:
   int target_number;
@@ -38,8 +38,8 @@ class Counting {
 int main() {
   Counting counting;
   counting.SetInputs();
-  counting.CalculateCount();
-  counting.PrintCount();
+  counting.Calculate();
+  counting.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

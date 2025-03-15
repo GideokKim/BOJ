@@ -12,7 +12,7 @@ class PutBallIn {
     ball_numbers.resize(n, 0);
   }
 
-  void CalculateBallNumbers() {
+  void Calculate() {
     for (int i = 0; i < m; i++) {
       int start, end, number;
       std::cin >> start >> end >> number;
@@ -22,7 +22,7 @@ class PutBallIn {
     }
   }
 
-  void PrintBallNumbers() {
+  void PrintResult() {
     for (int number : ball_numbers) {
       std::cout << number << " ";
     }
@@ -37,8 +37,8 @@ class PutBallIn {
 int main() {
   PutBallIn put_ball_in;
   put_ball_in.SetInputs();
-  put_ball_in.CalculateBallNumbers();
-  put_ball_in.PrintBallNumbers();
+  put_ball_in.Calculate();
+  put_ball_in.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT

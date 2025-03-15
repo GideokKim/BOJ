@@ -4,7 +4,7 @@
 #include <iostream>
 #include <vector>
 
-class AccountBook {
+class Zero {
  public:
   void SetInputs() {
     int K;
@@ -21,13 +21,13 @@ class AccountBook {
     }
   }
 
-  void CalculateSum() {
+  void Calculate() {
     for (long long number : numbers) {
       sum += number;
     }
   }
 
-  long long GetSum() { return sum; }
+  void PrintResult() { std::cout << sum; }
 
  private:
   long long sum;
@@ -36,10 +36,10 @@ class AccountBook {
 
 #ifdef BOJ_SUBMIT
 int main() {
-  AccountBook account_book;
-  account_book.SetInputs();
-  account_book.CalculateSum();
-  std::cout << account_book.GetSum();
+  Zero zero;
+  zero.SetInputs();
+  zero.Calculate();
+  zero.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT
