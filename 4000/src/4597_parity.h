@@ -6,6 +6,8 @@
 
 class Parity {
  public:
+  void SetInputs() {}
+
   void Calculate() {
     std::string number;
     std::cin >> number;
@@ -38,12 +40,16 @@ class Parity {
       std::cin >> number;
     }
   }
+
+  void PrintResult() {}
 };
 
 #ifdef BOJ_SUBMIT
 int main() {
   Parity parity;
+  parity.SetInputs();
   parity.Calculate();
+  parity.PrintResult();
   return 0;
 }
 #endif  // BOJ_SUBMIT
