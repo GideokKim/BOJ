@@ -6,17 +6,35 @@
 class SrcTemplate {
  public:
   void SetInputs() {
-    std::cin >> n;
+    std::cin >> n >> r >> c;
     std::cin.ignore();
   }
 
-  void Calculate() { result = n; }
+  void Calculate() {
+    if (n == 3) {
+      if (r == 2 && c == 2) {
+        result = 1;
+      } else {
+        result = 4;
+      }
+    } else {
+      if (n % 2 == 0) {
+        result = n * n / 2;
+      } else {
+        if ((r + c) % 2) {
+          result = n * n / 2;
+        } else {
+          result = n * n / 2 + 1;
+        }
+      }
+    }
+  }
 
   void PrintResult() { std::cout << result; }
 
  private:
-  int n;
-  int result;
+  long long n, r, c;
+  long long result;
 };
 
 #ifdef BOJ_SUBMIT
