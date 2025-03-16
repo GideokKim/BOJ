@@ -6,35 +6,26 @@
 class SrcTemplate {
  public:
   void SetInputs() {
-    std::cin >> n >> r >> c;
-    std::cin.ignore();
+    std::cin >> n;
+    year = 2024;
+    month = 1;
   }
 
   void Calculate() {
-    if (n == 3) {
-      if (r == 2 && c == 2) {
-        result = 1;
-      } else {
-        result = 4;
-      }
-    } else {
-      if (n % 2 == 0) {
-        result = n * n / 2;
-      } else {
-        if ((r + c) % 2) {
-          result = n * n / 2;
-        } else {
-          result = n * n / 2 + 1;
-        }
-      }
+    month += 7 * n;
+    year += month / 12;
+    month %= 12;
+    if (month == 0) {
+      month = 12;
+      year--;
     }
   }
 
-  void PrintResult() { std::cout << result; }
+  void PrintResult() { std::cout << year << " " << month; }
 
  private:
-  long long n, r, c;
-  long long result;
+  int n;
+  int year, month;
 };
 
 #ifdef BOJ_SUBMIT

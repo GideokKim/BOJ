@@ -4,12 +4,12 @@
 
 class SrcTemplateTest : public IOTestFixture<SrcTemplate> {};
 
-TEST_F(SrcTemplateTest, SimpleCase) { RunTest("3\n3 2", "4"); }
+TEST_F(SrcTemplateTest, SimpleCase) { RunTest("1", "2024 8"); }
 
-TEST_F(SrcTemplateTest, SimpleCase2) { RunTest("3\n2 2", "1"); }
+TEST_F(SrcTemplateTest, SimpleCase2) { RunTest("2", "2025 3"); }
 
-TEST_F(SrcTemplateTest, SimpleCase3) { RunTest("5\n2 2", "13"); }
+TEST_F(SrcTemplateTest, SimpleCase3) { RunTest("3", "2025 10"); }
 
-TEST_F(SrcTemplateTest, SimpleCase4) { RunTest("5\n2 3", "12"); }
+TEST_F(SrcTemplateTest, SimpleCase4) { RunTest("4", "2026 5"); }
 
-TEST_F(SrcTemplateTest, SimpleCase5) { RunTest("6\n3 3", "18"); }
+TEST_F(SrcTemplateTest, SimpleCase5) { RunTest("5", "2026 12"); }
