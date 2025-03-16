@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "25238_gahee_defence_rate",
+    hdrs = ["25238_gahee_defence_rate.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
+
+cc_library(
     name = "25304_receipt",
     hdrs = ["25304_receipt.h"],
     visibility = ["//25000/tests:__pkg__"],
