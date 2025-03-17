@@ -36,7 +36,7 @@ class RustStudy {
 #ifdef BOJ_SUBMIT
 int main() {
   RustStudy rust_study;
-  rust_study.SetInput();
+  rust_study.SetInputs();
   rust_study.Calculate();
   rust_study.PrintResult();
 
