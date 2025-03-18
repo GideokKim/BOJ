@@ -9,9 +9,3 @@ TEST_F(VirusOutbreakTest, SampleCase) {
           "Hour 1: 1 cow(s) affected\nHour 4: 3 cow(s) affected\nHour 6: 8 "
           "cow(s) affected\nHour 11: 89 cow(s) affected\n");
 }
-
-TEST_F(VirusOutbreakTest, SampleCase2) {
-  RunTest("10\n50\n100\n490\n-1",
-          "Hour 1: 1 cow(s) affected\nHour 4: 3 cow(s) affected\nHour 6: 8 "
-          "cow(s) affected\nHour 11: 89 cow(s) affected\n");
-}
