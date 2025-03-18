@@ -1,0 +1,11 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
+cc_test(
+    name = "16497_book_borrowing_request_test",
+    srcs = ["16497_book_borrowing_request_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//16000/src:16497_book_borrowing_request",
+        "@googletest//:gtest_main",
+    ],
+)

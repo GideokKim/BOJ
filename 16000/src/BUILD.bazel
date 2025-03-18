@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "16497_book_borrowing_request",
+    hdrs = ["16497_book_borrowing_request.h"],
+    visibility = ["//16000/tests:__pkg__"],
+)
