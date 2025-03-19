@@ -11,6 +11,16 @@ cc_test(
 )
 
 cc_test(
+    name = "28235_code_master_2023_test",
+    srcs = ["28235_code_master_2023_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//28000/src:28235_code_master_2023",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "28278_stack2_test",
     srcs = ["28278_stack2_test.cc"],
     deps = [

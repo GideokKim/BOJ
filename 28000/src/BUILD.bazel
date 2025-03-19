@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "28235_code_master_2023",
+    hdrs = ["28235_code_master_2023.h"],
+    visibility = ["//28000/tests:__pkg__"],
+)
+
+cc_library(
     name = "28278_stack2",
     hdrs = ["28278_stack2.h"],
     visibility = ["//28000/tests:__pkg__"],
