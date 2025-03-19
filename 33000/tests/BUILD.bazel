@@ -1,3 +1,5 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "33161_pencils_2_test",
     srcs = ["33161_pencils_2_test.cc"],
@@ -54,6 +56,16 @@ cc_test(
     deps = [
         "//test_headers:test_helper",
         "//33000/src:33179_hezardastans_annual_report",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "33515_three_notebooks_test",
+    srcs = ["33515_three_notebooks_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//33000/src:33515_three_notebooks",
         "@googletest//:gtest_main",
     ],
 )
