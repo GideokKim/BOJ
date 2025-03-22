@@ -115,6 +115,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1920_find_numbers",
+    hdrs = ["1920_find_numbers.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1924_2007",
     hdrs = ["1924_2007.h"],
     visibility = ["//1000/tests:__pkg__"],
