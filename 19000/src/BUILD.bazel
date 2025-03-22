@@ -6,3 +6,8 @@ cc_library(
     visibility = ["//19000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "19637_please_write_if_instead",
+    hdrs = ["19637_please_write_if_instead.h"],
+    visibility = ["//19000/tests:__pkg__"],
+)
