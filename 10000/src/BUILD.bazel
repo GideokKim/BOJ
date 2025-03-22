@@ -73,6 +73,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10816_number_cards_2",
+    hdrs = ["10816_number_cards_2.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10824_four_numbers",
     hdrs = ["10824_four_numbers.h"],
     visibility = ["//10000/tests:__pkg__"],
