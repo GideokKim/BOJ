@@ -97,6 +97,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2667_stick_number",
+    hdrs = ["2667_stick_number.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2675_string_repeatation",
     hdrs = ["2675_string_repeatation.h"],
     visibility = ["//2000/tests:__pkg__"],
