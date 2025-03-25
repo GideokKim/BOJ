@@ -60,6 +60,12 @@ cc_library(
     visibility = ["//11000/tests:__pkg__"],
 )
 
+cc_library( 
+    name = "11724_number_of_connected_components",
+    hdrs = ["11724_number_of_connected_components.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
 cc_library(
     name = "11726_2_by_n_tiling",
     hdrs = ["11726_2_by_n_tiling.h"],
