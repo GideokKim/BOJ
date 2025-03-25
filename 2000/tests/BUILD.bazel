@@ -51,6 +51,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2178_search_maze_test",
+    srcs = ["2178_search_maze_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2178_search_maze",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2217_rope_test",
     srcs = ["2217_rope_test.cc"],
     deps = [
