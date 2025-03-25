@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1012_organic_cabbage",
+    hdrs = ["1012_organic_cabbage.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1065_hansu",
     hdrs = ["1065_hansu.h"],
     visibility = ["//1000/tests:__pkg__"],
