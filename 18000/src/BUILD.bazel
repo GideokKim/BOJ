@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["18411_exam.h"],
     visibility = ["//18000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "18883_print_n_m",
+    hdrs = ["18883_print_n_m.h"],
+    visibility = ["//18000/tests:__pkg__"],
+)
