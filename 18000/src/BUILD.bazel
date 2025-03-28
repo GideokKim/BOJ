@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "18408_three_integers",
+    hdrs = ["18408_three_integers.h"],
+    visibility = ["//18000/tests:__pkg__"],
+)
+
+cc_library(
     name = "18411_exam",
     hdrs = ["18411_exam.h"],
     visibility = ["//18000/tests:__pkg__"],
