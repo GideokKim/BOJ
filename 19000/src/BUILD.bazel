@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["19637_please_write_if_instead.h"],
     visibility = ["//19000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "19944_what_is_standard_of_newbie",
+    hdrs = ["19944_what_is_standard_of_newbie.h"],
+    visibility = ["//19000/tests:__pkg__"],
+)
