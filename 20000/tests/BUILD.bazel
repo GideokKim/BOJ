@@ -1,0 +1,11 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
+cc_test(
+    name = "20976_the_second_largest_integer_test",
+    srcs = ["20976_the_second_largest_integer_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//20000/src:20976_the_second_largest_integer",
+        "@googletest//:gtest_main",
+    ],
+)
