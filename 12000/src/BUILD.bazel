@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["12865_ordinary_knapsack.h"],
     visibility = ["//12000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "12927_power_switch",
+    hdrs = ["12927_power_switch.h"],
+    visibility = ["//12000/tests:__pkg__"],
+)

@@ -19,3 +19,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "12927_power_switch_test",
+    srcs = ["12927_power_switch_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//12000/src:12927_power_switch",
+        "@googletest//:gtest_main",
+    ],
+)
