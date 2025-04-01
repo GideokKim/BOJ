@@ -21,6 +21,16 @@ cc_test(
 )
 
 cc_test(
+    name = "30328_java_warriors_test",
+    srcs = ["30328_java_warriors_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//30000/src:30328_java_warriors",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "30614_port_robot_test",
     srcs = ["30614_port_robot_test.cc"],
     deps = [
