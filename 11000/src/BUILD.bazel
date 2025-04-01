@@ -31,6 +31,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11091_use_all_alphabets",
+    hdrs = ["11091_use_all_alphabets.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11399_atm",
     hdrs = ["11399_atm.h"],
     visibility = ["//11000/tests:__pkg__"],

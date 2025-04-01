@@ -51,6 +51,16 @@ cc_test(
 )
 
 cc_test(
+    name = "11091_use_all_alphabets_test",
+    srcs = ["11091_use_all_alphabets_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//11000/src:11091_use_all_alphabets",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "11399_atm_test",
     srcs = ["11399_atm_test.cc"],
     deps = [
