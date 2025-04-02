@@ -43,6 +43,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11121_communication_channels",
+    hdrs = ["11121_communication_channels.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11131_balancing_weights",
     hdrs = ["11131_balancing_weights.h"],
     visibility = ["//11000/tests:__pkg__"],
