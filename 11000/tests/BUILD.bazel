@@ -161,6 +161,16 @@ cc_test(
 )
 
 cc_test(
+    name = "11721_print_disconnect_ten_test",
+    srcs = ["11721_print_disconnect_ten_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//11000/src:11721_print_disconnect_ten",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "11722_longest_decreasing_subsequence_test",
     srcs = ["11722_longest_decreasing_subsequence_test.cc"],
     deps = [
