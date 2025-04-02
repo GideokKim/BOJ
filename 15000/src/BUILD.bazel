@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "15181_beautiful_music",
+    hdrs = ["15181_beautiful_music.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
+
+cc_library(
     name = "15232_rectangles",
     hdrs = ["15232_rectangles.h"],
     visibility = ["//15000/tests:__pkg__"],
