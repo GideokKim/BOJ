@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "15151_incomplete_book",
+    hdrs = ["15151_incomplete_book.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
+
+cc_library(
     name = "15161_grass_cutting",
     hdrs = ["15161_grass_cutting.h"],
     visibility = ["//15000/tests:__pkg__"],
