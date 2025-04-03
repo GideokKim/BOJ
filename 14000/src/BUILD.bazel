@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "14581_surrounding_fan",
+    hdrs = ["14581_surrounding_fan.h"],
+    visibility = ["//14000/tests:__pkg__"],
+)
+
+cc_library(
     name = "14730_small",
     hdrs = ["14730_small.h"],
     visibility = ["//14000/tests:__pkg__"],

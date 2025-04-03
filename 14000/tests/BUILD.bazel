@@ -21,6 +21,16 @@ cc_test(
 )
 
 cc_test(
+    name = "14581_surrounding_fan_test",
+    srcs = ["14581_surrounding_fan_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//14000/src:14581_surrounding_fan",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "14730_small_test",
     srcs = ["14730_small_test.cc"],
     deps = [
