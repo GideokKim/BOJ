@@ -11,5 +11,5 @@ TEST_F(InTheShowerTest, SampleCase) {
       "1\n"
       "5\n"
       "6",
-      "1");
+      "1\n");
 }
