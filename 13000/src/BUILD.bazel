@@ -23,3 +23,9 @@ cc_library(
     hdrs = ["13698_hawk_eyes.h"],
     visibility = ["//13000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "13751_histogram",
+    hdrs = ["13751_histogram.h"],
+    visibility = ["//13000/tests:__pkg__"],
+)

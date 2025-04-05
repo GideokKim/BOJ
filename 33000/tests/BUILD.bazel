@@ -21,6 +21,16 @@ cc_test(
 )
 
 cc_test(
+    name = "33167_rock_scissors_paper_test",
+    srcs = ["33167_rock_scissors_paper_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//33000/src:33167_rock_scissors_paper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "33169_money_on_me_test",
     srcs = ["33169_money_on_me_test.cc"],
     deps = [

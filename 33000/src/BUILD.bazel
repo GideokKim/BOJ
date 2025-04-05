@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "33167_rock_scissors_paper",
+    hdrs = ["33167_rock_scissors_paper.h"],
+    visibility = ["//33000/tests:__pkg__"],
+)
+
+cc_library(
     name = "33169_money_on_me",
     hdrs = ["33169_money_on_me.h"],
     visibility = ["//33000/tests:__pkg__"],
