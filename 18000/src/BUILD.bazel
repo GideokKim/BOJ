@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "18409_counting_vowels",
+    hdrs = ["18409_counting_vowels.h"],
+    visibility = ["//18000/tests:__pkg__"],
+)
+
+cc_library(
     name = "18411_exam",
     hdrs = ["18411_exam.h"],
     visibility = ["//18000/tests:__pkg__"],

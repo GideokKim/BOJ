@@ -21,6 +21,16 @@ cc_test(
 )
 
 cc_test(
+    name = "18409_counting_vowels_test",
+    srcs = ["18409_counting_vowels_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//18000/src:18409_counting_vowels",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "18411_exam_test",
     srcs = ["18411_exam_test.cc"],
     deps = [
