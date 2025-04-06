@@ -127,6 +127,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2742_print_n",
+    hdrs = ["2742_print_n.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2743_check_word_length",
     hdrs = ["2743_check_word_length.h"],
     visibility = ["//2000/tests:__pkg__"],
