@@ -1,5 +1,5 @@
-#ifndef BOJ_18000_SRC_18258_QUEUE2_H_
-#define BOJ_18000_SRC_18258_QUEUE2_H_
+#ifndef BOJ_18000_SRC_18411_EXAM_H_
+#define BOJ_18000_SRC_18411_EXAM_H_
 
 #include <algorithm>
 #include <iostream>
