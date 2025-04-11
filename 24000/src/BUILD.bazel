@@ -19,6 +19,12 @@ cc_library(
 )
 
 cc_library(
+    name = "24084_next_character",
+    hdrs = ["24084_next_character.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
+
+cc_library(
     name = "24086_height",
     hdrs = ["24086_height.h"],
     visibility = ["//24000/tests:__pkg__"],
