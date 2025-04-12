@@ -31,6 +31,16 @@ cc_test(
 )
 
 cc_test(
+    name = "31607_sum_checker_test",
+    srcs = ["31607_sum_checker_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//31000/src:31607_sum_checker",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "31610_drops_packing_test",
     srcs = ["31610_drops_packing_test.cc"],
     deps = [
