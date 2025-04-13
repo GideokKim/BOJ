@@ -151,6 +151,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2750_sort_numbers",
+    hdrs = ["2750_sort_numbers.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2752_three_number_sorting",
     hdrs = ["2752_three_number_sorting.h"],
     visibility = ["//2000/tests:__pkg__"],

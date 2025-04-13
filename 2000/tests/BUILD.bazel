@@ -251,6 +251,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2750_sort_numbers_test",
+    srcs = ["2750_sort_numbers_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2750_sort_numbers",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2752_three_number_sorting_test",
     srcs = ["2752_three_number_sorting_test.cc"],
     deps = [
