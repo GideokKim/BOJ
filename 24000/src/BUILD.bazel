@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "24051_algorithm_class_insert_sort_1",
+    hdrs = ["24051_algorithm_class_insert_sort_1.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
+
+cc_library(
     name = "24078_remainder",
     hdrs = ["24078_remainder.h"],
     visibility = ["//24000/tests:__pkg__"],
