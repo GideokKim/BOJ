@@ -5,3 +5,9 @@ cc_library(
     hdrs = ["20976_the_second_largest_integer.h"],
     visibility = ["//20000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "20977_joi_sort",
+    hdrs = ["20977_joi_sort.h"],
+    visibility = ["//20000/tests:__pkg__"],
+)
