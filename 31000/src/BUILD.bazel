@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "31612_stroke_count",
+    hdrs = ["31612_stroke_count.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
+
+cc_library(
     name = "31615_digit",
     hdrs = ["31615_digit.h"],
     visibility = ["//31000/tests:__pkg__"],

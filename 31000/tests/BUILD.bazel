@@ -61,6 +61,16 @@ cc_test(
 )
 
 cc_test(
+    name = "31612_stroke_count_test",
+    srcs = ["31612_stroke_count_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//31000/src:31612_stroke_count",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "31615_digit_test",
     srcs = ["31615_digit_test.cc"],
     deps = [
