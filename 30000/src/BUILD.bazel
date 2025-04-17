@@ -6,6 +6,12 @@ cc_library(
     visibility = ["//30000/tests:__pkg__"],
 )
 
+cc_library( 
+    name = "30031_counting_bill",
+    hdrs = ["30031_counting_bill.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
+
 cc_library(
     name = "30033_rust_study",
     hdrs = ["30033_rust_study.h"],
