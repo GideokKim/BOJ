@@ -81,6 +81,16 @@ cc_test(
 )
 
 cc_test(
+    name = "10797_10_days_rotation_system_test",
+    srcs = ["10797_10_days_rotation_system_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//10000/src:10797_10_days_rotation_system",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "10798_vertical_reading_test",
     srcs = ["10798_vertical_reading_test.cc"],
     deps = [

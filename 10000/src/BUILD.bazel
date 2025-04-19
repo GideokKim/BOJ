@@ -49,6 +49,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10797_10_days_rotation_system",
+    hdrs = ["10797_10_days_rotation_system.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10798_vertical_reading",
     hdrs = ["10798_vertical_reading.h"],
     visibility = ["//10000/tests:__pkg__"],
