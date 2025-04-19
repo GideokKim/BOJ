@@ -1,5 +1,11 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
+cc_library(
+    name = "27110_giving_special_meals",
+    hdrs = ["27110_giving_special_meals.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
 cc_library( 
     name = "27294_how_many",
     hdrs = ["27294_how_many.h"],
