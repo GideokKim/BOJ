@@ -43,6 +43,12 @@ cc_library(
 )
 
 cc_library(
+    name = "27332_november",
+    hdrs = ["27332_november.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
+cc_library(
     name = "27433_factorial_2",
     hdrs = ["27433_factorial_2.h"],
     visibility = ["//27000/tests:__pkg__"],
