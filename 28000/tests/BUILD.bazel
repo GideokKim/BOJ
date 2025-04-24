@@ -41,6 +41,16 @@ cc_test(
 )
 
 cc_test(
+    name = "28352_10_factorial_test",
+    srcs = ["28352_10_factorial_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//28000/src:28352_10_factorial",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "28444_hi_arc_test",
     srcs = ["28444_hi_arc_test.cc"],
     deps = [
