@@ -53,3 +53,9 @@ cc_library(
     hdrs = ["33515_three_notebooks.h"],
     visibility = ["//33000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "33689_cpdu",
+    hdrs = ["33689_cpdu.h"],
+    visibility = ["//33000/tests:__pkg__"],
+)

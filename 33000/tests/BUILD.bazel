@@ -89,3 +89,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "33689_cpdu_test",
+    srcs = ["33689_cpdu_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//33000/src:33689_cpdu",
+        "@googletest//:gtest_main",
+    ],
+)
