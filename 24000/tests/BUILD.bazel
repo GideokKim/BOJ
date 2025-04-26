@@ -90,3 +90,12 @@ cc_test(
     ],
 )
 
+cc_test(
+    name = "24883_auto_completion_test",
+    srcs = ["24883_auto_completion_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//24000/src:24883_auto_completion",
+        "@googletest//:gtest_main",
+    ],
+)

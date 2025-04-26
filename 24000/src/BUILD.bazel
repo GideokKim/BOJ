@@ -53,3 +53,9 @@ cc_library(
     hdrs = ["24416_algorithm_lesson_fibonacci_1.h"],
     visibility = ["//24000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "24883_auto_completion",
+    hdrs = ["24883_auto_completion.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
