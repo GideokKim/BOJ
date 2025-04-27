@@ -25,6 +25,12 @@ cc_library(
 )
 
 cc_library(
+    name = "26561_population",
+    hdrs = ["26561_population.h"],
+    visibility = ["//26000/tests:__pkg__"],
+)
+
+cc_library(
     name = "26562_presidents",
     hdrs = ["26562_presidents.h"],
     visibility = ["//26000/tests:__pkg__"],
