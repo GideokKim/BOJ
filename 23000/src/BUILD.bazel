@@ -23,3 +23,9 @@ cc_library(
     hdrs = ["23795_gambling_should_be_fun.h"],
     visibility = ["//23000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "23825_lets_make_sasa",
+    hdrs = ["23825_lets_make_sasa.h"],
+    visibility = ["//23000/tests:__pkg__"],
+)
