@@ -111,6 +111,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2445_print_stars_8_test",
+    srcs = ["2445_print_stars_8_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2445_print_stars_8",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2501_divisors_test",
     srcs = ["2501_divisors_test.cc"],
     deps = [

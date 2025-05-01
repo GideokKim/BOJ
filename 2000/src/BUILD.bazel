@@ -67,6 +67,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2445_print_stars_8",
+    hdrs = ["2445_print_stars_8.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2501_divisors",
     hdrs = ["2501_divisors.h"],
     visibility = ["//2000/tests:__pkg__"],
