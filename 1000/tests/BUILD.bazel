@@ -51,6 +51,16 @@ cc_test(
 )
 
 cc_test(
+    name = "1152_number_of_words_test",
+    srcs = ["1152_number_of_words_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//1000/src:1152_number_of_words",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1158_Josephus_problem_test",
     srcs = ["1158_Josephus_problem_test.cc"],
     deps = [
