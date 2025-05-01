@@ -111,6 +111,16 @@ cc_test(
 )
 
 cc_test(
+    name = "10809_find_alphabet_test",
+    srcs = ["10809_find_alphabet_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//10000/src:10809_find_alphabet",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "10810_put_ball_in_test",
     srcs = ["10810_put_ball_in_test.cc"],
     deps = [

@@ -67,6 +67,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10809_find_alphabet",
+    hdrs = ["10809_find_alphabet.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10810_put_ball_in",
     hdrs = ["10810_put_ball_in.h"],
     visibility = ["//10000/tests:__pkg__"],
