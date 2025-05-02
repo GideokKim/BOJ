@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "3040_seven_dwarves",
+    hdrs = ["3040_seven_dwarves.h"],
+    visibility = ["//3000/tests:__pkg__"],
+)
+
+cc_library(
     name = "3276_icons",
     hdrs = ["3276_icons.h"],
     visibility = ["//3000/tests:__pkg__"],
