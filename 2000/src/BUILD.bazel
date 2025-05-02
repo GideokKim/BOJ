@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2193_2_friendly_numbers",
+    hdrs = ["2193_2_friendly_numbers.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2217_rope",
     hdrs = ["2217_rope.h"],
     visibility = ["//2000/tests:__pkg__"],
