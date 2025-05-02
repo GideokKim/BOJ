@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "8958_ox_quiz",
+    hdrs = ["8958_ox_quiz.h"],
+    visibility = ["//8000/tests:__pkg__"],
+)
