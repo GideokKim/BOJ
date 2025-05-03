@@ -5,11 +5,11 @@
 
 class AsciiCode {
  public:
-  void SetInputs() { std::cin >> code; };
+  void SetInputs() { std::cin >> code; }
 
   void Calculate() { result = static_cast<int>(code); }
 
-  void PrintResult() { std::cout << result; };
+  void PrintResult() { std::cout << result; }
 
  private:
   char code;

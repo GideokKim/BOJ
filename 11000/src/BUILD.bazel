@@ -121,6 +121,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11660_finding_sum_of_intervals_5",
+    hdrs = ["11660_finding_sum_of_intervals_5.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11718_print_as_it_is",
     hdrs = ["11718_print_as_it_is.h"],
     visibility = ["//11000/tests:__pkg__"],
