@@ -61,6 +61,12 @@ cc_library(
 )
 
 cc_library(
+    name = "9465_stickers",
+    hdrs = ["9465_stickers.h"],
+    visibility = ["//9000/tests:__pkg__"],
+)
+
+cc_library(
     name = "9498_test_scores",
     hdrs = ["9498_test_scores.h"],
     visibility = ["//9000/tests:__pkg__"],
