@@ -163,6 +163,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11725_find_parent_of_tree",
+    hdrs = ["11725_find_parent_of_tree.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11726_2_by_n_tiling",
     hdrs = ["11726_2_by_n_tiling.h"],
     visibility = ["//11000/tests:__pkg__"],
