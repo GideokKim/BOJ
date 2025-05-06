@@ -51,6 +51,16 @@ cc_test(
 )
 
 cc_test(
+    name = "5582_lcs_test",
+    srcs = ["5582_lcs_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//5000/src:5582_lcs",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "5597_who_didnt_turn_in_report_test",
     srcs = ["5597_who_didnt_turn_in_report_test.cc"],
     deps = [
