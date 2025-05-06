@@ -19,6 +19,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1032_cmd",
+    hdrs = ["1032_cmd.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1065_hansu",
     hdrs = ["1065_hansu.h"],
     visibility = ["//1000/tests:__pkg__"],
