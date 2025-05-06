@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "10026_red_green_blindness",
+    hdrs = ["10026_red_green_blindness.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10101_remember_triangle",
     hdrs = ["10101_remember_triangle.h"],
     visibility = ["//10000/tests:__pkg__"],
