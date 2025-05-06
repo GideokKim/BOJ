@@ -103,6 +103,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11568_scheme",
+    hdrs = ["11568_scheme.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11651_sorting_coordinates_2",
     hdrs = ["11651_sorting_coordinates_2.h"],
     visibility = ["//11000/tests:__pkg__"],
