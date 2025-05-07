@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "12015_lis_2",
+    hdrs = ["12015_lis_2.h"],
+    visibility = ["//12000/tests:__pkg__"],
+)
+
+cc_library(
     name = "12605_words_order_flip_over",
     hdrs = ["12605_words_order_flip_over.h"],
     visibility = ["//12000/tests:__pkg__"],

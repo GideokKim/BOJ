@@ -1,6 +1,16 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "12015_lis_2_test",
+    srcs = ["12015_lis_2_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//12000/src:12015_lis_2",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "12605_words_order_flip_over_test",
     srcs = ["12605_words_order_flip_over_test.cc"],
     deps = [
