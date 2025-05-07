@@ -55,6 +55,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1238_party",
+    hdrs = ["1238_party.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1259_palindrome_numbers",
     hdrs = ["1259_palindrome_numbers.h"],
     visibility = ["//1000/tests:__pkg__"],
