@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "4470_line_numbers",
+    hdrs = ["4470_line_numbers.h"],
+    visibility = ["//4000/tests:__pkg__"],
+)
+
+cc_library(
     name = "4673_self_number",
     hdrs = ["4673_self_number.h"],
     visibility = ["//4000/tests:__pkg__"],
