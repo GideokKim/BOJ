@@ -21,6 +21,16 @@ cc_test(
 )
 
 cc_test(
+    name = "12738_lis_3_test",
+    srcs = ["12738_lis_3_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//12000/src:12738_lis_3",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "12865_ordinary_knapsack_test",
     srcs = ["12865_ordinary_knapsack_test.cc"],
     deps = [

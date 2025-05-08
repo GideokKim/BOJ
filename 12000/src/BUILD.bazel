@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "12738_lis_3",
+    hdrs = ["12738_lis_3.h"],
+    visibility = ["//12000/tests:__pkg__"],
+)
+
+cc_library(
     name = "12865_ordinary_knapsack",
     hdrs = ["12865_ordinary_knapsack.h"],
     visibility = ["//12000/tests:__pkg__"],
