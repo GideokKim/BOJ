@@ -65,3 +65,9 @@ cc_library(
     hdrs = ["5800_grade_statistics.h"],
     visibility = ["//5000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "5972_package_delevery",
+    hdrs = ["5972_package_delevery.h"],
+    visibility = ["//5000/tests:__pkg__"],
+)
