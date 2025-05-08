@@ -73,6 +73,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1264_number_of_vowel",
+    hdrs = ["1264_number_of_vowel.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1436_film_director_shom",
     hdrs = ["1436_film_director_shom.h"],
     visibility = ["//1000/tests:__pkg__"],
