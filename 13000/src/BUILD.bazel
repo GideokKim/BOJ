@@ -31,6 +31,12 @@ cc_library(
 )
 
 cc_library(
+    name = "13699_recurrence_relation",
+    hdrs = ["13699_recurrence_relation.h"],
+    visibility = ["//13000/tests:__pkg__"],
+)
+
+cc_library(
     name = "13751_histogram",
     hdrs = ["13751_histogram.h"],
     visibility = ["//13000/tests:__pkg__"],
