@@ -31,6 +31,12 @@ cc_library(
 )
 
 cc_library(
+    name = "15624_fibonacci_number_7",
+    hdrs = ["15624_fibonacci_number_7.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
+
+cc_library(
     name = "15680_yonsei_university",
     hdrs = ["15680_yonsei_university.h"],
     visibility = ["//15000/tests:__pkg__"],
