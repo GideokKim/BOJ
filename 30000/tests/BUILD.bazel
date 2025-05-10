@@ -11,6 +11,16 @@ cc_test(
 )
 
 cc_test(
+    name = "30030_get_price_for_sweetcorn_test",
+    srcs = ["30030_get_price_for_sweetcorn_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//30000/src:30030_get_price_for_sweetcorn",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "30031_counting_bill_test",
     srcs = ["30031_counting_bill_test.cc"],
     deps = [
