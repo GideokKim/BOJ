@@ -1,6 +1,16 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "15000_caps_test",
+    srcs = ["15000_caps_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//15000/src:15000_caps",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "15151_incomplete_book_test",
     srcs = ["15151_incomplete_book_test.cc"],
     deps = [
