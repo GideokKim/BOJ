@@ -171,6 +171,16 @@ cc_test(
 )
 
 cc_test(
+    name = "1504_specific_shortest_path_test",
+    srcs = ["1504_specific_shortest_path_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//1000/src:1504_specific_shortest_path",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1543_document_search_test",
     srcs = ["1543_document_search_test.cc"],
     deps = [

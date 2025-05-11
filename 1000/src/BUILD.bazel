@@ -97,6 +97,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1504_specific_shortest_path",
+    hdrs = ["1504_specific_shortest_path.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1541_lost_parenthesis",
     hdrs = ["1541_lost_parenthesis.h"],
     visibility = ["//1000/tests:__pkg__"],
