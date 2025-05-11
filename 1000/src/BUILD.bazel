@@ -179,3 +179,10 @@ cc_library(
     hdrs = ["1932_integer_triangle.h"],
     visibility = ["//1000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "1987_alphabet",
+    hdrs = ["1987_alphabet.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+

@@ -299,3 +299,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "1987_alphabet_test",
+    srcs = ["1987_alphabet_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//1000/src:1987_alphabet",
+        "@googletest//:gtest_main",
+    ],
+)
