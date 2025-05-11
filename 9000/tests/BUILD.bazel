@@ -131,6 +131,16 @@ cc_test(
 )
 
 cc_test(
+    name = "9507_generations_of_tribbles_test",
+    srcs = ["9507_generations_of_tribbles_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//9000/src:9507_generations_of_tribbles",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "9613_gcd_sum_test",
     srcs = ["9613_gcd_sum_test.cc"],
     deps = [
