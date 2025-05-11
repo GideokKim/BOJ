@@ -81,6 +81,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2352_design_semiconductors_test",
+    srcs = ["2352_design_semiconductors_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2352_design_semiconductors",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2355_sigma_test",
     srcs = ["2355_sigma_test.cc"],
     deps = [
