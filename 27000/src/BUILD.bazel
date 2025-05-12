@@ -61,6 +61,12 @@ cc_library(
 )
 
 cc_library(
+    name = "27889_special_school_name",
+    hdrs = ["27889_special_school_name.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
+cc_library(
     name = "27959_choco_bar",
     hdrs = ["27959_choco_bar.h"],
     visibility = ["//27000/tests:__pkg__"],
