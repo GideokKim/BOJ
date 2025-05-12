@@ -55,6 +55,12 @@ cc_library(
 )
 
 cc_library(
+    name = "33679_confrontation",
+    hdrs = ["33679_confrontation.h"],
+    visibility = ["//33000/tests:__pkg__"],
+)
+
+cc_library(
     name = "33689_cpdu",
     hdrs = ["33689_cpdu.h"],
     visibility = ["//33000/tests:__pkg__"],
