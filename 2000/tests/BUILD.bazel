@@ -221,6 +221,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2583_get_area_test",
+    srcs = ["2583_get_area_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2583_get_area",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2606_virus_test",
     srcs = ["2606_virus_test.cc"],
     deps = [

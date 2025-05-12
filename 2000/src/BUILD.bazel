@@ -133,6 +133,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2583_get_area",
+    hdrs = ["2583_get_area.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2606_virus",
     hdrs = ["2606_virus.h"],
     visibility = ["//2000/tests:__pkg__"],
