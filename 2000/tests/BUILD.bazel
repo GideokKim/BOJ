@@ -241,6 +241,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2644_get_degree_of_kinship_test",
+    srcs = ["2644_get_degree_of_kinship_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2644_get_degree_of_kinship",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2667_stick_number_test",
     srcs = ["2667_stick_number_test.cc"],
     deps = [
