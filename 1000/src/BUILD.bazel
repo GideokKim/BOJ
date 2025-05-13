@@ -30,6 +30,12 @@ cc_library(
     visibility = ["//1000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "1100_white_cells",
+    hdrs = ["1100_white_cells.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
 cc_library( 
     name = "1149_rgb_street",
     hdrs = ["1149_rgb_street.h"],
