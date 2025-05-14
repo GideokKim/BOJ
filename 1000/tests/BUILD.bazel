@@ -141,6 +141,16 @@ cc_test(
 )
 
 cc_test(
+    name = "1316_group_word_checker_test",
+    srcs = ["1316_group_word_checker_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//1000/src:1316_group_word_checker",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1436_film_director_shom_test",
     srcs = ["1436_film_director_shom_test.cc"],
     deps = [
