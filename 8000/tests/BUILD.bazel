@@ -1,6 +1,16 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "8545_zadanie_test",
+    srcs = ["8545_zadanie_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//8000/src:8545_zadanie",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "8958_ox_quiz_test",
     srcs = ["8958_ox_quiz_test.cc"],
     deps = [
