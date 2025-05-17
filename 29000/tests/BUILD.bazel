@@ -1,6 +1,16 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "29699_welcom_to_smupc_test",
+    srcs = ["29699_welcom_to_smupc_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//29000/src:29699_welcom_to_smupc",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "29736_bsil_friends_test",
     srcs = ["29736_bsil_friends_test.cc"],
     deps = [

@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "29699_welcom_to_smupc",
+    hdrs = ["29699_welcom_to_smupc.h"],
+    visibility = ["//29000/tests:__pkg__"],
+)
+
+cc_library(
     name = "29736_bsil_friends",
     hdrs = ["29736_bsil_friends.h"],
     visibility = ["//29000/tests:__pkg__"],
