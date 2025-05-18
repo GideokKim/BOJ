@@ -12,3 +12,8 @@ cc_library(
     visibility = ["//21000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "21964_school_song",
+    hdrs = ["21964_school_song.h"],
+    visibility = ["//21000/tests:__pkg__"],
+)

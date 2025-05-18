@@ -18,3 +18,12 @@ cc_test(
     ],
 )
 
+cc_test(
+    name = "21964_school_song_test",
+    srcs = ["21964_school_song_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//21000/src:21964_school_song",
+        "@googletest//:gtest_main",
+    ],
+)
