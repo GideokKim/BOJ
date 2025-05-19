@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "32288_barcode_nickname",
+    hdrs = ["32288_barcode_nickname.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
+
+cc_library(
     name = "32384_love_is_korea_university",
     hdrs = ["32384_love_is_korea_university.h"],
     visibility = ["//32000/tests:__pkg__"],
