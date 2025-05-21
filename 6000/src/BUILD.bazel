@@ -1,14 +1,20 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
-    name = "6603_lotto",
-    hdrs = ["6603_lotto.h"],
+    name = "6190_another_cow_number_game",
+    hdrs = ["6190_another_cow_number_game.h"],
     visibility = ["//6000/tests:__pkg__"],
 )
 
 cc_library(
-    name = "6190_another_cow_number_game",
-    hdrs = ["6190_another_cow_number_game.h"],
+    name = "6221_the_bale_tower",
+    hdrs = ["6221_the_bale_tower.h"],
+    visibility = ["//6000/tests:__pkg__"],
+)
+
+cc_library(
+    name = "6603_lotto",
+    hdrs = ["6603_lotto.h"],
     visibility = ["//6000/tests:__pkg__"],
 )
 
