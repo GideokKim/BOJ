@@ -1,6 +1,16 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "28074_mobis_test",
+    srcs = ["28074_mobis_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//28000/src:28074_mobis",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "28224_final_price_test",
     srcs = ["28224_final_price_test.cc"],
     deps = [

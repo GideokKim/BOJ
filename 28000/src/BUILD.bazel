@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "28074_mobis",
+    hdrs = ["28074_mobis.h"],
+    visibility = ["//28000/tests:__pkg__"],
+)
+
+cc_library(
     name = "28224_final_price",
     hdrs = ["28224_final_price.h"],
     visibility = ["//28000/tests:__pkg__"],
