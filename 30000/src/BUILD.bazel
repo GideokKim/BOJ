@@ -59,3 +59,9 @@ cc_library(
     hdrs = ["30987_haru_dermatologist.h"],
     visibility = ["//30000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "30999_vote",
+    hdrs = ["30999_vote.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
