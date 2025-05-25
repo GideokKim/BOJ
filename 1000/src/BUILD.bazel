@@ -97,6 +97,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1365_twisted_line",
+    hdrs = ["1365_twisted_line.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1436_film_director_shom",
     hdrs = ["1436_film_director_shom.h"],
     visibility = ["//1000/tests:__pkg__"],
