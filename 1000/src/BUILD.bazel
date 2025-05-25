@@ -163,6 +163,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1788_extended_fibonacci",
+    hdrs = ["1788_extended_fibonacci.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1850_gcd",
     hdrs = ["1850_gcd.h"],
     visibility = ["//1000/tests:__pkg__"],
