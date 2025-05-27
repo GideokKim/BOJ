@@ -49,6 +49,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10768_special_day",
+    hdrs = ["10768_special_day.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10773_zero",
     hdrs = ["10773_zero.h"],
     visibility = ["//10000/tests:__pkg__"],
