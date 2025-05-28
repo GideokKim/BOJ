@@ -205,6 +205,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11943_move_files",
+    hdrs = ["11943_move_files.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11945_hot_crucian_breads",
     hdrs = ["11945_hot_crucian_breads.h"],
     visibility = ["//11000/tests:__pkg__"],
