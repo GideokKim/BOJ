@@ -49,6 +49,12 @@ cc_library(
 )
 
 cc_library(
+    name = "5622_dial",
+    hdrs = ["5622_dial.h"],
+    visibility = ["//5000/tests:__pkg__"],
+)
+
+cc_library(
     name = "5691_mean_median_problem",
     hdrs = ["5691_mean_median_problem.h"],
     visibility = ["//5000/tests:__pkg__"],
