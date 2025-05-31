@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "2083_rugby_club",
+    hdrs = ["2083_rugby_club.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2090_harmonic_mean",
     hdrs = ["2090_harmonic_mean.h"],
     visibility = ["//2000/tests:__pkg__"],
