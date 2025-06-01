@@ -381,6 +381,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2941_ljesnjak_test",
+    srcs = ["2941_ljesnjak_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2941_ljesnjak",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2960_sieve_of_eratosthenes_test",
     srcs = ["2960_sieve_of_eratosthenes_test.cc"],
     deps = [
