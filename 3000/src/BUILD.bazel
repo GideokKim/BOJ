@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "3009_4th_dot",
+    hdrs = ["3009_4th_dot.h"],
+    visibility = ["//3000/tests:__pkg__"],
+)
+
+cc_library(
     name = "3036_ring",
     hdrs = ["3036_ring.h"],
     visibility = ["//3000/tests:__pkg__"],
