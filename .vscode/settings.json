@@ -73,6 +73,7 @@
         "csignal": "cpp",
         "bitset": "cpp",
         "shared_mutex": "cpp",
-        "cfenv": "cpp"
+        "cfenv": "cpp",
+        "codecvt": "cpp"
     }
 }

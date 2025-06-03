@@ -71,3 +71,9 @@ cc_library(
     hdrs = ["33689_cpdu.h"],
     visibility = ["//33000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "33964_repunit_addition",
+    hdrs = ["33964_repunit_addition.h"],
+    visibility = ["//33000/tests:__pkg__"],
+)
