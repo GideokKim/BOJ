@@ -171,6 +171,16 @@ cc_test(
 )
 
 cc_test(
+    name = "1427_sort_inside_test",
+    srcs = ["1427_sort_inside_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//1000/src:1427_sort_inside",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1436_film_director_shom_test",
     srcs = ["1436_film_director_shom_test.cc"],
     deps = [
