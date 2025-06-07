@@ -109,6 +109,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10814_age_stable_sort",
+    hdrs = ["10814_age_stable_sort.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10815_number_cards",
     hdrs = ["10815_number_cards.h"],
     visibility = ["//10000/tests:__pkg__"],
