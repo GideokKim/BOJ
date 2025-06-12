@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "29751_triangle",
+    hdrs = ["29751_triangle.h"],
+    visibility = ["//29000/tests:__pkg__"],
+)
+
+cc_library(
     name = "29766_finding_dksh",
     hdrs = ["29766_finding_dksh.h"],
     visibility = ["//29000/tests:__pkg__"],
