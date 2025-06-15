@@ -31,6 +31,12 @@ cc_library(
 )
 
 cc_library(
+    name = "32642_billiards",
+    hdrs = ["32642_billiards.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
+
+cc_library(
     name = "32929_uos_string",
     hdrs = ["32929_uos_string.h"],
     visibility = ["//32000/tests:__pkg__"],
