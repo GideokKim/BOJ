@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "25191_chicken_dance",
+    hdrs = ["25191_chicken_dance.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
+
+cc_library(
     name = "25206_your_rating_is",
     hdrs = ["25206_your_rating_is.h"],
     visibility = ["//25000/tests:__pkg__"],
