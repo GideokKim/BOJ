@@ -55,6 +55,12 @@ cc_library(
 )
 
 cc_library(
+    name = "30821_if_it_can_be_constellation",
+    hdrs = ["30821_if_it_can_be_constellation.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
+
+cc_library(
     name = "30822_count_uospc",
     hdrs = ["30822_count_uospc.h"],
     visibility = ["//30000/tests:__pkg__"],
