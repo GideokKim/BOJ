@@ -55,6 +55,12 @@ cc_library(
 )
 
 cc_library(
+    name = "31668_special_eggplant",
+    hdrs = ["31668_special_eggplant.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
+
+cc_library(
     name = "31712_pinkbean_raid",
     hdrs = ["31712_pinkbean_raid.h"],
     visibility = ["//31000/tests:__pkg__"],
