@@ -55,6 +55,12 @@ cc_library(
 )
 
 cc_library(
+    name = "27465_composite_number",
+    hdrs = ["27465_composite_number.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
+cc_library(
     name = "27866_words_and_strings",
     hdrs = ["27866_words_and_strings.h"],
     visibility = ["//27000/tests:__pkg__"],
