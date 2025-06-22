@@ -59,3 +59,9 @@ cc_library(
     hdrs = ["15841_virus_outbreak.h"],
     visibility = ["//15000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "15874_caesar_cipher",
+    hdrs = ["15874_caesar_cipher.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
