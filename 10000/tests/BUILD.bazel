@@ -271,6 +271,16 @@ cc_test(
 )
 
 cc_test(
+    name = "10867_sort_except_repeated_numbers_test",
+    srcs = ["10867_sort_except_repeated_numbers_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//10000/src:10867_sort_except_repeated_numbers",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "10926_surprise_test",
     srcs = ["10926_surprise_test.cc"],
     deps = [
