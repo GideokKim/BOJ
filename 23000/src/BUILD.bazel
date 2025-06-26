@@ -29,3 +29,9 @@ cc_library(
     hdrs = ["23825_lets_make_sasa.h"],
     visibility = ["//23000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "23971_zoac_4",
+    hdrs = ["23971_zoac_4.h"],
+    visibility = ["//23000/tests:__pkg__"],
+)

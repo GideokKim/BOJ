@@ -50,3 +50,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "23971_zoac_4_test",
+    srcs = ["23971_zoac_4_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//23000/src:23971_zoac_4",
+        "@googletest//:gtest_main",
+    ],
+)
