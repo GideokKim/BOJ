@@ -19,3 +19,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "16546_missing_runners_test",
+    srcs = ["16546_missing_runners_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//16000/src:16546_missing_runners",
+        "@googletest//:gtest_main",
+    ],
+)

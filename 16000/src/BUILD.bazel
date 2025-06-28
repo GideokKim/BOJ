@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["16497_book_borrowing_request.h"],
     visibility = ["//16000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "16546_missing_runners",
+    hdrs = ["16546_missing_runners.h"],
+    visibility = ["//16000/tests:__pkg__"],
+)
