@@ -175,6 +175,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2704_binary_clock",
+    hdrs = ["2704_binary_clock.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2741_print_n",
     hdrs = ["2741_print_n.h"],
     visibility = ["//2000/tests:__pkg__"],
