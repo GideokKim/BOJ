@@ -71,6 +71,16 @@ cc_test(
 )
 
 cc_test(
+    name = "25375_very_simple_problem_test",
+    srcs = ["25375_very_simple_problem_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//25000/src:25375_very_simple_problem",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "25494_simple_problem_small_test",
     srcs = ["25494_simple_problem_small_test.cc"],
     deps = [
