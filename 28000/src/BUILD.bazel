@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "28431_matching_socks",
+    hdrs = ["28431_matching_socks.h"],
+    visibility = ["//28000/tests:__pkg__"],
+)
+
+cc_library(
     name = "28444_hi_arc",
     hdrs = ["28444_hi_arc.h"],
     visibility = ["//28000/tests:__pkg__"],
