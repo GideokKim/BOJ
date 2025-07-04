@@ -26,7 +26,7 @@ class Suapc2024Winter {
   void PrintResult() {
     std::cout << solved[n].size() + 3 << '\n';
     std::cout << "A ";
-    for (int index = 0; index < solved[n].size(); ++index) {
+    for (size_t index = 0; index < solved[n].size(); ++index) {
       std::cout << solved[n][index] << ' ';
     }
     std::cout << "L M";
