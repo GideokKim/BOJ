@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "11004_kth_number",
+    hdrs = ["11004_kth_number.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11005_base_conversion_2",
     hdrs = ["11005_base_conversion_2.h"],
     visibility = ["//11000/tests:__pkg__"],

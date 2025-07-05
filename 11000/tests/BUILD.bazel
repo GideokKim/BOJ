@@ -1,6 +1,16 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "11004_kth_number_test",
+    srcs = ["11004_kth_number_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//11000/src:11004_kth_number",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "11005_base_conversion_2_test",
     srcs = ["11005_base_conversion_2_test.cc"],
     deps = [
