@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "20112_sator_mabangjin",
+    hdrs = ["20112_sator_mabangjin.h"],
+    visibility = ["//20000/tests:__pkg__"],
+)
+
+cc_library(
     name = "20976_the_second_largest_integer",
     hdrs = ["20976_the_second_largest_integer.h"],
     visibility = ["//20000/tests:__pkg__"],
