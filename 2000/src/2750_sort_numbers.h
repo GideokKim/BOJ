@@ -11,7 +11,7 @@ class SortNumbers {
     size_t n;
     std::cin >> n;
     numbers.resize(n);
-    for (int i = 0; i < n; i++) {
+    for (size_t i = 0; i < n; i++) {
       std::cin >> numbers[i];
     }
   }
@@ -19,7 +19,7 @@ class SortNumbers {
   void Calculate() { std::sort(numbers.begin(), numbers.end()); }
 
   void PrintResult() {
-    for (int i = 0; i < numbers.size(); i++) {
+    for (size_t i = 0; i < numbers.size(); i++) {
       std::cout << numbers[i] << '\n';
     }
   }
