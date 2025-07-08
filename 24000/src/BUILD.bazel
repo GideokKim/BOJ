@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "24075_calculation",
+    hdrs = ["24075_calculation.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
+
+cc_library(
     name = "24078_remainder",
     hdrs = ["24078_remainder.h"],
     visibility = ["//24000/tests:__pkg__"],
