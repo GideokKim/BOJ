@@ -17,7 +17,7 @@ class InsertSort1 {
   void Calculate() {
     result = -1;
     size_t cnt = 0;
-    for (size_t i = 1; i < n; ++i) {
+    for (long long i = 1; i < static_cast<long long>(n); ++i) {
       long long new_item = arr[i];
       long long loc = i - 1;
 
