@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "17450_buy_snacks",
+    hdrs = ["17450_buy_snacks.h"],
+    visibility = ["//17000/tests:__pkg__"],
+)
+
+cc_library(
     name = "17608_bar",
     hdrs = ["17608_bar.h"],
     visibility = ["//17000/tests:__pkg__"],
