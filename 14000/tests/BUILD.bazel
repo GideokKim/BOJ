@@ -99,3 +99,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "14935_fa_test",
+    srcs = ["14935_fa_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//14000/src:14935_fa",
+        "@googletest//:gtest_main",
+    ],
+)
