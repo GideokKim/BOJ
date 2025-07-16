@@ -19,6 +19,12 @@ cc_library(
 )
 
 cc_library(
+    name = "5354_jbox",
+    hdrs = ["5354_jbox.h"],
+    visibility = ["//5000/tests:__pkg__"],
+)
+
+cc_library(
     name = "5363_yoda_talk",
     hdrs = ["5363_yoda_talk.h"],
     visibility = ["//5000/tests:__pkg__"],
