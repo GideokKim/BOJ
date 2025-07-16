@@ -141,6 +141,16 @@ cc_test(
 )
 
 cc_test(
+    name = "31868_watermelon_game_test",
+    srcs = ["31868_watermelon_game_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//31000/src:31868_watermelon_game",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "31922_this_competition_is_mine_now_test",
     srcs = ["31922_this_competition_is_mine_now_test.cc"],
     deps = [

@@ -85,6 +85,12 @@ cc_library(
 )
 
 cc_library(
+    name = "31868_watermelon_game",
+    hdrs = ["31868_watermelon_game.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
+
+cc_library(
     name = "31922_this_competition_is_mine_now",
     hdrs = ["31922_this_competition_is_mine_now.h"],
     visibility = ["//31000/tests:__pkg__"],
