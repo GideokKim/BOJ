@@ -91,6 +91,16 @@ cc_test(
 )
 
 cc_test(
+    name = "30700_making_korea_string_test",
+    srcs = ["30700_making_korea_string_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//30000/src:30700_making_korea_string",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "30821_if_it_can_be_constellation_test",
     srcs = ["30821_if_it_can_be_constellation_test.cc"],
     deps = [
