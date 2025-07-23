@@ -121,6 +121,16 @@ cc_test(
 )
 
 cc_test(
+    name = "31821_get_someone_cafeteria_food_test",
+    srcs = ["31821_get_someone_cafeteria_food_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//31000/src:31821_get_someone_cafeteria_food",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "31822_retaking_courses_test",
     srcs = ["31822_retaking_courses_test.cc"],
     deps = [
