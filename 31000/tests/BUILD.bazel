@@ -11,6 +11,16 @@ cc_test(
 )
 
 cc_test(
+    name = "31067_race_rally_test",
+    srcs = ["31067_race_rally_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//31000/src:31067_race_rally",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "31403_a_plus_b_minus_c_test",
     srcs = ["31403_a_plus_b_minus_c_test.cc"],
     deps = [

@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "31067_race_rally",
+    hdrs = ["31067_race_rally.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
+
+cc_library(
     name = "31403_a_plus_b_minus_c",
     hdrs = ["31403_a_plus_b_minus_c.h"],
     visibility = ["//31000/tests:__pkg__"],
