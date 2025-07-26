@@ -55,6 +55,12 @@ cc_library(
 )
 
 cc_library(
+    name = "33557_who_do_this_multiplication",
+    hdrs = ["33557_who_do_this_multiplication.h"],
+    visibility = ["//33000/tests:__pkg__"],
+)
+
+cc_library(
     name = "33571_hole",
     hdrs = ["33571_hole.h"],
     visibility = ["//33000/tests:__pkg__"],
