@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "6321_ibm_minus_1",
+    hdrs = ["6321_ibm_minus_1.h"],
+    visibility = ["//6000/tests:__pkg__"],
+)
+
+cc_library(
     name = "6603_lotto",
     hdrs = ["6603_lotto.h"],
     visibility = ["//6000/tests:__pkg__"],
