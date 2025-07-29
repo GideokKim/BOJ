@@ -15,7 +15,7 @@ class StringAnalysis {
   }
 
   void Calculate() {
-    results.resize(inputs.size(), std::vector<size_t>(4, 0));
+    results.resize(inputs.size() - 1, std::vector<size_t>(4, 0));
     for (size_t i = 0; i < inputs.size(); ++i) {
       for (auto target : inputs[i]) {
         if ('0' <= target && target <= '9') {
