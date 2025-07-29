@@ -191,3 +191,9 @@ cc_library(
     hdrs = ["10988_check_palindrome.h"],
     visibility = ["//10000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "10995_print_star_20",
+    hdrs = ["10995_print_star_20.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
