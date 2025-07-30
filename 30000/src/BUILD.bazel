@@ -25,6 +25,12 @@ cc_library(
 )
 
 cc_library(
+    name = "30045_zoac_6",
+    hdrs = ["30045_zoac_6.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
+
+cc_library(
     name = "30087_seminar",
     hdrs = ["30087_seminar.h"],
     visibility = ["//30000/tests:__pkg__"],
