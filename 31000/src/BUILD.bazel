@@ -107,3 +107,9 @@ cc_library(
     hdrs = ["31922_this_competition_is_mine_now.h"],
     visibility = ["//31000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "31994_booking_auditorium",
+    hdrs = ["31994_booking_auditorium.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
