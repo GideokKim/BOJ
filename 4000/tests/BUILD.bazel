@@ -41,6 +41,16 @@ cc_test(
 )
 
 cc_test(
+    name = "4732_scale_translation_test",
+    srcs = ["4732_scale_translation_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//4000/src:4732_scale_translation",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "4963_number_of_island_test",
     srcs = ["4963_number_of_island_test.cc"],
     deps = [

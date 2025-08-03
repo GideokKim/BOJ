@@ -25,6 +25,12 @@ cc_library(
 )
 
 cc_library(
+    name = "4732_scale_translation",
+    hdrs = ["4732_scale_translation.h"],
+    visibility = ["//4000/tests:__pkg__"],
+)
+
+cc_library(
     name = "4963_number_of_island",
     hdrs = ["4963_number_of_island.h"],
     visibility = ["//4000/tests:__pkg__"],
