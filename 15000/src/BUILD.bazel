@@ -31,6 +31,12 @@ cc_library(
 )
 
 cc_library(
+    name = "15312_name_chemistry",
+    hdrs = ["15312_name_chemistry.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
+
+cc_library(
     name = "15474_pencils",
     hdrs = ["15474_pencils.h"],
     visibility = ["//15000/tests:__pkg__"],

@@ -51,6 +51,16 @@ cc_test(
 )
 
 cc_test(
+    name = "15312_name_chemistry_test",
+    srcs = ["15312_name_chemistry_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//15000/src:15312_name_chemistry",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "15474_pencils_test",
     srcs = ["15474_pencils_test.cc"],
     deps = [
