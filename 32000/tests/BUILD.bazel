@@ -81,6 +81,16 @@ cc_test(
 )
 
 cc_test(
+    name = "32755_wall_of_4_hours_test",
+    srcs = ["32755_wall_of_4_hours_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//32000/src:32755_wall_of_4_hours",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "32929_uos_string_test",
     srcs = ["32929_uos_string_test.cc"],
     deps = [

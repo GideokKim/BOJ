@@ -49,6 +49,12 @@ cc_library(
 )
 
 cc_library(
+    name = "32755_wall_of_4_hours",
+    hdrs = ["32755_wall_of_4_hours.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
+
+cc_library(
     name = "32929_uos_string",
     hdrs = ["32929_uos_string.h"],
     visibility = ["//32000/tests:__pkg__"],
