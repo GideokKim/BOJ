@@ -100,6 +100,15 @@ cc_test(
     ],
 )
 
+cc_test(
+    name = "32941_why_do_you_make_reservation_in_your_mind_test",
+    srcs = ["32941_why_do_you_make_reservation_in_your_mind_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//32000/src:32941_why_do_you_make_reservation_in_your_mind",
+        "@googletest//:gtest_main",
+    ],
+)
 
 cc_test(
     name = "32979_apartment_test",

@@ -61,6 +61,12 @@ cc_library(
 )
 
 cc_library(
+    name = "32941_why_do_you_make_reservation_in_your_mind",
+    hdrs = ["32941_why_do_you_make_reservation_in_your_mind.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
+
+cc_library(
     name = "32979_apartment",
     hdrs = ["32979_apartment.h"],
     visibility = ["//32000/tests:__pkg__"],
