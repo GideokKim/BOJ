@@ -49,6 +49,12 @@ cc_library(
 )
 
 cc_library(
+    name = "30457_group_skipping_rope",
+    hdrs = ["30457_group_skipping_rope.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
+
+cc_library(
     name = "30501_find_criminal",
     hdrs = ["30501_find_criminal.h"],
     visibility = ["//30000/tests:__pkg__"],

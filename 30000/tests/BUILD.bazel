@@ -81,6 +81,16 @@ cc_test(
 )
 
 cc_test(
+    name = "30457_group_skipping_rope_test",
+    srcs = ["30457_group_skipping_rope_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//30000/src:30457_group_skipping_rope",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "30501_find_criminal_test",
     srcs = ["30501_find_criminal_test.cc"],
     deps = [
