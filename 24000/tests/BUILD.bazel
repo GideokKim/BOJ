@@ -141,6 +141,16 @@ cc_test(
 )
 
 cc_test(
+    name = "24267_algorithm_class_time_6_test",
+    srcs = ["24267_algorithm_class_time_6_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//24000/src:24267_algorithm_class_time_6",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "24313_algorithm_class_big_o_notation_1_test",
     srcs = ["24313_algorithm_class_big_o_notation_1_test.cc"],
     deps = [
