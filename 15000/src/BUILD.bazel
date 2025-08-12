@@ -73,6 +73,12 @@ cc_library(
 )
 
 cc_library(
+    name = "15666_n_and_m_12",
+    hdrs = ["15666_n_and_m_12.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
+
+cc_library(
     name = "15680_yonsei_university",
     hdrs = ["15680_yonsei_university.h"],
     visibility = ["//15000/tests:__pkg__"],
