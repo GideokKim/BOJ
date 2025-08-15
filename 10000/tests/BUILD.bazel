@@ -321,6 +321,16 @@ cc_test(
 )
 
 cc_test(
+    name = "10989_sorting_numbers_3_test",
+    srcs = ["10989_sorting_numbers_3_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//10000/src:10989_sorting_numbers_3",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "10995_print_star_20_test",
     srcs = ["10995_print_star_20_test.cc"],
     deps = [
