@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "5555_ring",
+    hdrs = ["5555_ring.h"],
+    visibility = ["//5000/tests:__pkg__"],
+)
+
+cc_library(
     name = "5582_lcs",
     hdrs = ["5582_lcs.h"],
     visibility = ["//5000/tests:__pkg__"],
