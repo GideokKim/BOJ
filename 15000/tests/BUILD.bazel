@@ -101,6 +101,16 @@ cc_test(
 )
 
 cc_test(
+    name = "15651_n_and_m_3_test",
+    srcs = ["15651_n_and_m_3_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//15000/src:15651_n_and_m_3",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "15652_n_and_m_4_test",
     srcs = ["15652_n_and_m_4_test.cc"],
     deps = [
