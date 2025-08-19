@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "30018_tashu",
+    hdrs = ["30018_tashu.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
+
+cc_library(
     name = "30030_get_price_for_sweetcorn",
     hdrs = ["30030_get_price_for_sweetcorn.h"],
     visibility = ["//30000/tests:__pkg__"],
