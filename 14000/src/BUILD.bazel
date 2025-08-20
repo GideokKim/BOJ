@@ -55,6 +55,12 @@ cc_library(
 )
 
 cc_library(
+    name = "14913_find_element_number",
+    hdrs = ["14913_find_element_number.h"],
+    visibility = ["//14000/tests:__pkg__"],
+)
+
+cc_library(
     name = "14916_change",
     hdrs = ["14916_change.h"],
     visibility = ["//14000/tests:__pkg__"],
