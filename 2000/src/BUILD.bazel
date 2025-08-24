@@ -55,6 +55,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2231_factor_sum",
+    hdrs = ["2231_factor_sum.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2352_design_semiconductors",
     hdrs = ["2352_design_semiconductors.h"],
     visibility = ["//2000/tests:__pkg__"],
