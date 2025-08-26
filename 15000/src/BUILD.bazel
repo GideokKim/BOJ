@@ -85,6 +85,12 @@ cc_library(
 )
 
 cc_library(
+    name = "15657_n_and_m_8",
+    hdrs = ["15657_n_and_m_8.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
+
+cc_library(
     name = "15663_n_and_m_9",
     hdrs = ["15663_n_and_m_9.h"],
     visibility = ["//15000/tests:__pkg__"],
