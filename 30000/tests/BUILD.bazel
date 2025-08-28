@@ -81,6 +81,16 @@ cc_test(
 )
 
 cc_test(
+    name = "30394_calipers_test",
+    srcs = ["30394_calipers_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//30000/src:30394_calipers",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "30454_find_zebra_test",
     srcs = ["30454_find_zebra_test.cc"],
     deps = [
