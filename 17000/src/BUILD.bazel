@@ -43,6 +43,12 @@ cc_library(
 )
 
 cc_library(
+    name = "17466_n_factorial_mod_p_1",
+    hdrs = ["17466_n_factorial_mod_p_1.h"],
+    visibility = ["//17000/tests:__pkg__"],
+)
+
+cc_library(
     name = "17608_bar",
     hdrs = ["17608_bar.h"],
     visibility = ["//17000/tests:__pkg__"],
