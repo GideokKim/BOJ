@@ -51,6 +51,16 @@ cc_test(
 )
 
 cc_test(
+    name = "10275_gold_rush_test",
+    srcs = ["10275_gold_rush_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//10000/src:10275_gold_rush",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "10480_oddities_test",
     srcs = ["10480_oddities_test.cc"],
     deps = [
