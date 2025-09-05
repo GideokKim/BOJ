@@ -25,6 +25,12 @@ cc_library(
 )
 
 cc_library(
+    name = "9093_reversing_words",
+    hdrs = ["9093_reversing_words.h"],
+    visibility = ["//9000/tests:__pkg__"],
+)
+
+cc_library(
     name = "9095_plus_one_two_three",
     hdrs = ["9095_plus_one_two_three.h"],
     visibility = ["//9000/tests:__pkg__"],
