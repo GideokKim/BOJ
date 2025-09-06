@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "8532_seven_races",
+    hdrs = ["8532_seven_races.h"],
+    visibility = ["//8000/tests:__pkg__"],
+)
+
+cc_library(
     name = "8545_zadanie",
     hdrs = ["8545_zadanie.h"],
     visibility = ["//8000/tests:__pkg__"],
