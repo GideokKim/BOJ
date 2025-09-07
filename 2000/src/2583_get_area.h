@@ -31,8 +31,8 @@ class GetArea {
   }
 
   void Calculate() {
-    for (int i = 0; i < m; ++i) {
-      for (int j = 0; j < n; ++j) {
+    for (int i = 0; i < static_cast<int>(m); ++i) {
+      for (int j = 0; j < static_cast<int>(n); ++j) {
         if (!visited[i][j] && map[i][j]) {
           size_t count = 0;
           dfs(i, j, count);
@@ -66,7 +66,8 @@ class GetArea {
       int nx = i + dx[index];
       int ny = j + dy[index];
 
-      if (nx < 0 || ny < 0 || nx >= m || ny >= n) {
+      if (nx < 0 || ny < 0 || nx >= static_cast<int>(m) ||
+          ny >= static_cast<int>(n)) {
         continue;
       }
 
