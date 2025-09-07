@@ -187,6 +187,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2684_coin_games",
+    hdrs = ["2684_coin_games.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2704_binary_clock",
     hdrs = ["2704_binary_clock.h"],
     visibility = ["//2000/tests:__pkg__"],
