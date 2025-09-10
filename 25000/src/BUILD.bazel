@@ -91,6 +91,12 @@ cc_library(
 )
 
 cc_library(
+    name = "25704_attendance_event",
+    hdrs = ["25704_attendance_event.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
+
+cc_library(
     name = "25883_sprout",
     hdrs = ["25883_sprout.h"],
     visibility = ["//25000/tests:__pkg__"],
