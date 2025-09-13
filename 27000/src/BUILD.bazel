@@ -79,6 +79,12 @@ cc_library(
 )
 
 cc_library(
+    name = "27960_shooting_betting",
+    hdrs = ["27960_shooting_betting.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
+cc_library(
     name = "27964_quatro_cheese_pizza",
     hdrs = ["27964_quatro_cheese_pizza.h"],
     visibility = ["//27000/tests:__pkg__"],
