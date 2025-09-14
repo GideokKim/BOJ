@@ -127,6 +127,12 @@ cc_library(
 )
 
 cc_library(
+    name = "15784_jealousy_jinseo",
+    hdrs = ["15784_jealousy_jinseo.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
+
+cc_library(
     name = "15813_what_is_your_name_score",
     hdrs = ["15813_what_is_your_name_score.h"],
     visibility = ["//15000/tests:__pkg__"],
