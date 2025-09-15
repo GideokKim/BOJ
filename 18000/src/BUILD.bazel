@@ -31,6 +31,12 @@ cc_library(
 )
 
 cc_library(
+    name = "18870_coordinate_compression",
+    hdrs = ["18870_coordinate_compression.h"],
+    visibility = ["//18000/tests:__pkg__"],
+)
+
+cc_library(
     name = "18883_print_n_m",
     hdrs = ["18883_print_n_m.h"],
     visibility = ["//18000/tests:__pkg__"],

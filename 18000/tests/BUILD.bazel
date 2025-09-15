@@ -51,6 +51,16 @@ cc_test(
 )
 
 cc_test(
+    name = "18870_coordinate_compression_test",
+    srcs = ["18870_coordinate_compression_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//18000/src:18870_coordinate_compression",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "18883_print_n_m_test",
     srcs = ["18883_print_n_m_test.cc"],
     deps = [
