@@ -9,3 +9,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "34346_diagonal_test",
+    srcs = ["34346_diagonal_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34346_diagonal",
+        "@googletest//:gtest_main",
+    ],
+)

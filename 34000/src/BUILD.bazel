@@ -5,3 +5,9 @@ cc_library(
     hdrs = ["34052_phisical_class_is_math_class.h"],
     visibility = ["//34000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "34346_diagonal",
+    hdrs = ["34346_diagonal.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
