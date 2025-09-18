@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "17249_taebo_gun",
+    hdrs = ["17249_taebo_gun.h"],
+    visibility = ["//17000/tests:__pkg__"],
+)
+
+cc_library(
     name = "17283_i_am_groot",
     hdrs = ["17283_i_am_groot.h"],
     visibility = ["//17000/tests:__pkg__"],
