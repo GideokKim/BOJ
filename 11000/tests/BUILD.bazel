@@ -261,6 +261,16 @@ cc_test(
 )
 
 cc_test(
+    name = "11665_cubic_intersection_test",
+    srcs = ["11665_cubic_intersection_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//11000/src:11665_cubic_intersection",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "11718_print_as_it_is_test",
     srcs = ["11718_print_as_it_is_test.cc"],
     deps = [
