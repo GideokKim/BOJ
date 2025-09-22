@@ -85,6 +85,12 @@ cc_library(
 )
 
 cc_library(
+    name = "30676_what_color_is_this_star",
+    hdrs = ["30676_what_color_is_this_star.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
+
+cc_library(
     name = "30700_making_korea_string",
     hdrs = ["30700_making_korea_string.h"],
     visibility = ["//30000/tests:__pkg__"],
