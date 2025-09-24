@@ -67,6 +67,12 @@ cc_library(
 )
 
 cc_library(
+    name = "14914_split_apple_and_banana",
+    hdrs = ["14914_split_apple_and_banana.h"],
+    visibility = ["//14000/tests:__pkg__"],
+)
+
+cc_library(
     name = "14916_change",
     hdrs = ["14916_change.h"],
     visibility = ["//14000/tests:__pkg__"],
