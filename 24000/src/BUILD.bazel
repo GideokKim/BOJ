@@ -91,6 +91,12 @@ cc_library(
 )
 
 cc_library(
+    name = "24273_green_big_top",
+    hdrs = ["24273_green_big_top.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
+
+cc_library(
     name = "24313_algorithm_class_big_o_notation_1",
     hdrs = ["24313_algorithm_class_big_o_notation_1.h"],
     visibility = ["//24000/tests:__pkg__"],
