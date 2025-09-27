@@ -31,6 +31,16 @@ cc_test(
 )
 
 cc_test(
+    name = "6500_create_random_number_test",
+    srcs = ["6500_create_random_number_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//6000/src:6500_create_random_number",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "6603_lotto_test",
     srcs = ["6603_lotto_test.cc"],
     deps = [
