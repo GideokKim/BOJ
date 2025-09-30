@@ -461,6 +461,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2920_scale_test",
+    srcs = ["2920_scale_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2920_scale",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2941_ljesnjak_test",
     srcs = ["2941_ljesnjak_test.cc"],
     deps = [
