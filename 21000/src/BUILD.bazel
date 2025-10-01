@@ -4,7 +4,13 @@ cc_library(
     name = "21200_forced_choice",
     hdrs = ["21200_forced_choice.h"],
     visibility = ["//21000/tests:__pkg__"],
-)   
+)
+
+cc_library(
+    name = "21603_k_2k_game",
+    hdrs = ["21603_k_2k_game.h"],
+    visibility = ["//21000/tests:__pkg__"],
+)
 
 cc_library(
     name = "21955_split",

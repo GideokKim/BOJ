@@ -1,9 +1,21 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
 cc_test(
     name = "21200_forced_choice_test",
     srcs = ["21200_forced_choice_test.cc"],
     deps = [
         "//test_headers:test_helper",
         "//21000/src:21200_forced_choice",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "21603_k_2k_game_test",
+    srcs = ["21603_k_2k_game_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//21000/src:21603_k_2k_game",
         "@googletest//:gtest_main",
     ],
 )
