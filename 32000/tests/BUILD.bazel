@@ -111,6 +111,16 @@ cc_test(
 )
 
 cc_test(
+    name = "32778_substation_name_with_gahee_test",
+    srcs = ["32778_substation_name_with_gahee_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//32000/src:32778_substation_name_with_gahee",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "32929_uos_string_test",
     srcs = ["32929_uos_string_test.cc"],
     deps = [
