@@ -1,6 +1,16 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "25177_find_seogang_history_test",
+    srcs = ["25177_find_seogang_history_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//25000/src:25177_find_seogang_history",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "25191_chicken_dance_test",
     srcs = ["25191_chicken_dance_test.cc"],
     deps = [

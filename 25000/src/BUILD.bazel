@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "25177_find_seogang_history",
+    hdrs = ["25177_find_seogang_history.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
+
+cc_library(
     name = "25191_chicken_dance",
     hdrs = ["25191_chicken_dance.h"],
     visibility = ["//25000/tests:__pkg__"],
