@@ -103,6 +103,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2442_print_stars_5",
+    hdrs = ["2442_print_stars_5.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2444_print_stars_7",
     hdrs = ["2444_print_stars_7.h"],
     visibility = ["//2000/tests:__pkg__"],
