@@ -307,6 +307,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2959_turtle",
+    hdrs = ["2959_turtle.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2960_sieve_of_eratosthenes",
     hdrs = ["2960_sieve_of_eratosthenes.h"],
     visibility = ["//2000/tests:__pkg__"],
