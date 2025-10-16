@@ -511,6 +511,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2948_2009_test",
+    srcs = ["2948_2009_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2948_2009",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2959_turtle_test",
     srcs = ["2959_turtle_test.cc"],
     deps = [

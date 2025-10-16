@@ -307,6 +307,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2948_2009",
+    hdrs = ["2948_2009.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2959_turtle",
     hdrs = ["2959_turtle.h"],
     visibility = ["//2000/tests:__pkg__"],
