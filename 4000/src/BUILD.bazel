@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "4592_remove_duplication",
+    hdrs = ["4592_remove_duplication.h"],
+    visibility = ["//4000/tests:__pkg__"],
+)
+
+cc_library(
     name = "4673_self_number",
     hdrs = ["4673_self_number.h"],
     visibility = ["//4000/tests:__pkg__"],
