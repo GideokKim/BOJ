@@ -241,6 +241,16 @@ cc_test(
 )
 
 cc_test(
+    name = "1526_largest_gold_minsu_test",
+    srcs = ["1526_largest_gold_minsu_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//1000/src:1526_largest_gold_minsu",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1543_document_search_test",
     srcs = ["1543_document_search_test.cc"],
     deps = [
