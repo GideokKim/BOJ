@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34183_preparing_suapc_chairs",
+    hdrs = ["34183_preparing_suapc_chairs.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34346_diagonal",
     hdrs = ["34346_diagonal.h"],
     visibility = ["//34000/tests:__pkg__"],
