@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "34027_is_this_square",
+    hdrs = ["34027_is_this_square.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34052_phisical_class_is_math_class",
     hdrs = ["34052_phisical_class_is_math_class.h"],
     visibility = ["//34000/tests:__pkg__"],
