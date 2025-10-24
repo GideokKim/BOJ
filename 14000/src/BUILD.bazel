@@ -31,6 +31,12 @@ cc_library(
 )
 
 cc_library(
+    name = "14561_palindrome",
+    hdrs = ["14561_palindrome.h"],
+    visibility = ["//14000/tests:__pkg__"],
+)
+
+cc_library(
     name = "14568_yonsei_2017",
     hdrs = ["14568_yonsei_2017.h"],
     visibility = ["//14000/tests:__pkg__"],
