@@ -271,6 +271,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2523_print_stars_13_test",
+    srcs = ["2523_print_stars_13_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2523_print_stars_13",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2557_hello_world_test",
     srcs = ["2557_hello_world_test.cc"],
     deps = [
