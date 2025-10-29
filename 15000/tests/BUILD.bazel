@@ -249,3 +249,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "15963_casio_test",
+    srcs = ["15963_casio_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//15000/src:15963_casio",
+        "@googletest//:gtest_main",
+    ],
+)

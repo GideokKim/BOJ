@@ -149,3 +149,9 @@ cc_library(
     hdrs = ["15874_caesar_cipher.h"],
     visibility = ["//15000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "15963_casio",
+    hdrs = ["15963_casio.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
