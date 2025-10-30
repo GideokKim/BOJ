@@ -23,3 +23,9 @@ cc_library(
     hdrs = ["34346_diagonal.h"],
     visibility = ["//34000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "34509_make_n",
+    hdrs = ["34509_make_n.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
