@@ -151,6 +151,16 @@ cc_test(
 )
 
 cc_test(
+    name = "33868_split_stickers_test",
+    srcs = ["33868_split_stickers_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//33000/src:33868_split_stickers",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "33964_repunit_addition_test",
     srcs = ["33964_repunit_addition_test.cc"],
     deps = [
