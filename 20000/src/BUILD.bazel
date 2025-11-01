@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "20299_three_measurements",
+    hdrs = ["20299_three_measurements.h"],
+    visibility = ["//20000/tests:__pkg__"],
+)
+
+cc_library(
     name = "20494_sushi",
     hdrs = ["20494_sushi.h"],
     visibility = ["//20000/tests:__pkg__"],
