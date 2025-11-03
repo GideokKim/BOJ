@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "21598_scicomlove",
+    hdrs = ["21598_scicomlove.h"],
+    visibility = ["//21000/tests:__pkg__"],
+)
+
+cc_library(
     name = "21603_k_2k_game",
     hdrs = ["21603_k_2k_game.h"],
     visibility = ["//21000/tests:__pkg__"],
