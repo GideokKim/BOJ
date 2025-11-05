@@ -61,6 +61,12 @@ cc_library(
 )
 
 cc_library(
+    name = "14656_ta_is_sadist",
+    hdrs = ["14656_ta_is_sadist.h"],
+    visibility = ["//14000/tests:__pkg__"],
+)
+
+cc_library(
     name = "14730_small",
     hdrs = ["14730_small.h"],
     visibility = ["//14000/tests:__pkg__"],
