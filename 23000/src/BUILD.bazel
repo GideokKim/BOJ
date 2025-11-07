@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "23037_only_5",
+    hdrs = ["23037_only_5.h"],
+    visibility = ["//23000/tests:__pkg__"],
+)
+
+cc_library(
     name = "23048_coloring_natural_numbers",
     hdrs = ["23048_coloring_natural_numbers.h"],
     visibility = ["//23000/tests:__pkg__"],
