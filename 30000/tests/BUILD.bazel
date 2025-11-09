@@ -121,6 +121,16 @@ cc_test(
 )
 
 cc_test(
+    name = "30456_floor_number_test",
+    srcs = ["30456_floor_number_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//30000/src:30456_floor_number",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "30457_group_skipping_rope_test",
     srcs = ["30457_group_skipping_rope_test.cc"],
     deps = [
