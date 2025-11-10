@@ -31,6 +31,16 @@ cc_test(
 )
 
 cc_test(
+    name = "9076_score_tally_test",
+    srcs = ["9076_score_tally_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//9000/src:9076_score_tally",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "9086_string_test",
     srcs = ["9086_string_test.cc"],
     deps = [
