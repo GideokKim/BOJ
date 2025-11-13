@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "32342_wow_and_query",
+    hdrs = ["32342_wow_and_query.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
+
+cc_library(
     name = "32384_love_is_korea_university",
     hdrs = ["32384_love_is_korea_university.h"],
     visibility = ["//32000/tests:__pkg__"],
