@@ -17,13 +17,13 @@ Related: #<issue number>
 
 
 # ─── Example: Simple refactor ────────────────────────────────────────────────┤
-# refac: remove system dictator
+# refac(number_theory): remove redundant gcd implementation
 #
-# Since the owner of all contracts in this system is ProxyAdmin, SystemDictator
-# is no longer necessary. Additionally, the deployment scripts have been
-# modified to update the proxy when deploying implementation contracts.
+# The Euclidean algorithm implementation in gcd.h was duplicated in
+# lcm.h. Since LCM can be computed using GCD, we removed the redundant
+# implementation and now LCM uses the shared GCD function.
 #
-# Resolves: #36332
+# Resolves: #42
 # ─────────────────────────────────────────────────────────────────────────────┤
 
 
@@ -33,22 +33,24 @@ Related: #<issue number>
 
 
 # ─── Example: A bug fix ──────────────────────────────────────────────────────┤
-# fix(trie): use hash once on account to compute path
+# fix(big_int): correct overflow handling in multiplication
 #
-# Path must be computed using poseidon hash once. But, by mistake, it
-# was computed using twice.
+# The multiplication operator was not properly handling overflow cases
+# when the result exceeded the maximum representable value. Now it
+# correctly throws an exception for overflow conditions.
 # ─────────────────────────────────────────────────────────────────────────────┤
 
 # ─── Example: A feature ──────────────────────────────────────────────────────┤
-# feat!: use keccak256 for codehash
+# feat!(number_theory): change prime sieve to segmented sieve
 #
-# BREAKING CHANGE: Previously, codehash was calculated using poseidon.
-# So the state root since this commit will be produced differently.
+# BREAKING CHANGE: Previously, prime sieve used Eratosthenes algorithm
+# with O(n) memory. Now it uses segmented sieve with O(sqrt(n)) memory.
+# The API remains the same, but memory usage is significantly reduced
+# for large inputs.
 #
 # See belows for details.
 #
-# - https://eips.ethereum.org/EIPS/eip-1052
-# - https://github.com/scroll-tech/go-ethereum/pull/188
+# - https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Segmented_sieve
 # ─────────────────────────────────────────────────────────────────────────────┤
 
 # Commit Message Format
@@ -83,9 +85,8 @@ Related: #<issue number>
 #   │       │             └─⫸ Summary in present tense. Not capitalized.
 #   │       │                 No period at the end.
 #   │       │
-#   │       └─⫸ Commit Scope: base|benchmark|build|c(subscope)|cc(subscope)|
-#   │                         circom|crypto|device|examples|halo2|math|
-#   │                         node(subscope)|plonky3|rs(subscope)|sp1|zk
+#   │       └─⫸ Commit Scope: algebra|combinatorics|data_structure|geometry|
+#   │                         number_theory|problem|test|util
 #   │
 #   └─⫸ Commit Type: build|chore|ci|docs|feat|fix|perf|refac|style|test
 # ```
