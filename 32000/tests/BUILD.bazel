@@ -121,6 +121,16 @@ cc_test(
 )
 
 cc_test(
+    name = "32751_hamburger_test",
+    srcs = ["32751_hamburger_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//32000/src:32751_hamburger",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "32755_wall_of_4_hours_test",
     srcs = ["32755_wall_of_4_hours_test.cc"],
     deps = [
