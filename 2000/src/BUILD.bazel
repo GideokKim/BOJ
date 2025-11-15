@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2153_prime_words",
+    hdrs = ["2153_prime_words.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2108_statistics",
     hdrs = ["2108_statistics.h"],
     visibility = ["//2000/tests:__pkg__"],

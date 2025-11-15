@@ -31,6 +31,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2153_prime_words_test",
+    srcs = ["2153_prime_words_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2153_prime_words",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2156_wine_tasting_test",
     srcs = ["2156_wine_tasting_test.cc"],
     deps = [
