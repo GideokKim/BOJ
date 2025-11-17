@@ -71,6 +71,16 @@ cc_test(
 )
 
 cc_test(
+    name = "5576_contest_test",
+    srcs = ["5576_contest_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//5000/src:5576_contest",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "5582_lcs_test",
     srcs = ["5582_lcs_test.cc"],
     deps = [
