@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34073_doro",
+    hdrs = ["34073_doro.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34183_preparing_suapc_chairs",
     hdrs = ["34183_preparing_suapc_chairs.h"],
     visibility = ["//34000/tests:__pkg__"],
