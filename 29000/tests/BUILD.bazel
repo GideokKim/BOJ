@@ -11,6 +11,16 @@ cc_test(
 )
 
 cc_test(
+    name = "29720_so_how_many_problems_did_you_solve_test",
+    srcs = ["29720_so_how_many_problems_did_you_solve_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//29000/src:29720_so_how_many_problems_did_you_solve",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "29725_chess_newbie_test",
     srcs = ["29725_chess_newbie_test.cc"],
     deps = [

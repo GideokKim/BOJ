@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "29720_so_how_many_problems_did_you_solve",
+    hdrs = ["29720_so_how_many_problems_did_you_solve.h"],
+    visibility = ["//29000/tests:__pkg__"],
+)
+
+cc_library(
     name = "29725_chess_newbie",
     hdrs = ["29725_chess_newbie.h"],
     visibility = ["//29000/tests:__pkg__"],
