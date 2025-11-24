@@ -149,3 +149,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "27982_cubes_test",
+    srcs = ["27982_cubes_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//27000/src:27982_cubes",
+        "@googletest//:gtest_main",
+    ],
+)
