@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "27310_chino_shock",
+    hdrs = ["27310_chino_shock.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
+cc_library(
     name = "27323_rectangle",
     hdrs = ["27323_rectangle.h"],
     visibility = ["//27000/tests:__pkg__"],
