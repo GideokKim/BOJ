@@ -85,6 +85,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11170_number_of_zero",
+    hdrs = ["11170_number_of_zero.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11176_in_the_shower",
     hdrs = ["11176_in_the_shower.h"],
     visibility = ["//11000/tests:__pkg__"],
