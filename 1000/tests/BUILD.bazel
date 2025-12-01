@@ -221,6 +221,16 @@ cc_test(
 )
 
 cc_test(
+    name = "1475_room_number_test",
+    srcs = ["1475_room_number_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//1000/src:1475_room_number",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1541_lost_parenthesis_test",
     srcs = ["1541_lost_parenthesis_test.cc"],
     deps = [

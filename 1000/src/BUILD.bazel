@@ -133,6 +133,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1475_room_number",
+    hdrs = ["1475_room_number.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1504_specific_shortest_path",
     hdrs = ["1504_specific_shortest_path.h"],
     visibility = ["//1000/tests:__pkg__"],
