@@ -127,6 +127,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1453_pc_room_part_time_job",
+    hdrs = ["1453_pc_room_part_time_job.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1463_make_one",
     hdrs = ["1463_make_one.h"],
     visibility = ["//1000/tests:__pkg__"],
