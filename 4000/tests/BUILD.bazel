@@ -51,6 +51,16 @@ cc_test(
 )
 
 cc_test(
+    name = "4690_perfect_cube_test",
+    srcs = ["4690_perfect_cube_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//4000/src:4690_perfect_cube",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "4732_scale_translation_test",
     srcs = ["4732_scale_translation_test.cc"],
     deps = [
