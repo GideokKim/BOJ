@@ -67,6 +67,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1173_exercise",
+    hdrs = ["1173_exercise.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1181_sort_words",
     hdrs = ["1181_sort_words.h"],
     visibility = ["//1000/tests:__pkg__"],
