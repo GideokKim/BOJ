@@ -379,6 +379,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2979_parking_truck",
+    hdrs = ["2979_parking_truck.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2981_inspection",
     hdrs = ["2981_inspection.h"],
     visibility = ["//2000/tests:__pkg__"],
