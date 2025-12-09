@@ -21,6 +21,16 @@ cc_test(
 )
 
 cc_test(
+    name = "4562_no_brainer_test",
+    srcs = ["4562_no_brainer_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//4000/src:4562_no_brainer",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "4592_remove_duplication_test",
     srcs = ["4592_remove_duplication_test.cc"],
     deps = [

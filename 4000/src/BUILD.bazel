@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "4562_no_brainer",
+    hdrs = ["4562_no_brainer.h"],
+    visibility = ["//4000/tests:__pkg__"],
+)
+
+cc_library(
     name = "4592_remove_duplication",
     hdrs = ["4592_remove_duplication.h"],
     visibility = ["//4000/tests:__pkg__"],
