@@ -541,6 +541,16 @@ cc_test(
 )
 
 cc_test(
+    name = "2804_make_cross_word_test",
+    srcs = ["2804_make_cross_word_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//2000/src:2804_make_cross_word",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "2857_fbi_test",
     srcs = ["2857_fbi_test.cc"],
     deps = [

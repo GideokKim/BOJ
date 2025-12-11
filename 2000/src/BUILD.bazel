@@ -325,6 +325,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2804_make_cross_word",
+    hdrs = ["2804_make_cross_word.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2857_fbi",
     hdrs = ["2857_fbi.h"],
     visibility = ["//2000/tests:__pkg__"],
