@@ -55,6 +55,12 @@ cc_library(
 )
 
 cc_library(
+    name = "14582_i_lost_today_too",
+    hdrs = ["14582_i_lost_today_too.h"],
+    visibility = ["//14000/tests:__pkg__"],
+)
+
+cc_library(
     name = "14606_pizza_small",
     hdrs = ["14606_pizza_small.h"],
     visibility = ["//14000/tests:__pkg__"],
