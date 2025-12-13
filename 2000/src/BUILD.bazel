@@ -337,6 +337,12 @@ cc_library(
 )
 
 cc_library(
+    name = "2897_monster_truck",
+    hdrs = ["2897_monster_truck.h"],
+    visibility = ["//2000/tests:__pkg__"],
+)
+
+cc_library(
     name = "2902_why_kmp_is_kmp",
     hdrs = ["2902_why_kmp_is_kmp.h"],
     visibility = ["//2000/tests:__pkg__"],
