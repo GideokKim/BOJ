@@ -49,6 +49,12 @@ cc_library(
 )
 
 cc_library(
+    name = "26594_zoac5",
+    hdrs = ["26594_zoac5.h"],
+    visibility = ["//26000/tests:__pkg__"],
+)
+
+cc_library(
     name = "26711_a_plus_b",
     hdrs = ["26711_a_plus_b.h"],
     visibility = ["//26000/tests:__pkg__"],
