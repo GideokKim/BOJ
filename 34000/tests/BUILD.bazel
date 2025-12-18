@@ -61,6 +61,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34529_acquiring_sw_it_corn_test",
+    srcs = ["34529_acquiring_sw_it_corn_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34529_acquiring_sw_it_corn",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34534_form_a_straight_test",
     srcs = ["34534_form_a_straight_test.cc"],
     deps = [
