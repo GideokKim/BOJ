@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34511_polyominonal_puzzle",
+    hdrs = ["34511_polyominonal_puzzle.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34529_acquiring_sw_it_corn",
     hdrs = ["34529_acquiring_sw_it_corn.h"],
     visibility = ["//34000/tests:__pkg__"],
