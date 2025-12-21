@@ -241,6 +241,16 @@ cc_test(
 )
 
 cc_test(
+    name = "11655_rot13_test",
+    srcs = ["11655_rot13_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//11000/src:11655_rot13",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "11657_time_machine_test",
     srcs = ["11657_time_machine_test.cc"],
     deps = [

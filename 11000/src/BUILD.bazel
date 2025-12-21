@@ -145,6 +145,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11655_rot13",
+    hdrs = ["11655_rot13.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11657_time_machine",
     hdrs = ["11657_time_machine.h"],
     visibility = ["//11000/tests:__pkg__"],
