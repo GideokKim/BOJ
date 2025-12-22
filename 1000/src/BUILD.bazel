@@ -109,6 +109,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1333_missed_call",
+    hdrs = ["1333_missed_call.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1365_twisted_line",
     hdrs = ["1365_twisted_line.h"],
     visibility = ["//1000/tests:__pkg__"],
