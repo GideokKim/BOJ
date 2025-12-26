@@ -31,6 +31,16 @@ cc_test(
 )
 
 cc_test(
+    name = "3041_n_puzzle_test",
+    srcs = ["3041_n_puzzle_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//3000/src:3041_n_puzzle",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "3276_icons_test",
     srcs = ["3276_icons_test.cc"],
     deps = [
