@@ -25,6 +25,12 @@ cc_library(
 )
 
 cc_library(
+    name = "3230_who_gets_medal",
+    hdrs = ["3230_who_gets_medal.h"],
+    visibility = ["//3000/tests:__pkg__"],
+)
+
+cc_library(
     name = "3276_icons",
     hdrs = ["3276_icons.h"],
     visibility = ["//3000/tests:__pkg__"],
