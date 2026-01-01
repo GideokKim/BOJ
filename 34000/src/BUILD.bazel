@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34400_circadian_rhythm",
+    hdrs = ["34400_circadian_rhythm.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34509_make_n",
     hdrs = ["34509_make_n.h"],
     visibility = ["//34000/tests:__pkg__"],
