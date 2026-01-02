@@ -81,6 +81,16 @@ cc_test(
 )
 
 cc_test(
+    name = "4806_count_line_test",
+    srcs = ["4806_count_line_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//4000/src:4806_count_line",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "4963_number_of_island_test",
     srcs = ["4963_number_of_island_test.cc"],
     deps = [
