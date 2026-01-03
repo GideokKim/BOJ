@@ -61,6 +61,12 @@ cc_library(
 )
 
 cc_library(
+    name = "25558_navigation",
+    hdrs = ["25558_navigation.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
+
+cc_library(
     name = "25591_puang_and_jongyun",
     hdrs = ["25591_puang_and_jongyun.h"],
     visibility = ["//25000/tests:__pkg__"],
