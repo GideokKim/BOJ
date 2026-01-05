@@ -83,3 +83,9 @@ cc_library(
     hdrs = ["34813_common_education_course.h"],
     visibility = ["//34000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "34977_front_back_equal_sequence",
+    hdrs = ["34977_front_back_equal_sequence.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
