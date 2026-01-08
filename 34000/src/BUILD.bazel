@@ -91,6 +91,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34823_ycpc_score",
+    hdrs = ["34823_ycpc_score.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34945_too_much_chapel",
     hdrs = ["34945_too_much_chapel.h"],
     visibility = ["//34000/tests:__pkg__"],
