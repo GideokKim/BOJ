@@ -31,6 +31,16 @@ cc_test(
 )
 
 cc_test(
+    name = "23627_driip_test",
+    srcs = ["23627_driip_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//23000/src:23627_driip",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "23738_pectopah_test",
     srcs = ["23738_pectopah_test.cc"],
     deps = [
