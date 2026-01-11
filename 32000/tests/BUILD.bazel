@@ -11,6 +11,16 @@ cc_test(
 )
 
 cc_test(
+    name = "32132_it_is_not_playstation_test",
+    srcs = ["32132_it_is_not_playstation_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//32000/src:32132_it_is_not_playstation",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "32141_card_game_easy_test",
     srcs = ["32141_card_game_easy_test.cc"],
     deps = [

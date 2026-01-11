@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "32132_it_is_not_playstation",
+    hdrs = ["32132_it_is_not_playstation.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
+
+cc_library(
     name = "32141_card_game_easy",
     hdrs = ["32141_card_game_easy.h"],
     visibility = ["//32000/tests:__pkg__"],
