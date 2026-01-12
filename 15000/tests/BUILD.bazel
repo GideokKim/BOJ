@@ -231,6 +231,16 @@ cc_test(
 )
 
 cc_test(
+    name = "15820_why_wrong_test",
+    srcs = ["15820_why_wrong_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//15000/src:15820_why_wrong",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "15841_virus_outbreak_test",
     srcs = ["15841_virus_outbreak_test.cc"],
     deps = [

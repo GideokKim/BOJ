@@ -139,6 +139,12 @@ cc_library(
 )
 
 cc_library(
+    name = "15820_why_wrong",
+    hdrs = ["15820_why_wrong.h"],
+    visibility = ["//15000/tests:__pkg__"],
+)
+
+cc_library(
     name = "15841_virus_outbreak",
     hdrs = ["15841_virus_outbreak.h"],
     visibility = ["//15000/tests:__pkg__"],
