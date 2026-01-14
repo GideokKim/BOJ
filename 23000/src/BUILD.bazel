@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "23810_overturned",
+    hdrs = ["23810_overturned.h"],
+    visibility = ["//23000/tests:__pkg__"],
+)
+
+cc_library(
     name = "23825_lets_make_sasa",
     hdrs = ["23825_lets_make_sasa.h"],
     visibility = ["//23000/tests:__pkg__"],
