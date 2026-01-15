@@ -109,6 +109,12 @@ cc_library(
 )
 
 cc_library(
+    name = "24510_dodo_learned_time_complexity",
+    hdrs = ["24510_dodo_learned_time_complexity.h"],
+    visibility = ["//24000/tests:__pkg__"],
+)
+
+cc_library(
     name = "24883_auto_completion",
     hdrs = ["24883_auto_completion.h"],
     visibility = ["//24000/tests:__pkg__"],
