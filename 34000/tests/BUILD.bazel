@@ -141,6 +141,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34691_do_you_love_dsh_test",
+    srcs = ["34691_do_you_love_dsh_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34691_do_you_love_dsh",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34721_i_love_dgu_test",
     srcs = ["34721_i_love_dgu_test.cc"],
     deps = [

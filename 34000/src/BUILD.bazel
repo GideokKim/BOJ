@@ -85,6 +85,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34691_do_you_love_dsh",
+    hdrs = ["34691_do_you_love_dsh.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34721_i_love_dgu",
     hdrs = ["34721_i_love_dgu.h"],
     visibility = ["//34000/tests:__pkg__"],
