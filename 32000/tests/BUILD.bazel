@@ -181,6 +181,16 @@ cc_test(
 )
 
 cc_test(
+    name = "32860_supernova_test",
+    srcs = ["32860_supernova_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//32000/src:32860_supernova",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "32929_uos_string_test",
     srcs = ["32929_uos_string_test.cc"],
     deps = [
