@@ -131,6 +131,16 @@ cc_test(
 )
 
 cc_test(
+    name = "27930_do_you_believe_in_fate_test",
+    srcs = ["27930_do_you_believe_in_fate_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//27000/src:27930_do_you_believe_in_fate",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "27959_choco_bar_test",
     srcs = ["27959_choco_bar_test.cc"],
     deps = [

@@ -79,6 +79,12 @@ cc_library(
 )
 
 cc_library(
+    name = "27930_do_you_believe_in_fate",
+    hdrs = ["27930_do_you_believe_in_fate.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
+cc_library(
     name = "27959_choco_bar",
     hdrs = ["27959_choco_bar.h"],
     visibility = ["//27000/tests:__pkg__"],
