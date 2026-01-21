@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "28289_investigate_students",
+    hdrs = ["28289_investigate_students.h"],
+    visibility = ["//28000/tests:__pkg__"],
+)
+
+cc_library(
     name = "28295_physical_education_is_coding_subject",
     hdrs = ["28295_physical_education_is_coding_subject.h"],
     visibility = ["//28000/tests:__pkg__"],
