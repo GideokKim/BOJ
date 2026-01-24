@@ -109,6 +109,12 @@ cc_library(
 )
 
 cc_library(
+    name = "31866_finger_game",
+    hdrs = ["31866_finger_game.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
+
+cc_library(
     name = "31867_odd_even",
     hdrs = ["31867_odd_even.h"],
     visibility = ["//31000/tests:__pkg__"],
