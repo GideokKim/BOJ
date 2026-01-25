@@ -91,6 +91,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34446_e_days_ore_cart_pull_test",
+    srcs = ["34446_e_days_ore_cart_pull_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34446_e_days_ore_cart_pull",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34509_make_n_test",
     srcs = ["34509_make_n_test.cc"],
     deps = [
