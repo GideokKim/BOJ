@@ -91,6 +91,12 @@ cc_library(
 )
 
 cc_library(
+    name = "31776_ppc_report",
+    hdrs = ["31776_ppc_report.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
+
+cc_library(
     name = "31780_phoenix",
     hdrs = ["31780_phoenix.h"],
     visibility = ["//31000/tests:__pkg__"],
