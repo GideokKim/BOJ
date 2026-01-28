@@ -31,6 +31,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34297_parking_pandemonium",
+    hdrs = ["34297_parking_pandemonium.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34323_i_need_discount",
     hdrs = ["34323_i_need_discount.h"],
     visibility = ["//34000/tests:__pkg__"],
