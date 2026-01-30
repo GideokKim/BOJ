@@ -62,6 +62,16 @@ cc_test(
 )
 
 cc_test(
+    name = "23805_print_at_test",
+    srcs = ["23805_print_at_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//23000/src:23805_print_at",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "23810_overturned_test",
     srcs = ["23810_overturned_test.cc"],
     deps = [
