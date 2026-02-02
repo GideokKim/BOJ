@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "19564_repeatation",
+    hdrs = ["19564_repeatation.h"],
+    visibility = ["//19000/tests:__pkg__"],
+)
+
+cc_library(
     name = "19572_drought_small",
     hdrs = ["19572_drought_small.h"],
     visibility = ["//19000/tests:__pkg__"],
