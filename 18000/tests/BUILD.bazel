@@ -1,6 +1,16 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "18127_model_crystal_test",
+    srcs = ["18127_model_crystal_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//18000/src:18127_model_crystal",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "18258_queue2_test",
     srcs = ["18258_queue2_test.cc"],
     deps = [

@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "18127_model_crystal",
+    hdrs = ["18127_model_crystal.h"],
+    visibility = ["//18000/tests:__pkg__"],
+)
+
+cc_library(
     name = "18258_queue2",
     hdrs = ["18258_queue2.h"],
     visibility = ["//18000/tests:__pkg__"],
