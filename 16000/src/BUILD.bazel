@@ -17,3 +17,10 @@ cc_library(
     hdrs = ["16546_missing_runners.h"],
     visibility = ["//16000/tests:__pkg__"],
 )
+
+
+cc_library(
+    name = "16944_safe_password",
+    hdrs = ["16944_safe_password.h"],
+    visibility = ["//16000/tests:__pkg__"],
+)

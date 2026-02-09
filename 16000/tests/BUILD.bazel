@@ -29,3 +29,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "16944_safe_password_test",
+    srcs = ["16944_safe_password_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//16000/src:16944_safe_password",
+        "@googletest//:gtest_main",
+    ],
+)
