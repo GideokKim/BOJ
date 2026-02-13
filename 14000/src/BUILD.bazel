@@ -19,6 +19,12 @@ cc_library(
 )
 
 cc_library(
+    name = "14471_point_card",
+    hdrs = ["14471_point_card.h"],
+    visibility = ["//14000/tests:__pkg__"],
+)
+
+cc_library(
     name = "14494_what_is_dynamic",
     hdrs = ["14494_what_is_dynamic.h"],
     visibility = ["//14000/tests:__pkg__"],
