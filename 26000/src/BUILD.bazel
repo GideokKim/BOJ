@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "26307_correct",
+    hdrs = ["26307_correct.h"],
+    visibility = ["//26000/tests:__pkg__"],
+)
+
+cc_library(
     name = "26517_continuous",
     hdrs = ["26517_continuous.h"],
     visibility = ["//26000/tests:__pkg__"],
