@@ -21,6 +21,16 @@ cc_test(
 )
 
 cc_test(
+    name = "8871_zadanie_probne_2_test",
+    srcs = ["8871_zadanie_probne_2_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//8000/src:8871_zadanie_probne_2",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "8958_ox_quiz_test",
     srcs = ["8958_ox_quiz_test.cc"],
     deps = [
