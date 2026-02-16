@@ -41,6 +41,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34217_directions_test",
+    srcs = ["34217_directions_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34217_directions",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34281_class_photo_test",
     srcs = ["34281_class_photo_test.cc"],
     deps = [
