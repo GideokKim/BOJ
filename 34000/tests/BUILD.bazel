@@ -251,6 +251,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34921_nerd_test",
+    srcs = ["34921_nerd_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34921_nerd",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34945_too_much_chapel_test",
     srcs = ["34945_too_much_chapel_test.cc"],
     deps = [
