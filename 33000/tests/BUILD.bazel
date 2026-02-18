@@ -171,6 +171,16 @@ cc_test(
 )
 
 cc_test(
+    name = "33869_encrypt_diary_test",
+    srcs = ["33869_encrypt_diary_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//33000/src:33869_encrypt_diary",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "33964_repunit_addition_test",
     srcs = ["33964_repunit_addition_test.cc"],
     deps = [
