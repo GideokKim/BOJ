@@ -103,6 +103,12 @@ cc_library(
 )
 
 cc_library(
+    name = "25630_palindrome_stst",
+    hdrs = ["25630_palindrome_stst.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
+
+cc_library(
     name = "25640_mbti",
     hdrs = ["25640_mbti.h"],
     visibility = ["//25000/tests:__pkg__"],
