@@ -61,6 +61,12 @@ cc_library(
 )
 
 cc_library(
+    name = "9316_hello_judge",
+    hdrs = ["9316_hello_judge.h"],
+    visibility = ["//9000/tests:__pkg__"],
+)
+
+cc_library(
     name = "9366_triangle_classification",
     hdrs = ["9366_triangle_classification.h"],
     visibility = ["//9000/tests:__pkg__"],

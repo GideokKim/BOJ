@@ -101,6 +101,16 @@ cc_test(
 )
 
 cc_test(
+    name = "9316_hello_judge_test",
+    srcs = ["9316_hello_judge_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//9000/src:9316_hello_judge",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "9366_triangle_classification_test",
     srcs = ["9366_triangle_classification_test.cc"],
     deps = [
