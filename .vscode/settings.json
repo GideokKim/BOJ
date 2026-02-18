@@ -74,6 +74,7 @@
         "bitset": "cpp",
         "shared_mutex": "cpp",
         "cfenv": "cpp",
-        "codecvt": "cpp"
+        "codecvt": "cpp",
+        "regex": "cpp"
     }
 }
