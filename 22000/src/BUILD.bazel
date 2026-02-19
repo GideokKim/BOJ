@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "22113_cy_and_bus",
+    hdrs = ["22113_cy_and_bus.h"],
+    visibility = ["//22000/tests:__pkg__"],
+)
+
+cc_library(
     name = "22938_good_shooter",
     hdrs = ["22938_good_shooter.h"],
     visibility = ["//22000/tests:__pkg__"],
