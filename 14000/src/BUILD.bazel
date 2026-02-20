@@ -25,6 +25,12 @@ cc_library(
 )
 
 cc_library(
+    name = "14487_filial_man",
+    hdrs = ["14487_filial_man.h"],
+    visibility = ["//14000/tests:__pkg__"],
+)
+
+cc_library(
     name = "14494_what_is_dynamic",
     hdrs = ["14494_what_is_dynamic.h"],
     visibility = ["//14000/tests:__pkg__"],
