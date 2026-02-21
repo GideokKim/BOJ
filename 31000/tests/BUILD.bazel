@@ -251,6 +251,16 @@ cc_test(
 )
 
 cc_test(
+    name = "31880_k512_cup_test",
+    srcs = ["31880_k512_cup_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//31000/src:31880_k512_cup",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "31922_this_competition_is_mine_now_test",
     srcs = ["31922_this_competition_is_mine_now_test.cc"],
     deps = [

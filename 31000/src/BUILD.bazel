@@ -151,6 +151,12 @@ cc_library(
 )
 
 cc_library(
+    name = "31880_k512_cup",
+    hdrs = ["31880_k512_cup.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
+
+cc_library(
     name = "31922_this_competition_is_mine_now",
     hdrs = ["31922_this_competition_is_mine_now.h"],
     visibility = ["//31000/tests:__pkg__"],
