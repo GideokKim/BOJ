@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "7130_mika_and_honey",
+    hdrs = ["7130_mika_and_honey.h"],
+    visibility = ["//7000/tests:__pkg__"],
+)
+
+cc_library(
     name = "7567_bowl",
     hdrs = ["7567_bowl.h"],
     visibility = ["//7000/tests:__pkg__"],
