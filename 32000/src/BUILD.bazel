@@ -145,6 +145,12 @@ cc_library(
 )
 
 cc_library(
+    name = "32978_galric",
+    hdrs = ["32978_galric.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
+
+cc_library(
     name = "32979_apartment",
     hdrs = ["32979_apartment.h"],
     visibility = ["//32000/tests:__pkg__"],
