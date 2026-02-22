@@ -6,6 +6,12 @@ cc_library(
     visibility = ["//27000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "27160_halli_galli",
+    hdrs = ["27160_halli_galli.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
 cc_library( 
     name = "27294_how_many",
     hdrs = ["27294_how_many.h"],
