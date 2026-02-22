@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "11034_three_kangaroo2",
+    hdrs = ["11034_three_kangaroo2.h"],
+    visibility = ["//11000/tests:__pkg__"],
+)
+
+cc_library(
     name = "11047_coin_0",
     hdrs = ["11047_coin_0.h"],
     visibility = ["//11000/tests:__pkg__"],
