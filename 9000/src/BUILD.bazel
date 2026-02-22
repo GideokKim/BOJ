@@ -137,3 +137,9 @@ cc_library(
     hdrs = ["9924_the_euclidean_algorithm.h"],
     visibility = ["//9000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "9933_mk_password",
+    hdrs = ["9933_mk_password.h"],
+    visibility = ["//9000/tests:__pkg__"],
+)
