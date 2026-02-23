@@ -41,6 +41,16 @@ cc_test(
 )
 
 cc_test(
+    name = "13410_reverse_99dan_test",
+    srcs = ["13410_reverse_99dan_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//13000/src:13410_reverse_99dan",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "13698_hawk_eyes_test",
     srcs = ["13698_hawk_eyes_test.cc"],
     deps = [
