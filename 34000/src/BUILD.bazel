@@ -157,6 +157,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34934_new_subject",
+    hdrs = ["34934_new_subject.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34945_too_much_chapel",
     hdrs = ["34945_too_much_chapel.h"],
     visibility = ["//34000/tests:__pkg__"],
