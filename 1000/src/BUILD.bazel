@@ -193,6 +193,12 @@ cc_library(
 )
 
 cc_library(
+    name = "1681_line_up",
+    hdrs = ["1681_line_up.h"],
+    visibility = ["//1000/tests:__pkg__"],
+)
+
+cc_library(
     name = "1735_fractional_sum",
     hdrs = ["1735_fractional_sum.h"],
     visibility = ["//1000/tests:__pkg__"],
