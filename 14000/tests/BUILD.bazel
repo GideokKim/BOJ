@@ -141,6 +141,16 @@ cc_test(
 )
 
 cc_test(
+    name = "14710_broken_clock_test",
+    srcs = ["14710_broken_clock_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//14000/src:14710_broken_clock",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "14730_small_test",
     srcs = ["14730_small_test.cc"],
     deps = [
