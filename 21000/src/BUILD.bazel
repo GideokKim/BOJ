@@ -29,3 +29,9 @@ cc_library(
     hdrs = ["21964_school_song.h"],
     visibility = ["//21000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "21965_school_song2",
+    hdrs = ["21965_school_song2.h"],
+    visibility = ["//21000/tests:__pkg__"],
+)
