@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "21300_bottle_return",
+    hdrs = ["21300_bottle_return.h"],
+    visibility = ["//21000/tests:__pkg__"],
+)
+
+cc_library(
     name = "21598_scicomlove",
     hdrs = ["21598_scicomlove.h"],
     visibility = ["//21000/tests:__pkg__"],
