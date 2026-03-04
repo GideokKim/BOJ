@@ -151,6 +151,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34891_mt_preparation",
+    hdrs = ["34891_mt_preparation.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34921_nerd",
     hdrs = ["34921_nerd.h"],
     visibility = ["//34000/tests:__pkg__"],
