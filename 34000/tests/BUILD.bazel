@@ -221,6 +221,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34759_zebra_and_lion_test",
+    srcs = ["34759_zebra_and_lion_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34759_zebra_and_lion",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34813_common_education_course_test",
     srcs = ["34813_common_education_course_test.cc"],
     deps = [
