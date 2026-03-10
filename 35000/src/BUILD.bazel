@@ -1,0 +1,7 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "35277_dubai_chewy_cookies",
+    hdrs = ["35277_dubai_chewy_cookies.h"],
+    visibility = ["//35000/tests:__pkg__"],
+)

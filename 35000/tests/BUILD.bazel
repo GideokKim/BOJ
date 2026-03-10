@@ -1,0 +1,11 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
+cc_test(
+    name = "35277_dubai_chewy_cookies_test",
+    srcs = ["35277_dubai_chewy_cookies_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//35000/src:35277_dubai_chewy_cookies",
+        "@googletest//:gtest_main",
+    ],
+)
