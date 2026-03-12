@@ -391,6 +391,16 @@ cc_test(
 )
 
 cc_test(
+    name = "1871_nice_car_number_test",
+    srcs = ["1871_nice_car_number_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//1000/src:1871_nice_car_number",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "1904_zero_one_tile_test",
     srcs = ["1904_zero_one_tile_test.cc"],
     deps = [
