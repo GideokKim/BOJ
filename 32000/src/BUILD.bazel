@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "32280_tardy_student",
+    hdrs = ["32280_tardy_student.h"],
+    visibility = ["//32000/tests:__pkg__"],
+)
+
+cc_library(
     name = "32288_barcode_nickname",
     hdrs = ["32288_barcode_nickname.h"],
     visibility = ["//32000/tests:__pkg__"],

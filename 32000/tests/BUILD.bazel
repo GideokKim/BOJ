@@ -61,6 +61,16 @@ cc_test(
 )
 
 cc_test(
+    name = "32280_tardy_student_test",
+    srcs = ["32280_tardy_student_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//32000/src:32280_tardy_student",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "32288_barcode_nickname_test",
     srcs = ["32288_barcode_nickname_test.cc"],
     deps = [
