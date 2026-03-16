@@ -12,6 +12,12 @@ cc_library(
     visibility = ["//27000/tests:__pkg__"],
 )
 
+cc_library(
+    name = "27219_robinson_crusoe",
+    hdrs = ["27219_robinson_crusoe.h"],
+    visibility = ["//27000/tests:__pkg__"],
+)
+
 cc_library( 
     name = "27294_how_many",
     hdrs = ["27294_how_many.h"],
