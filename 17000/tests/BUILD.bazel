@@ -62,6 +62,16 @@ cc_test(
 )
 
 cc_test(
+    name = "17388_waglewagle_skh_test",
+    srcs = ["17388_waglewagle_skh_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//17000/src:17388_waglewagle_skh",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "17427_sum_of_divisors_2_test",
     srcs = ["17427_sum_of_divisors_2_test.cc"],
     deps = [

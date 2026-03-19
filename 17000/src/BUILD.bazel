@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "17388_waglewagle_skh",
+    hdrs = ["17388_waglewagle_skh.h"],
+    visibility = ["//17000/tests:__pkg__"],
+)
+
+cc_library(
     name = "17427_sum_of_divisors_2",
     hdrs = ["17427_sum_of_divisors_2.h"],
     visibility = ["//17000/tests:__pkg__"],
