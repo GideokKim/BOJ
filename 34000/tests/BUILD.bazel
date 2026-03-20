@@ -171,6 +171,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34522_didimdol_scholarship_test",
+    srcs = ["34522_didimdol_scholarship_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34522_didimdol_scholarship",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34529_acquiring_sw_it_corn_test",
     srcs = ["34529_acquiring_sw_it_corn_test.cc"],
     deps = [
