@@ -121,6 +121,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34412_13_floors_test",
+    srcs = ["34412_13_floors_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34412_13_floors",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34424_flatter_land_test",
     srcs = ["34424_flatter_land_test.cc"],
     deps = [
