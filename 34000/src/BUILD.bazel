@@ -151,6 +151,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34750_chuseok_is_always_good",
+    hdrs = ["34750_chuseok_is_always_good.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34759_zebra_and_lion",
     hdrs = ["34759_zebra_and_lion.h"],
     visibility = ["//34000/tests:__pkg__"],

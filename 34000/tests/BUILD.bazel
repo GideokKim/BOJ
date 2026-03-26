@@ -251,6 +251,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34750_chuseok_is_always_good_test",
+    srcs = ["34750_chuseok_is_always_good_test.cc"],
+    deps = [
+        "//test_headers:test_helper",
+        "//34000/src:34750_chuseok_is_always_good",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34759_zebra_and_lion_test",
     srcs = ["34759_zebra_and_lion_test.cc"],
     deps = [
