@@ -191,3 +191,9 @@ cc_library(
     hdrs = ["31994_booking_auditorium.h"],
     visibility = ["//31000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "31995_place_game_piece",
+    hdrs = ["31995_place_game_piece.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
