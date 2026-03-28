@@ -211,6 +211,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34946_shuttle_or_not_ambiguous",
+    hdrs = ["34946_shuttle_or_not_ambiguous.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34977_front_back_equal_sequence",
     hdrs = ["34977_front_back_equal_sequence.h"],
     visibility = ["//34000/tests:__pkg__"],
