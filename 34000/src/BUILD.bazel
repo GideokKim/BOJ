@@ -13,6 +13,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34071_is_first_problem_that_easy",
+    hdrs = ["34071_is_first_problem_that_easy.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34073_doro",
     hdrs = ["34073_doro.h"],
     visibility = ["//34000/tests:__pkg__"],
