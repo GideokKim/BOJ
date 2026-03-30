@@ -181,6 +181,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34455_donut_shop_test",
+    srcs = ["34455_donut_shop_test.cc"],
+    deps = [
+        "//34000/src:34455_donut_shop",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34509_make_n_test",
     srcs = ["34509_make_n_test.cc"],
     deps = [
