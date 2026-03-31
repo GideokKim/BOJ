@@ -4,8 +4,18 @@ cc_test(
     name = "35277_dubai_chewy_cookies_test",
     srcs = ["35277_dubai_chewy_cookies_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//35000/src:35277_dubai_chewy_cookies",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "35367_snakey_string_test",
+    srcs = ["35367_snakey_string_test.cc"],
+    deps = [
+        "//35000/src:35367_snakey_string",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

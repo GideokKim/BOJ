@@ -5,3 +5,9 @@ cc_library(
     hdrs = ["35277_dubai_chewy_cookies.h"],
     visibility = ["//35000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "35367_snakey_string",
+    hdrs = ["35367_snakey_string.h"],
+    visibility = ["//35000/tests:__pkg__"],
+)
