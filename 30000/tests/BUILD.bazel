@@ -4,8 +4,8 @@ cc_test(
     name = "30007_korean_noodle_formula_test",
     srcs = ["30007_korean_noodle_formula_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30007_korean_noodle_formula",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,17 +14,18 @@ cc_test(
     name = "30008_junes_grade_test",
     srcs = ["30008_junes_grade_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30008_junes_grade",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
+
 cc_test(
     name = "30009_position_zero_test",
     srcs = ["30009_position_zero_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30009_position_zero",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -33,8 +34,8 @@ cc_test(
     name = "30018_tashu_test",
     srcs = ["30018_tashu_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30018_tashu",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -43,8 +44,8 @@ cc_test(
     name = "30030_get_price_for_sweetcorn_test",
     srcs = ["30030_get_price_for_sweetcorn_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30030_get_price_for_sweetcorn",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -53,8 +54,8 @@ cc_test(
     name = "30031_counting_bill_test",
     srcs = ["30031_counting_bill_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30031_counting_bill",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -63,8 +64,8 @@ cc_test(
     name = "30033_rust_study_test",
     srcs = ["30033_rust_study_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30033_rust_study",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -73,8 +74,8 @@ cc_test(
     name = "30045_zoac_6_test",
     srcs = ["30045_zoac_6_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30045_zoac_6",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -83,8 +84,8 @@ cc_test(
     name = "30087_seminar_test",
     srcs = ["30087_seminar_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30087_seminar",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -93,8 +94,8 @@ cc_test(
     name = "30224_lucky_7_test",
     srcs = ["30224_lucky_7_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30224_lucky_7",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -103,8 +104,8 @@ cc_test(
     name = "30236_increasing_sequence_test",
     srcs = ["30236_increasing_sequence_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30236_increasing_sequence",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -113,8 +114,8 @@ cc_test(
     name = "30328_java_warriors_test",
     srcs = ["30328_java_warriors_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30328_java_warriors",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -123,8 +124,8 @@ cc_test(
     name = "30394_calipers_test",
     srcs = ["30394_calipers_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30394_calipers",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -133,8 +134,8 @@ cc_test(
     name = "30402_computer_attacked_gamma_test",
     srcs = ["30402_computer_attacked_gamma_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30402_computer_attacked_gamma",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -143,8 +144,8 @@ cc_test(
     name = "30403_make_rainbow_test",
     srcs = ["30403_make_rainbow_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30403_make_rainbow",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -153,8 +154,8 @@ cc_test(
     name = "30454_find_zebra_test",
     srcs = ["30454_find_zebra_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30454_find_zebra",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -163,8 +164,8 @@ cc_test(
     name = "30456_floor_number_test",
     srcs = ["30456_floor_number_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30456_floor_number",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -173,8 +174,8 @@ cc_test(
     name = "30457_group_skipping_rope_test",
     srcs = ["30457_group_skipping_rope_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30457_group_skipping_rope",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -183,8 +184,8 @@ cc_test(
     name = "30501_find_criminal_test",
     srcs = ["30501_find_criminal_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30501_find_criminal",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -193,8 +194,8 @@ cc_test(
     name = "30614_port_robot_test",
     srcs = ["30614_port_robot_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30614_port_robot",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -203,8 +204,8 @@ cc_test(
     name = "30642_toilet_test",
     srcs = ["30642_toilet_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30642_toilet",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -213,8 +214,8 @@ cc_test(
     name = "30676_what_color_is_this_star_test",
     srcs = ["30676_what_color_is_this_star_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30676_what_color_is_this_star",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -223,8 +224,18 @@ cc_test(
     name = "30700_making_korea_string_test",
     srcs = ["30700_making_korea_string_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30700_making_korea_string",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
+    name = "30794_club_audition_test",
+    srcs = ["30794_club_audition_test.cc"],
+    deps = [
+        "//30000/src:30794_club_audition",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -233,8 +244,8 @@ cc_test(
     name = "30821_if_it_can_be_constellation_test",
     srcs = ["30821_if_it_can_be_constellation_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30821_if_it_can_be_constellation",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -243,8 +254,8 @@ cc_test(
     name = "30822_count_uospc_test",
     srcs = ["30822_count_uospc_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30822_count_uospc",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -253,8 +264,8 @@ cc_test(
     name = "30868_opening_vote_test",
     srcs = ["30868_opening_vote_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30868_opening_vote",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -263,8 +274,8 @@ cc_test(
     name = "30979_caring_for_kindergarten_test",
     srcs = ["30979_caring_for_kindergarten_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30979_caring_for_kindergarten",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -273,8 +284,8 @@ cc_test(
     name = "30987_haru_dermatologist_test",
     srcs = ["30987_haru_dermatologist_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30987_haru_dermatologist",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -283,8 +294,8 @@ cc_test(
     name = "30999_vote_test",
     srcs = ["30999_vote_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//30000/src:30999_vote",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

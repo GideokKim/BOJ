@@ -30,7 +30,7 @@ cc_library(
     visibility = ["//30000/tests:__pkg__"],
 )
 
-cc_library( 
+cc_library(
     name = "30031_counting_bill",
     hdrs = ["30031_counting_bill.h"],
     visibility = ["//30000/tests:__pkg__"],
@@ -135,6 +135,12 @@ cc_library(
 cc_library(
     name = "30700_making_korea_string",
     hdrs = ["30700_making_korea_string.h"],
+    visibility = ["//30000/tests:__pkg__"],
+)
+
+cc_library(
+    name = "30794_club_audition",
+    hdrs = ["30794_club_audition.h"],
     visibility = ["//30000/tests:__pkg__"],
 )
 
