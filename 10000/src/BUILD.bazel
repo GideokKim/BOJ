@@ -229,6 +229,12 @@ cc_library(
 )
 
 cc_library(
+    name = "10990_print_star_15",
+    hdrs = ["10990_print_star_15.h"],
+    visibility = ["//10000/tests:__pkg__"],
+)
+
+cc_library(
     name = "10995_print_star_20",
     hdrs = ["10995_print_star_20.h"],
     visibility = ["//10000/tests:__pkg__"],
