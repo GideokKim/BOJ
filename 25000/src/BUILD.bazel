@@ -121,6 +121,12 @@ cc_library(
 )
 
 cc_library(
+    name = "25784_easy_to_solve_expressions",
+    hdrs = ["25784_easy_to_solve_expressions.h"],
+    visibility = ["//25000/tests:__pkg__"],
+)
+
+cc_library(
     name = "25883_sprout",
     hdrs = ["25883_sprout.h"],
     visibility = ["//25000/tests:__pkg__"],
