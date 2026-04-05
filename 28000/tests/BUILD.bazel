@@ -1,11 +1,21 @@
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
+    name = "28014_push_spire_test",
+    srcs = ["28014_push_spire_test.cc"],
+    deps = [
+        "//28000/src:28014_push_spire",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "28061_picking_lemons_test",
     srcs = ["28061_picking_lemons_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28061_picking_lemons",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +24,8 @@ cc_test(
     name = "28074_mobis_test",
     srcs = ["28074_mobis_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28074_mobis",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +34,8 @@ cc_test(
     name = "28097_exemplary_student_test",
     srcs = ["28097_exemplary_student_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28097_exemplary_student",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +44,8 @@ cc_test(
     name = "28113_transportation_test",
     srcs = ["28113_transportation_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28113_transportation",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +54,8 @@ cc_test(
     name = "28224_final_price_test",
     srcs = ["28224_final_price_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28224_final_price",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +64,8 @@ cc_test(
     name = "28235_code_master_2023_test",
     srcs = ["28235_code_master_2023_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28235_code_master_2023",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +74,8 @@ cc_test(
     name = "28278_stack2_test",
     srcs = ["28278_stack2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28278_stack2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +84,8 @@ cc_test(
     name = "28289_investigate_students_test",
     srcs = ["28289_investigate_students_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28289_investigate_students",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -84,8 +94,8 @@ cc_test(
     name = "28295_physical_education_is_coding_subject_test",
     srcs = ["28295_physical_education_is_coding_subject_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28295_physical_education_is_coding_subject",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -94,8 +104,8 @@ cc_test(
     name = "28352_10_factorial_test",
     srcs = ["28352_10_factorial_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28352_10_factorial",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -104,8 +114,8 @@ cc_test(
     name = "28431_matching_socks_test",
     srcs = ["28431_matching_socks_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28431_matching_socks",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -114,8 +124,8 @@ cc_test(
     name = "28444_hi_arc_test",
     srcs = ["28444_hi_arc_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28444_hi_arc",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -124,8 +134,8 @@ cc_test(
     name = "28691_introduce_club_test",
     srcs = ["28691_introduce_club_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28691_introduce_club",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -134,8 +144,8 @@ cc_test(
     name = "28701_sum_of_cube_test",
     srcs = ["28701_sum_of_cube_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28701_sum_of_cube",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -144,8 +154,8 @@ cc_test(
     name = "28702_fizzbuzz_test",
     srcs = ["28702_fizzbuzz_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//28000/src:28702_fizzbuzz",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

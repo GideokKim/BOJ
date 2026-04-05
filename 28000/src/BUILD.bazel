@@ -1,6 +1,12 @@
 load("@rules_cc//cc:defs.bzl", "cc_library")
 
 cc_library(
+    name = "28014_push_spire",
+    hdrs = ["28014_push_spire.h"],
+    visibility = ["//28000/tests:__pkg__"],
+)
+
+cc_library(
     name = "28061_picking_lemons",
     hdrs = ["28061_picking_lemons.h"],
     visibility = ["//28000/tests:__pkg__"],
@@ -89,4 +95,3 @@ cc_library(
     hdrs = ["28702_fizzbuzz.h"],
     visibility = ["//28000/tests:__pkg__"],
 )
-
