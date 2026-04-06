@@ -131,6 +131,16 @@ cc_test(
 )
 
 cc_test(
+    name = "32400_dart_board_test",
+    srcs = ["32400_dart_board_test.cc"],
+    deps = [
+        "//32000/src:32400_dart_board",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "32437_fractions_are_better_when_continued_test",
     srcs = ["32437_fractions_are_better_when_continued_test.cc"],
     deps = [
