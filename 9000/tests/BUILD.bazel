@@ -4,8 +4,8 @@ cc_test(
     name = "9012_parenthesis_test",
     srcs = ["9012_parenthesis_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9012_parenthesis",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "9046_decryption_test",
     srcs = ["9046_decryption_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9046_decryption",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "9063_earth_test",
     srcs = ["9063_earth_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9063_earth",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "9076_score_tally_test",
     srcs = ["9076_score_tally_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9076_score_tally",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "9086_string_test",
     srcs = ["9086_string_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9086_string",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "9093_reversing_words_test",
     srcs = ["9093_reversing_words_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9093_reversing_words",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "9095_plus_one_two_three_test",
     srcs = ["9095_plus_one_two_three_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9095_plus_one_two_three",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "9184_function_run_fun_test",
     srcs = ["9184_function_run_fun_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9184_function_run_fun",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -84,8 +84,8 @@ cc_test(
     name = "9251_lcs_test",
     srcs = ["9251_lcs_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9251_lcs",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -94,8 +94,8 @@ cc_test(
     name = "9306_practice_roll_call_test",
     srcs = ["9306_practice_roll_call_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9306_practice_roll_call",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -104,8 +104,8 @@ cc_test(
     name = "9316_hello_judge_test",
     srcs = ["9316_hello_judge_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9316_hello_judge",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -114,8 +114,8 @@ cc_test(
     name = "9366_triangle_classification_test",
     srcs = ["9366_triangle_classification_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9366_triangle_classification",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -124,8 +124,8 @@ cc_test(
     name = "9375_incognito_test",
     srcs = ["9375_incognito_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9375_incognito",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -134,8 +134,8 @@ cc_test(
     name = "9465_stickers_test",
     srcs = ["9465_stickers_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9465_stickers",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -144,8 +144,8 @@ cc_test(
     name = "9498_test_score_test",
     srcs = ["9498_test_score_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9498_test_scores",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -154,8 +154,8 @@ cc_test(
     name = "9506_sum_of_divisors_test",
     srcs = ["9506_sum_of_divisors_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9506_sum_of_divisors",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -164,8 +164,8 @@ cc_test(
     name = "9507_generations_of_tribbles_test",
     srcs = ["9507_generations_of_tribbles_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9507_generations_of_tribbles",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -174,8 +174,8 @@ cc_test(
     name = "9517_i_love_croatia_test",
     srcs = ["9517_i_love_croatia_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9517_i_love_croatia",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -184,8 +184,8 @@ cc_test(
     name = "9613_gcd_sum_test",
     srcs = ["9613_gcd_sum_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9613_gcd_sum",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -194,8 +194,8 @@ cc_test(
     name = "9656_stone_game_2_test",
     srcs = ["9656_stone_game_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9656_stone_game_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -204,8 +204,8 @@ cc_test(
     name = "9663_n_queen_test",
     srcs = ["9663_n_queen_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9663_n_queen",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -214,8 +214,8 @@ cc_test(
     name = "9884_euclid_test",
     srcs = ["9884_euclid_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9884_euclid",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -224,8 +224,8 @@ cc_test(
     name = "9924_the_euclidean_algorithm_test",
     srcs = ["9924_the_euclidean_algorithm_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9924_the_euclidean_algorithm",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -234,8 +234,8 @@ cc_test(
     name = "9933_mk_password_test",
     srcs = ["9933_mk_password_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//9000/src:9933_mk_password",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

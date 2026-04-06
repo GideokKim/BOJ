@@ -4,8 +4,8 @@ cc_test(
     name = "14002_longest_increasing_subsequence_4_test",
     srcs = ["14002_longest_increasing_subsequence_4_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14002_longest_increasing_subsequence_4",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "14003_longest_increasing_subsequence_5_test",
     srcs = ["14003_longest_increasing_subsequence_5_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14003_longest_increasing_subsequence_5",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "14215_three_sticks_test",
     srcs = ["14215_three_sticks_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14215_three_sticks",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "14471_point_card_test",
     srcs = ["14471_point_card_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14471_point_card",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "14487_filial_man_test",
     srcs = ["14487_filial_man_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14487_filial_man",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "14494_what_is_dynamic_test",
     srcs = ["14494_what_is_dynamic_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14494_what_is_dynamic",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "14501_resignation_test",
     srcs = ["14501_resignation_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14501_resignation",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "14561_palindrome_test",
     srcs = ["14561_palindrome_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14561_palindrome",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -84,8 +84,8 @@ cc_test(
     name = "14568_yonsei_2017_test",
     srcs = ["14568_yonsei_2017_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14568_yonsei_2017",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -94,8 +94,8 @@ cc_test(
     name = "14579_add_and_mul_test",
     srcs = ["14579_add_and_mul_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14579_add_and_mul",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -104,8 +104,8 @@ cc_test(
     name = "14581_surrounding_fan_test",
     srcs = ["14581_surrounding_fan_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14581_surrounding_fan",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -114,8 +114,8 @@ cc_test(
     name = "14582_i_lost_today_too_test",
     srcs = ["14582_i_lost_today_too_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14582_i_lost_today_too",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -124,8 +124,8 @@ cc_test(
     name = "14606_pizza_small_test",
     srcs = ["14606_pizza_small_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14606_pizza_small",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -134,8 +134,8 @@ cc_test(
     name = "14656_ta_is_sadist_test",
     srcs = ["14656_ta_is_sadist_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14656_ta_is_sadist",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -144,8 +144,8 @@ cc_test(
     name = "14710_broken_clock_test",
     srcs = ["14710_broken_clock_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14710_broken_clock",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -154,8 +154,8 @@ cc_test(
     name = "14730_small_test",
     srcs = ["14730_small_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14730_small",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -164,8 +164,8 @@ cc_test(
     name = "14910_ascent_load_test",
     srcs = ["14910_ascent_load_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14910_ascent_load",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -174,8 +174,8 @@ cc_test(
     name = "14913_find_element_number_test",
     srcs = ["14913_find_element_number_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14913_find_element_number",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -184,8 +184,8 @@ cc_test(
     name = "14914_split_apple_and_banana_test",
     srcs = ["14914_split_apple_and_banana_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14914_split_apple_and_banana",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -194,8 +194,8 @@ cc_test(
     name = "14916_change_test",
     srcs = ["14916_change_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14916_change",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -204,8 +204,8 @@ cc_test(
     name = "14935_fa_test",
     srcs = ["14935_fa_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//14000/src:14935_fa",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

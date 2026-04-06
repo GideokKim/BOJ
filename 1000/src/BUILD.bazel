@@ -42,7 +42,7 @@ cc_library(
     visibility = ["//1000/tests:__pkg__"],
 )
 
-cc_library( 
+cc_library(
     name = "1149_rgb_street",
     hdrs = ["1149_rgb_street.h"],
     visibility = ["//1000/tests:__pkg__"],
@@ -281,4 +281,3 @@ cc_library(
     hdrs = ["1987_alphabet.h"],
     visibility = ["//1000/tests:__pkg__"],
 )
-

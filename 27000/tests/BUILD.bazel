@@ -4,8 +4,8 @@ cc_test(
     name = "27110_giving_special_meals_test",
     srcs = ["27110_giving_special_meals_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27110_giving_special_meals",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "27160_halli_galli_test",
     srcs = ["27160_halli_galli_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27160_halli_galli",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "27219_robinson_crusoe_test",
     srcs = ["27219_robinson_crusoe_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27219_robinson_crusoe",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "27294_how_many_test",
     srcs = ["27294_how_many_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27294_how_many",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "27310_chino_shock_test",
     srcs = ["27310_chino_shock_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27310_chino_shock",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "27323_rectangle_test",
     srcs = ["27323_rectangle_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27323_rectangle",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "27324_same_numbers_test",
     srcs = ["27324_same_numbers_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27324_same_numbers",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "27327_hour_test",
     srcs = ["27327_hour_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27327_hour",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -84,8 +84,8 @@ cc_test(
     name = "27328_three_way_comparison_test",
     srcs = ["27328_three_way_comparison_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27328_three_way_comparison",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -94,8 +94,8 @@ cc_test(
     name = "27331_two_digit_number_test",
     srcs = ["27331_two_digit_number_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27331_two_digit_number",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -104,8 +104,8 @@ cc_test(
     name = "27332_november_test",
     srcs = ["27332_november_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27332_november",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -114,8 +114,8 @@ cc_test(
     name = "27433_factorial_2_test",
     srcs = ["27433_factorial_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27433_factorial_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -124,8 +124,8 @@ cc_test(
     name = "27465_composite_number_test",
     srcs = ["27465_composite_number_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27465_composite_number",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -134,8 +134,8 @@ cc_test(
     name = "27866_words_and_strings_test",
     srcs = ["27866_words_and_strings_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27866_words_and_strings",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -144,8 +144,8 @@ cc_test(
     name = "27889_special_school_name_test",
     srcs = ["27889_special_school_name_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27889_special_school_name",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -154,8 +154,8 @@ cc_test(
     name = "27930_do_you_believe_in_fate_test",
     srcs = ["27930_do_you_believe_in_fate_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27930_do_you_believe_in_fate",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -164,8 +164,8 @@ cc_test(
     name = "27959_choco_bar_test",
     srcs = ["27959_choco_bar_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27959_choco_bar",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -174,8 +174,8 @@ cc_test(
     name = "27960_shooting_betting_test",
     srcs = ["27960_shooting_betting_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27960_shooting_betting",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -184,8 +184,8 @@ cc_test(
     name = "27964_quatro_cheese_pizza_test",
     srcs = ["27964_quatro_cheese_pizza_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27964_quatro_cheese_pizza",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -194,8 +194,8 @@ cc_test(
     name = "27982_cubes_test",
     srcs = ["27982_cubes_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//27000/src:27982_cubes",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

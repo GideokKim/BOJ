@@ -4,8 +4,8 @@ cc_test(
     name = "29699_welcom_to_smupc_test",
     srcs = ["29699_welcom_to_smupc_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//29000/src:29699_welcom_to_smupc",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "29720_so_how_many_problems_did_you_solve_test",
     srcs = ["29720_so_how_many_problems_did_you_solve_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//29000/src:29720_so_how_many_problems_did_you_solve",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "29725_chess_newbie_test",
     srcs = ["29725_chess_newbie_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//29000/src:29725_chess_newbie",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "29736_bsil_friends_test",
     srcs = ["29736_bsil_friends_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//29000/src:29736_bsil_friends",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "29751_triangle_test",
     srcs = ["29751_triangle_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//29000/src:29751_triangle",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "29766_finding_dksh_test",
     srcs = ["29766_finding_dksh_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//29000/src:29766_finding_dksh",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

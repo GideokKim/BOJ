@@ -4,8 +4,8 @@ cc_test(
     name = "12015_lis_2_test",
     srcs = ["12015_lis_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//12000/src:12015_lis_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "12174_google_io_test",
     srcs = ["12174_google_io_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//12000/src:12174_google_io",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "12605_words_order_flip_over_test",
     srcs = ["12605_words_order_flip_over_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//12000/src:12605_words_order_flip_over",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "12738_lis_3_test",
     srcs = ["12738_lis_3_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//12000/src:12738_lis_3",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "12865_ordinary_knapsack_test",
     srcs = ["12865_ordinary_knapsack_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//12000/src:12865_ordinary_knapsack",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "12927_power_switch_test",
     srcs = ["12927_power_switch_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//12000/src:12927_power_switch",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

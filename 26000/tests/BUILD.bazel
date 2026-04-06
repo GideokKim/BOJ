@@ -4,8 +4,8 @@ cc_test(
     name = "26068_chicken_gifticon_test",
     srcs = ["26068_chicken_gifticon_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26068_chicken_gifticon",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "26082_warboy_test",
     srcs = ["26082_warboy_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26082_warboy",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "26307_correct_test",
     srcs = ["26307_correct_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26307_correct",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,18 +34,18 @@ cc_test(
     name = "26517_continuous_test",
     srcs = ["26517_continuous_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26517_continuous",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
 
-cc_test(    
+cc_test(
     name = "26529_bunnies_test",
     srcs = ["26529_bunnies_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26529_bunnies",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "26545_mathematics_test",
     srcs = ["26545_mathematics_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26545_mathematics",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "26561_population_test",
     srcs = ["26561_population_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26561_population",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "26562_presidents_test",
     srcs = ["26562_presidents_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26562_presidents",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -84,8 +84,8 @@ cc_test(
     name = "26574_copier_test",
     srcs = ["26574_copier_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26574_copier",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -94,8 +94,8 @@ cc_test(
     name = "26594_zoac5_test",
     srcs = ["26594_zoac5_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26594_zoac5",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -104,8 +104,8 @@ cc_test(
     name = "26711_a_plus_b_test",
     srcs = ["26711_a_plus_b_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//26000/src:26711_a_plus_b",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

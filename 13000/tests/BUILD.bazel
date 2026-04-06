@@ -4,8 +4,8 @@ cc_test(
     name = "13118_newton_and_apple_test",
     srcs = ["13118_newton_and_apple_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//13000/src:13118_newton_and_apple",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "13222_matches_test",
     srcs = ["13222_matches_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//13000/src:13222_matches",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "13241_least_common_multiple_test",
     srcs = ["13241_least_common_multiple_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//13000/src:13241_least_common_multiple",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "13301_tile_decoration_test",
     srcs = ["13301_tile_decoration_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//13000/src:13301_tile_decoration",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "13410_reverse_99dan_test",
     srcs = ["13410_reverse_99dan_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//13000/src:13410_reverse_99dan",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "13698_hawk_eyes_test",
     srcs = ["13698_hawk_eyes_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//13000/src:13698_hawk_eyes",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "13699_recurrence_relation_test",
     srcs = ["13699_recurrence_relation_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//13000/src:13699_recurrence_relation",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "13751_histogram_test",
     srcs = ["13751_histogram_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//13000/src:13751_histogram",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

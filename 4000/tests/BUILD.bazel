@@ -4,8 +4,8 @@ cc_test(
     name = "4458_first_capital_character_test",
     srcs = ["4458_first_capital_character_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4458_first_capital_character",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "4470_line_numbers_test",
     srcs = ["4470_line_numbers_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4470_line_numbers",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "4562_no_brainer_test",
     srcs = ["4562_no_brainer_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4562_no_brainer",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "4592_remove_duplication_test",
     srcs = ["4592_remove_duplication_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4592_remove_duplication",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "4597_parity_test",
     srcs = ["4597_parity_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4597_parity",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "4673_self_number_test",
     srcs = ["4673_self_number_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4673_self_number",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "4690_perfect_cube_test",
     srcs = ["4690_perfect_cube_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4690_perfect_cube",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "4732_scale_translation_test",
     srcs = ["4732_scale_translation_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4732_scale_translation",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -84,8 +84,8 @@ cc_test(
     name = "4806_count_line_test",
     srcs = ["4806_count_line_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4806_count_line",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -94,8 +94,8 @@ cc_test(
     name = "4963_number_of_island_test",
     srcs = ["4963_number_of_island_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4963_number_of_island",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -104,8 +104,8 @@ cc_test(
     name = "4999_ah_test",
     srcs = ["4999_ah_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//4000/src:4999_ah",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

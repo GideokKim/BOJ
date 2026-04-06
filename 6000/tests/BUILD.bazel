@@ -4,8 +4,8 @@ cc_test(
     name = "6190_another_cow_number_game_test",
     srcs = ["6190_another_cow_number_game_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//6000/src:6190_another_cow_number_game",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "6221_the_bale_tower_test",
     srcs = ["6221_the_bale_tower_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//6000/src:6221_the_bale_tower",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "6321_ibm_minus_1_test",
     srcs = ["6321_ibm_minus_1_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//6000/src:6321_ibm_minus_1",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "6500_create_random_number_test",
     srcs = ["6500_create_random_number_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//6000/src:6500_create_random_number",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,19 +44,18 @@ cc_test(
     name = "6603_lotto_test",
     srcs = ["6603_lotto_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//6000/src:6603_lotto",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
-
 
 cc_test(
     name = "6840_who_is_in_the_middle_test",
     srcs = ["6840_who_is_in_the_middle_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//6000/src:6840_who_is_in_the_middle",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -65,8 +64,8 @@ cc_test(
     name = "6889_smile_with_similes_test",
     srcs = ["6889_smile_with_similes_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//6000/src:6889_smile_with_similes",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

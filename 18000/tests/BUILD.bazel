@@ -4,8 +4,8 @@ cc_test(
     name = "18127_model_crystal_test",
     srcs = ["18127_model_crystal_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//18000/src:18127_model_crystal",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "18258_queue2_test",
     srcs = ["18258_queue2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//18000/src:18258_queue2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "18408_three_integers_test",
     srcs = ["18408_three_integers_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//18000/src:18408_three_integers",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "18409_counting_vowels_test",
     srcs = ["18409_counting_vowels_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//18000/src:18409_counting_vowels",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "18411_exam_test",
     srcs = ["18411_exam_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//18000/src:18411_exam",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "18414_the_nearest_value_test",
     srcs = ["18414_the_nearest_value_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//18000/src:18414_the_nearest_value",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "18870_coordinate_compression_test",
     srcs = ["18870_coordinate_compression_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//18000/src:18870_coordinate_compression",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "18883_print_n_m_test",
     srcs = ["18883_print_n_m_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//18000/src:18883_print_n_m",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

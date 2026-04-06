@@ -4,8 +4,8 @@ cc_test(
     name = "23037_only_5_test",
     srcs = ["23037_only_5_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23037_only_5",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "23048_coloring_natural_numbers_test",
     srcs = ["23048_coloring_natural_numbers_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23048_coloring_natural_numbers",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "23080_scytale_cipher_test",
     srcs = ["23080_scytale_cipher_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23080_scytale_cipher",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "23303_this_problem_is_d2_test",
     srcs = ["23303_this_problem_is_d2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23303_this_problem_is_d2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "23627_driip_test",
     srcs = ["23627_driip_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23627_driip",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,19 +54,18 @@ cc_test(
     name = "23738_pectopah_test",
     srcs = ["23738_pectopah_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23738_pectopah",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
-
 
 cc_test(
     name = "23795_gambling_should_be_fun_test",
     srcs = ["23795_gambling_should_be_fun_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23795_gambling_should_be_fun",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -75,8 +74,8 @@ cc_test(
     name = "23805_print_at_test",
     srcs = ["23805_print_at_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23805_print_at",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -85,8 +84,8 @@ cc_test(
     name = "23810_overturned_test",
     srcs = ["23810_overturned_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23810_overturned",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -95,8 +94,8 @@ cc_test(
     name = "23825_lets_make_sasa_test",
     srcs = ["23825_lets_make_sasa_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23825_lets_make_sasa",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -105,8 +104,8 @@ cc_test(
     name = "23885_bishop_tour_test",
     srcs = ["23885_bishop_tour_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23885_bishop_tour",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -115,8 +114,8 @@ cc_test(
     name = "23971_zoac_4_test",
     srcs = ["23971_zoac_4_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//23000/src:23971_zoac_4",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

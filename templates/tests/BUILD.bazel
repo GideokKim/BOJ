@@ -1,9 +1,11 @@
+load("@rules_cc//cc:cc_test.bzl", "cc_test")
+
 cc_test(
     name = "src_template_test",
     srcs = ["src_template_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//templates/src:src_template",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

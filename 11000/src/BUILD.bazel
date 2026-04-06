@@ -204,7 +204,7 @@ cc_library(
     visibility = ["//11000/tests:__pkg__"],
 )
 
-cc_library( 
+cc_library(
     name = "11724_number_of_connected_components",
     hdrs = ["11724_number_of_connected_components.h"],
     visibility = ["//11000/tests:__pkg__"],

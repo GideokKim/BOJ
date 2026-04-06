@@ -4,8 +4,8 @@ cc_test(
     name = "3009_4th_dot_test",
     srcs = ["3009_4th_dot_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3009_4th_dot",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "3036_ring_test",
     srcs = ["3036_ring_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3036_ring",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "3040_seven_dwarves_test",
     srcs = ["3040_seven_dwarves_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3040_seven_dwarves",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "3041_n_puzzle_test",
     srcs = ["3041_n_puzzle_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3041_n_puzzle",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "3062_flip_number_test",
     srcs = ["3062_flip_number_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3062_flip_number",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "3230_who_gets_medal_test",
     srcs = ["3230_who_gets_medal_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3230_who_gets_medal",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "3276_icons_test",
     srcs = ["3276_icons_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3276_icons",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "3447_bug_king_test",
     srcs = ["3447_bug_king_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3447_bug_king",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -84,8 +84,8 @@ cc_test(
     name = "3449_hamming_distance_test",
     srcs = ["3449_hamming_distance_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3449_hamming_distance",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -94,8 +94,8 @@ cc_test(
     name = "3622_halloween_holidays_test",
     srcs = ["3622_halloween_holidays_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3622_halloween_holidays",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -104,8 +104,8 @@ cc_test(
     name = "3986_good_words_test",
     srcs = ["3986_good_words_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//3000/src:3986_good_words",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

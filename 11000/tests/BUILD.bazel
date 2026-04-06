@@ -4,8 +4,8 @@ cc_test(
     name = "11004_kth_number_test",
     srcs = ["11004_kth_number_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11004_kth_number",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "11005_base_conversion_2_test",
     srcs = ["11005_base_conversion_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11005_base_conversion_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,18 +24,18 @@ cc_test(
     name = "11034_three_kangaroo2_test",
     srcs = ["11034_three_kangaroo2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11034_three_kangaroo2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
 
-cc_test(    
+cc_test(
     name = "11047_coin_0_test",
     srcs = ["11047_coin_0_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11047_coin_0",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "11051_binomial_coefficient_2_test",
     srcs = ["11051_binomial_coefficient_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11051_binomial_coefficient_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "11053_longest_increasing_subsequence_test",
     srcs = ["11053_longest_increasing_subsequence_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11053_longest_increasing_subsequence",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "11054_longest_bitonic_subsequence_test",
     srcs = ["11054_longest_bitonic_subsequence_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11054_longest_bitonic_subsequence",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "11091_use_all_alphabets_test",
     srcs = ["11091_use_all_alphabets_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11091_use_all_alphabets",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -84,8 +84,8 @@ cc_test(
     name = "11104_fridge_of_your_dreams_test",
     srcs = ["11104_fridge_of_your_dreams_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11104_fridge_of_your_dreams",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -94,8 +94,8 @@ cc_test(
     name = "11113_the_traveling_orienteerer_test",
     srcs = ["11113_the_traveling_orienteerer_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11113_the_traveling_orienteerer",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -104,8 +104,8 @@ cc_test(
     name = "11117_letter_cookies_test",
     srcs = ["11117_letter_cookies_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11117_letter_cookies",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -114,8 +114,8 @@ cc_test(
     name = "11121_communication_channels_test",
     srcs = ["11121_communication_channels_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11121_communication_channels",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -124,8 +124,8 @@ cc_test(
     name = "11131_balancing_weights_test",
     srcs = ["11131_balancing_weights_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11131_balancing_weights",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -134,8 +134,8 @@ cc_test(
     name = "11149_decode_the_message_test",
     srcs = ["11149_decode_the_message_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11149_decode_the_message",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -144,8 +144,8 @@ cc_test(
     name = "11161_negative_people_in_da_house_test",
     srcs = ["11161_negative_people_in_da_house_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11161_negative_people_in_da_house",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -154,8 +154,8 @@ cc_test(
     name = "11170_number_of_zero_test",
     srcs = ["11170_number_of_zero_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11170_number_of_zero",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -164,8 +164,8 @@ cc_test(
     name = "11176_in_the_shower_test",
     srcs = ["11176_in_the_shower_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11176_in_the_shower",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -174,8 +174,8 @@ cc_test(
     name = "11195_peragrams_test",
     srcs = ["11195_peragrams_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11195_peragrams",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -184,8 +184,8 @@ cc_test(
     name = "11365_secret_test",
     srcs = ["11365_secret_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11365_secret",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -194,8 +194,8 @@ cc_test(
     name = "11399_atm_test",
     srcs = ["11399_atm_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11399_atm",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -204,8 +204,8 @@ cc_test(
     name = "11549_identifying_tea_test",
     srcs = ["11549_identifying_tea_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11549_identifying_tea",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -214,8 +214,8 @@ cc_test(
     name = "11568_scheme_test",
     srcs = ["11568_scheme_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11568_scheme",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -224,8 +224,8 @@ cc_test(
     name = "11650_sorting_coordinates_test",
     srcs = ["11650_sorting_coordinates_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11650_sorting_coordinates",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -234,8 +234,8 @@ cc_test(
     name = "11651_sorting_coordinates_2_test",
     srcs = ["11651_sorting_coordinates_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11651_sorting_coordinates_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -244,8 +244,8 @@ cc_test(
     name = "11654_ascii_code_test",
     srcs = ["11654_ascii_code_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11654_ascii_code",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -254,8 +254,8 @@ cc_test(
     name = "11655_rot13_test",
     srcs = ["11655_rot13_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11655_rot13",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -264,8 +264,8 @@ cc_test(
     name = "11657_time_machine_test",
     srcs = ["11657_time_machine_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11657_time_machine",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -274,8 +274,8 @@ cc_test(
     name = "11659_finding_sum_of_intervals_4_test",
     srcs = ["11659_finding_sum_of_intervals_4_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11659_finding_sum_of_intervals_4",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -284,8 +284,8 @@ cc_test(
     name = "11660_finding_sum_of_intervals_5_test",
     srcs = ["11660_finding_sum_of_intervals_5_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11660_finding_sum_of_intervals_5",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -294,8 +294,8 @@ cc_test(
     name = "11665_cubic_intersection_test",
     srcs = ["11665_cubic_intersection_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11665_cubic_intersection",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -304,8 +304,8 @@ cc_test(
     name = "11718_print_as_it_is_test",
     srcs = ["11718_print_as_it_is_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11718_print_as_it_is",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -314,8 +314,8 @@ cc_test(
     name = "11719_print_as_it_is_2_test",
     srcs = ["11719_print_as_it_is_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11719_print_as_it_is_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -324,8 +324,8 @@ cc_test(
     name = "11721_print_disconnect_ten_test",
     srcs = ["11721_print_disconnect_ten_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11721_print_disconnect_ten",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -334,8 +334,8 @@ cc_test(
     name = "11722_longest_decreasing_subsequence_test",
     srcs = ["11722_longest_decreasing_subsequence_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11722_longest_decreasing_subsequence",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -344,8 +344,8 @@ cc_test(
     name = "11724_number_of_connected_components_test",
     srcs = ["11724_number_of_connected_components_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11724_number_of_connected_components",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -354,8 +354,8 @@ cc_test(
     name = "11725_find_parent_of_tree_test",
     srcs = ["11725_find_parent_of_tree_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11725_find_parent_of_tree",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -364,8 +364,8 @@ cc_test(
     name = "11726_2_by_n_tiling_test",
     srcs = ["11726_2_by_n_tiling_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11726_2_by_n_tiling",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -374,8 +374,8 @@ cc_test(
     name = "11727_2_by_n_tiling_2_test",
     srcs = ["11727_2_by_n_tiling_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11727_2_by_n_tiling_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -384,8 +384,8 @@ cc_test(
     name = "11800_tawla_test",
     srcs = ["11800_tawla_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11800_tawla",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -394,8 +394,8 @@ cc_test(
     name = "11866_Josephus_problem_0_test",
     srcs = ["11866_Josephus_problem_0_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11866_Josephus_problem_0",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -404,8 +404,8 @@ cc_test(
     name = "11880_ant_test",
     srcs = ["11880_ant_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11880_ant",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -414,8 +414,8 @@ cc_test(
     name = "11943_move_files_test",
     srcs = ["11943_move_files_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11943_move_files",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -424,8 +424,8 @@ cc_test(
     name = "11944_nn_test",
     srcs = ["11944_nn_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11944_nn",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -434,8 +434,8 @@ cc_test(
     name = "11945_hot_crucian_breads_test",
     srcs = ["11945_hot_crucian_breads_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11945_hot_crucian_breads",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -444,8 +444,8 @@ cc_test(
     name = "11948_subject_selection_test",
     srcs = ["11948_subject_selection_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//11000/src:11948_subject_selection",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

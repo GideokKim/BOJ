@@ -4,8 +4,8 @@ cc_test(
     name = "22113_cy_and_bus_test",
     srcs = ["22113_cy_and_bus_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//22000/src:22113_cy_and_bus",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "22938_good_shooter_test",
     srcs = ["22938_good_shooter_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//22000/src:22938_good_shooter",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

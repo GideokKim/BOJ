@@ -1,12 +1,11 @@
-
 load("@rules_cc//cc:defs.bzl", "cc_test")
 
 cc_test(
     name = "17094_serious_problem_test",
     srcs = ["17094_serious_problem_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17094_serious_problem",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -15,8 +14,8 @@ cc_test(
     name = "17224_why_did_apc_become_subtask_competition_test",
     srcs = ["17224_why_did_apc_become_subtask_competition_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17224_why_did_apc_become_subtask_competition",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -25,8 +24,8 @@ cc_test(
     name = "17249_taebo_gun_test",
     srcs = ["17249_taebo_gun_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17249_taebo_gun",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -35,8 +34,8 @@ cc_test(
     name = "17283_i_am_groot_test",
     srcs = ["17283_i_am_groot_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17283_i_am_groot",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -45,8 +44,8 @@ cc_test(
     name = "17286_yumi_test",
     srcs = ["17286_yumi_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17286_yumi",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -55,8 +54,8 @@ cc_test(
     name = "17356_wook_jae_test",
     srcs = ["17356_wook_jae_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17356_wook_jae",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -65,8 +64,8 @@ cc_test(
     name = "17388_waglewagle_skh_test",
     srcs = ["17388_waglewagle_skh_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17388_waglewagle_skh",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -75,8 +74,8 @@ cc_test(
     name = "17427_sum_of_divisors_2_test",
     srcs = ["17427_sum_of_divisors_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17427_sum_of_divisors_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -85,8 +84,8 @@ cc_test(
     name = "17450_buy_snacks_test",
     srcs = ["17450_buy_snacks_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17450_buy_snacks",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -95,8 +94,8 @@ cc_test(
     name = "17466_n_factorial_mod_p_1_test",
     srcs = ["17466_n_factorial_mod_p_1_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17466_n_factorial_mod_p_1",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -105,8 +104,8 @@ cc_test(
     name = "17608_bar_test",
     srcs = ["17608_bar_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//17000/src:17608_bar",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

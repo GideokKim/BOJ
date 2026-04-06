@@ -4,8 +4,8 @@ cc_test(
     name = "24051_algorithm_class_insert_sort_1_test",
     srcs = ["24051_algorithm_class_insert_sort_1_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24051_algorithm_class_insert_sort_1",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -14,8 +14,8 @@ cc_test(
     name = "24075_calculation_test",
     srcs = ["24075_calculation_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24075_calculation",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -24,8 +24,8 @@ cc_test(
     name = "24077_comparison_test",
     srcs = ["24077_comparison_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24077_comparison",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -34,8 +34,8 @@ cc_test(
     name = "24078_remainder_test",
     srcs = ["24078_remainder_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24078_remainder",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -44,8 +44,8 @@ cc_test(
     name = "24079_moving_test",
     srcs = ["24079_moving_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24079_moving",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -54,8 +54,8 @@ cc_test(
     name = "24082_cube_test",
     srcs = ["24082_cube_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24082_cube",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -64,8 +64,8 @@ cc_test(
     name = "24084_next_character_test",
     srcs = ["24084_next_character_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24084_next_character",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -74,8 +74,8 @@ cc_test(
     name = "24086_height_test",
     srcs = ["24086_height_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24086_height",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -84,8 +84,8 @@ cc_test(
     name = "24228_chopsticks_test",
     srcs = ["24228_chopsticks_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24228_chopsticks",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -94,8 +94,8 @@ cc_test(
     name = "24262_algorithm_class_time_test",
     srcs = ["24262_algorithm_class_time_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24262_algorithm_class_time",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -104,8 +104,8 @@ cc_test(
     name = "24263_algorithm_class_time_2_test",
     srcs = ["24263_algorithm_class_time_2_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24263_algorithm_class_time_2",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -114,8 +114,8 @@ cc_test(
     name = "24264_algorithm_class_time_3_test",
     srcs = ["24264_algorithm_class_time_3_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24264_algorithm_class_time_3",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -124,8 +124,8 @@ cc_test(
     name = "24265_algorithm_class_time_4_test",
     srcs = ["24265_algorithm_class_time_4_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24265_algorithm_class_time_4",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -134,8 +134,8 @@ cc_test(
     name = "24266_algorithm_class_time_5_test",
     srcs = ["24266_algorithm_class_time_5_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24266_algorithm_class_time_5",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -144,8 +144,8 @@ cc_test(
     name = "24267_algorithm_class_time_6_test",
     srcs = ["24267_algorithm_class_time_6_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24267_algorithm_class_time_6",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -154,8 +154,8 @@ cc_test(
     name = "24273_green_big_top_test",
     srcs = ["24273_green_big_top_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24273_green_big_top",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -164,8 +164,8 @@ cc_test(
     name = "24313_algorithm_class_big_o_notation_1_test",
     srcs = ["24313_algorithm_class_big_o_notation_1_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24313_algorithm_class_big_o_notation_1",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -174,8 +174,8 @@ cc_test(
     name = "24416_algorithm_lesson_fibonacci_1_test",
     srcs = ["24416_algorithm_lesson_fibonacci_1_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24416_algorithm_lesson_fibonacci_1",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -184,8 +184,8 @@ cc_test(
     name = "24510_dodo_learned_time_complexity_test",
     srcs = ["24510_dodo_learned_time_complexity_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24510_dodo_learned_time_complexity",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -194,8 +194,8 @@ cc_test(
     name = "24736_football_scoring_test",
     srcs = ["24736_football_scoring_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24736_football_scoring",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -204,8 +204,8 @@ cc_test(
     name = "24883_auto_completion_test",
     srcs = ["24883_auto_completion_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//24000/src:24883_auto_completion",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )

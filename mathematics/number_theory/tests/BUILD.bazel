@@ -1,9 +1,11 @@
+load("@rules_cc//cc:cc_test.bzl", "cc_test")
+
 cc_test(
     name = "euclidean_algorithm_test",
     srcs = ["euclidean_algorithm_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//mathematics/number_theory/src:euclidean_algorithm",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
@@ -12,8 +14,8 @@ cc_test(
     name = "get_divisors_test",
     srcs = ["get_divisors_test.cc"],
     deps = [
-        "//test_headers:test_helper",
         "//mathematics/number_theory/src:get_divisors",
+        "//test_headers:test_helper",
         "@googletest//:gtest_main",
     ],
 )
