@@ -231,6 +231,16 @@ cc_test(
 )
 
 cc_test(
+    name = "32902_chips_test",
+    srcs = ["32902_chips_test.cc"],
+    deps = [
+        "//32000/src:32902_chips",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "32929_uos_string_test",
     srcs = ["32929_uos_string_test.cc"],
     deps = [
