@@ -37,6 +37,12 @@ cc_library(
 )
 
 cc_library(
+    name = "26546_reverse",
+    hdrs = ["26546_reverse.h"],
+    visibility = ["//26000/tests:__pkg__"],
+)
+
+cc_library(
     name = "26561_population",
     hdrs = ["26561_population.h"],
     visibility = ["//26000/tests:__pkg__"],

@@ -61,6 +61,16 @@ cc_test(
 )
 
 cc_test(
+    name = "26546_reverse_test",
+    srcs = ["26546_reverse_test.cc"],
+    deps = [
+        "//26000/src:26546_reverse",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "26561_population_test",
     srcs = ["26561_population_test.cc"],
     deps = [
