@@ -151,6 +151,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34584_take_it_or_double_it",
+    hdrs = ["34584_take_it_or_double_it.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34665_transportation_fee",
     hdrs = ["34665_transportation_fee.h"],
     visibility = ["//34000/tests:__pkg__"],

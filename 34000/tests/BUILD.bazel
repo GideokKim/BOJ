@@ -251,6 +251,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34584_take_it_or_double_it_test",
+    srcs = ["34584_take_it_or_double_it_test.cc"],
+    deps = [
+        "//34000/src:34584_take_it_or_double_it",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34665_transportation_fee_test",
     srcs = ["34665_transportation_fee_test.cc"],
     deps = [
