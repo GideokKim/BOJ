@@ -7,6 +7,12 @@ cc_library(
 )
 
 cc_library(
+    name = "22279_quality_adjusted_life_year",
+    hdrs = ["22279_quality_adjusted_life_year.h"],
+    visibility = ["//22000/tests:__pkg__"],
+)
+
+cc_library(
     name = "22938_good_shooter",
     hdrs = ["22938_good_shooter.h"],
     visibility = ["//22000/tests:__pkg__"],
