@@ -143,3 +143,9 @@ cc_library(
     hdrs = ["9933_mk_password.h"],
     visibility = ["//9000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "9946_word_puzzle",
+    hdrs = ["9946_word_puzzle.h"],
+    visibility = ["//9000/tests:__pkg__"],
+)
