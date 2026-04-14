@@ -1,5 +1,5 @@
 #ifndef BOJ_9000_SRC_9933_MK_PASSWORD_H_
-#define BOJ_9000_SRC_9924_MK_PASSWORD_H_
+#define BOJ_9000_SRC_9933_MK_PASSWORD_H_
 
 #include <algorithm>
 #include <iostream>
@@ -48,4 +48,4 @@ int main() {
 }
 #endif  // BOJ_SUBMIT
 
-#endif  // BOJ_9000_SRC_9924_MK_PASSWORD_H_
+#endif  // BOJ_9000_SRC_9933_MK_PASSWORD_H_
