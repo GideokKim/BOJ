@@ -91,6 +91,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34306_m_climb_road_test",
+    srcs = ["34306_m_climb_road_test.cc"],
+    deps = [
+        "//34000/src:34306_m_climb_road",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34323_i_need_discount_test",
     srcs = ["34323_i_need_discount_test.cc"],
     deps = [
