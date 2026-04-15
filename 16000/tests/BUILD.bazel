@@ -31,6 +31,16 @@ cc_test(
 )
 
 cc_test(
+    name = "16561_multiples_of_3_test",
+    srcs = ["16561_multiples_of_3_test.cc"],
+    deps = [
+        "//16000/src:16561_multiples_of_3",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "16944_safe_password_test",
     srcs = ["16944_safe_password_test.cc"],
     deps = [
