@@ -221,6 +221,16 @@ cc_test(
 )
 
 cc_test(
+    name = "32801_generalized_fizzbuzz_test",
+    srcs = ["32801_generalized_fizzbuzz_test.cc"],
+    deps = [
+        "//32000/src:32801_generalized_fizzbuzz",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "32860_supernova_test",
     srcs = ["32860_supernova_test.cc"],
     deps = [
