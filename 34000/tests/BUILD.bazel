@@ -351,6 +351,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34873_handling_out_candy_test",
+    srcs = ["34873_handling_out_candy_test.cc"],
+    deps = [
+        "//34000/src:34873_handling_out_candy",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34891_mt_preparation_test",
     srcs = ["34891_mt_preparation_test.cc"],
     deps = [
