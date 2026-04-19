@@ -131,6 +131,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34380_blasters_dash_test",
+    srcs = ["34380_blasters_dash_test.cc"],
+    deps = [
+        "//34000/src:34380_blasters_dash",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34400_circadian_rhythm_test",
     srcs = ["34400_circadian_rhythm_test.cc"],
     deps = [
