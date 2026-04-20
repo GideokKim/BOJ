@@ -11,3 +11,9 @@ cc_library(
     hdrs = ["35367_snakey_string.h"],
     visibility = ["//35000/tests:__pkg__"],
 )
+
+cc_library(
+    name = "35370_memories_of_passport_control",
+    hdrs = ["35370_memories_of_passport_control.h"],
+    visibility = ["//35000/tests:__pkg__"],
+)

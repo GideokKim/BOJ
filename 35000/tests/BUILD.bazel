@@ -19,3 +19,13 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_test(
+    name = "35370_memories_of_passport_control_test",
+    srcs = ["35370_memories_of_passport_control_test.cc"],
+    deps = [
+        "//35000/src:35370_memories_of_passport_control",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
