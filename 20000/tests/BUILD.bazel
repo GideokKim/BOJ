@@ -31,6 +31,16 @@ cc_test(
 )
 
 cc_test(
+    name = "20833_kuber_test",
+    srcs = ["20833_kuber_test.cc"],
+    deps = [
+        "//20000/src:20833_kuber",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "20976_the_second_largest_integer_test",
     srcs = ["20976_the_second_largest_integer_test.cc"],
     deps = [
