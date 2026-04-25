@@ -131,6 +131,16 @@ cc_test(
 )
 
 cc_test(
+    name = "28490_area_test",
+    srcs = ["28490_area_test.cc"],
+    deps = [
+        "//28000/src:28490_area",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "28691_introduce_club_test",
     srcs = ["28691_introduce_club_test.cc"],
     deps = [
