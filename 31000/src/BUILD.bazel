@@ -91,6 +91,12 @@ cc_library(
 )
 
 cc_library(
+    name = "31636_three_consecutive",
+    hdrs = ["31636_three_consecutive.h"],
+    visibility = ["//31000/tests:__pkg__"],
+)
+
+cc_library(
     name = "31654_adding_trouble",
     hdrs = ["31654_adding_trouble.h"],
     visibility = ["//31000/tests:__pkg__"],
