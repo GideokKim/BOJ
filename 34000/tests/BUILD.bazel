@@ -351,6 +351,16 @@ cc_test(
 )
 
 cc_test(
+    name = "34824_yonsei_vs_korea_test",
+    srcs = ["34824_yonsei_vs_korea_test.cc"],
+    deps = [
+        "//34000/src:34824_yonsei_vs_korea",
+        "//test_headers:test_helper",
+        "@googletest//:gtest_main",
+    ],
+)
+
+cc_test(
     name = "34849_twice_for_statement_test",
     srcs = ["34849_twice_for_statement_test.cc"],
     deps = [

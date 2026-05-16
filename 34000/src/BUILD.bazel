@@ -211,6 +211,12 @@ cc_library(
 )
 
 cc_library(
+    name = "34824_yonsei_vs_korea",
+    hdrs = ["34824_yonsei_vs_korea.h"],
+    visibility = ["//34000/tests:__pkg__"],
+)
+
+cc_library(
     name = "34849_twice_for_statement",
     hdrs = ["34849_twice_for_statement.h"],
     visibility = ["//34000/tests:__pkg__"],
